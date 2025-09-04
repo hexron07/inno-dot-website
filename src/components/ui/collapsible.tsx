@@ -9,7 +9,7 @@ function Collapsible({
     <CollapsiblePrimitive.Root
       data-slot="collapsible"
       {...props}
-      data-oid="41.dbgr"
+      data-oid="pw7qinn"
     />
   );
 }
@@ -21,7 +21,7 @@ function CollapsibleTrigger({
     <CollapsiblePrimitive.CollapsibleTrigger
       data-slot="collapsible-trigger"
       {...props}
-      data-oid="06fohee"
+      data-oid="98dq0gw"
     />
   );
 }
@@ -33,7 +33,7 @@ function CollapsibleContent({
     <CollapsiblePrimitive.CollapsibleContent
       data-slot="collapsible-content"
       {...props}
-      data-oid="_yo_d0u"
+      data-oid="_:m.qv1"
     />
   );
 }

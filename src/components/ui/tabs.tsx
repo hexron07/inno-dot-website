@@ -14,7 +14,7 @@ function Tabs({
       data-slot="tabs"
       className={cn("flex flex-col gap-2", className)}
       {...props}
-      data-oid="mitl9.-"
+      data-oid="36na3if"
     />
   );
 }
@@ -31,7 +31,7 @@ function TabsList({
         className,
       )}
       {...props}
-      data-oid="9io57jp"
+      data-oid="deqrhtq"
     />
   );
 }
@@ -48,7 +48,7 @@ function TabsTrigger({
         className,
       )}
       {...props}
-      data-oid="d8do:-r"
+      data-oid=":0lld02"
     />
   );
 }
@@ -62,7 +62,7 @@ function TabsContent({
       data-slot="tabs-content"
       className={cn("flex-1 outline-none", className)}
       {...props}
-      data-oid=".qs2x3h"
+      data-oid="v52y_m9"
     />
   );
 }

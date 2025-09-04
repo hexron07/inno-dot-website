@@ -260,10 +260,10 @@ export default function SEOServicePage({ onNavigate }: SEOServicePageProps) {
   ];
 
   return (
-    <div className="pt-24 pb-20 relative" data-oid="4f_zwyo">
+    <div className="pt-24 pb-20 relative" data-oid="pi_ukc_">
       <div
         className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
-        data-oid="zysluhx"
+        data-oid="ggrv236"
       >
         {/* Hero Section */}
         <motion.section
@@ -271,20 +271,20 @@ export default function SEOServicePage({ onNavigate }: SEOServicePageProps) {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          data-oid="pijmblq"
+          data-oid=":oaz5w:"
         >
           <motion.div
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.6, delay: 0.2 }}
             className="mb-8"
-            data-oid="_v9br.-"
+            data-oid="dvfrajs"
           >
             <Badge
               className="mb-6 bg-gradient-to-r from-blue-500 to-cyan-600 text-white px-6 py-3 text-lg font-semibold"
-              data-oid="cgxvs6c"
+              data-oid="wzod05d"
             >
-              <Search className="w-5 h-5 mr-2" data-oid="eu2t8e6" />
+              <Search className="w-5 h-5 mr-2" data-oid="cvzqj6n" />
               Search Engine Optimization
             </Badge>
           </motion.div>
@@ -294,12 +294,12 @@ export default function SEOServicePage({ onNavigate }: SEOServicePageProps) {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.3 }}
-            data-oid="0urwv_a"
+            data-oid="3dljw5q"
           >
             Dominate Search Results with
             <span
               className="block bg-gradient-to-r from-blue-400 via-cyan-500 to-purple-600 bg-clip-text text-transparent"
-              data-oid="v4gjt_1"
+              data-oid="9gqqmlh"
             >
               Advanced SEO Strategy
             </span>
@@ -310,7 +310,7 @@ export default function SEOServicePage({ onNavigate }: SEOServicePageProps) {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.5 }}
-            data-oid="6at:a28"
+            data-oid="u03cxng"
           >
             Drive organic traffic, increase visibility, and generate qualified
             leads with our comprehensive SEO strategies. Our data-driven
@@ -323,7 +323,7 @@ export default function SEOServicePage({ onNavigate }: SEOServicePageProps) {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.7 }}
-            data-oid="war1gov"
+            data-oid="01g0aj0"
           >
             {heroStats.map((stat, index) => (
               <motion.div
@@ -333,24 +333,25 @@ export default function SEOServicePage({ onNavigate }: SEOServicePageProps) {
                 transition={{ duration: 0.6, delay: 0.8 + index * 0.1 }}
                 whileHover={{ y: -5 }}
                 className="text-center"
-                data-oid="2g0urga"
+                data-oid="l_qo-lc"
               >
                 <Card
                   className="glass-card border-white/20 hover:border-white/30 transition-all duration-300"
-                  data-oid="pt0ik4."
+                  data-oid="_qv-g-1"
                 >
-                  <CardContent className="p-6" data-oid="ab:xsdo">
+                  <CardContent className="p-6" data-oid="9b4w0ms">
                     <stat.icon
                       className="w-8 h-8 text-blue-400 mx-auto mb-3"
-                      data-oid="i9n3adg"
+                      data-oid="7aiqvi."
                     />
+
                     <div
                       className="text-2xl font-bold text-white mb-1"
-                      data-oid="xau-4da"
+                      data-oid=":w82lp-"
                     >
                       {stat.value}
                     </div>
-                    <div className="text-gray-400 text-sm" data-oid="h:9en45">
+                    <div className="text-gray-400 text-sm" data-oid="gy87_67">
                       {stat.label}
                     </div>
                   </CardContent>
@@ -361,45 +362,45 @@ export default function SEOServicePage({ onNavigate }: SEOServicePageProps) {
 
           <div
             className="flex flex-col sm:flex-row gap-4 justify-center"
-            data-oid="axzq56s"
+            data-oid="v5_ijvr"
           >
             <motion.div
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
-              data-oid="zarekc6"
+              data-oid="1u-j2_."
             >
               <Button
                 size="lg"
                 className="bg-gradient-to-r from-blue-500 to-cyan-600 hover:from-blue-600 hover:to-cyan-700 text-white px-8 py-4 font-semibold btn-premium group"
                 onClick={() => onNavigate("home")}
-                data-oid="kevoh4j"
+                data-oid="6y2pgl8"
               >
                 <Calendar
                   className="mr-2 h-5 w-5 group-hover:animate-bounce"
-                  data-oid="m_8b94f"
+                  data-oid="tqyi491"
                 />
                 Get Free SEO Audit
                 <ArrowRight
                   className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform"
-                  data-oid="j145z5i"
+                  data-oid="f70hfm1"
                 />
               </Button>
             </motion.div>
             <motion.div
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
-              data-oid="mr7ydt1"
+              data-oid="utcvdsf"
             >
               <Button
                 variant="outline"
                 size="lg"
                 className="glass border-white/30 text-white hover:bg-white/10 px-8 py-4 font-semibold group"
                 onClick={() => onNavigate("portfolio")}
-                data-oid="zq-v.87"
+                data-oid="fykulyt"
               >
                 <Eye
                   className="mr-2 h-5 w-5 group-hover:scale-110 transition-transform"
-                  data-oid="ny.59u0"
+                  data-oid="1y6wsgp"
                 />
                 View SEO Case Studies
               </Button>
@@ -414,24 +415,24 @@ export default function SEOServicePage({ onNavigate }: SEOServicePageProps) {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          data-oid="xl:5_5."
+          data-oid=":jes1zw"
         >
-          <div className="text-center mb-16" data-oid="equ7_-l">
+          <div className="text-center mb-16" data-oid=":ks_e3g">
             <h2
               className="text-3xl md:text-5xl font-bold text-white mb-6"
-              data-oid="l.5o65n"
+              data-oid="6uffyaa"
             >
               Comprehensive{" "}
               <span
                 className="bg-gradient-to-r from-blue-400 to-cyan-500 bg-clip-text text-transparent"
-                data-oid="bmo5yt6"
+                data-oid="eo9q1g2"
               >
                 SEO Solutions
               </span>
             </h2>
             <p
               className="text-xl text-gray-300 max-w-3xl mx-auto"
-              data-oid="orrrka6"
+              data-oid="7xcf7e0"
             >
               Our SEO approach covers every aspect of search optimization to
               ensure maximum visibility and performance.
@@ -440,7 +441,7 @@ export default function SEOServicePage({ onNavigate }: SEOServicePageProps) {
 
           <div
             className="grid grid-cols-1 md:grid-cols-2 gap-8"
-            data-oid="qtt9i21"
+            data-oid="g-_m_m4"
           >
             {seoFeatures.map((feature, index) => (
               <motion.div
@@ -451,51 +452,52 @@ export default function SEOServicePage({ onNavigate }: SEOServicePageProps) {
                 viewport={{ once: true }}
                 whileHover={{ y: -5, scale: 1.02 }}
                 className="group"
-                data-oid="hxzosff"
+                data-oid="4uqimoq"
               >
                 <Card
                   className="glass-card h-full border-white/15 hover:border-white/25 transition-all duration-300 relative overflow-hidden"
-                  data-oid="gna597d"
+                  data-oid=".ftj0-4"
                 >
-                  <CardContent className="p-8" data-oid="9h_uxp-">
+                  <CardContent className="p-8" data-oid="66f4h5x">
                     <motion.div
                       className="w-16 h-16 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300"
                       whileHover={{ rotate: 5 }}
-                      data-oid="e6wpepk"
+                      data-oid="9_y1iej"
                     >
                       <feature.icon
                         className="w-8 h-8 text-white"
-                        data-oid="501tr-n"
+                        data-oid="mcxgj_w"
                       />
                     </motion.div>
 
                     <h3
                       className="text-2xl font-bold text-white mb-4 group-hover:text-blue-100 transition-colors duration-300"
-                      data-oid="ek8lz_f"
+                      data-oid="0tcae0o"
                     >
                       {feature.title}
                     </h3>
                     <p
                       className="text-gray-300 mb-6 group-hover:text-white transition-colors duration-300"
-                      data-oid="u3h-ckr"
+                      data-oid="8:amsmx"
                     >
                       {feature.description}
                     </p>
 
-                    <div className="space-y-2" data-oid="-pwvnyk">
+                    <div className="space-y-2" data-oid="r484jk2">
                       {feature.benefits.map((benefit, i) => (
                         <div
                           key={i}
                           className="flex items-center text-sm"
-                          data-oid="c9um32l"
+                          data-oid="259wifb"
                         >
                           <CheckCircle
                             className="w-4 h-4 text-green-400 mr-3 flex-shrink-0"
-                            data-oid="_a9avoz"
+                            data-oid="obj5y-8"
                           />
+
                           <span
                             className="text-gray-300 group-hover:text-white transition-colors duration-300"
-                            data-oid="b87ynon"
+                            data-oid="nict94p"
                           >
                             {benefit}
                           </span>
@@ -505,7 +507,7 @@ export default function SEOServicePage({ onNavigate }: SEOServicePageProps) {
                   </CardContent>
                   <div
                     className="absolute inset-0 bg-gradient-to-br from-blue-500/5 to-cyan-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-                    data-oid="-bqkkz5"
+                    data-oid=".5iex9l"
                   ></div>
                 </Card>
               </motion.div>
@@ -520,24 +522,24 @@ export default function SEOServicePage({ onNavigate }: SEOServicePageProps) {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          data-oid="b1w-c.u"
+          data-oid=":yiw7:j"
         >
-          <div className="text-center mb-16" data-oid=".aspib6">
+          <div className="text-center mb-16" data-oid="omzeh0w">
             <h2
               className="text-3xl md:text-5xl font-bold text-white mb-6"
-              data-oid="zqp-a7g"
+              data-oid="chqndlw"
             >
               Our Proven{" "}
               <span
                 className="bg-gradient-to-r from-blue-400 to-cyan-500 bg-clip-text text-transparent"
-                data-oid="o58_f7r"
+                data-oid="-_kz4kr"
               >
                 SEO Process
               </span>
             </h2>
             <p
               className="text-xl text-gray-300 max-w-3xl mx-auto"
-              data-oid="ulw_3io"
+              data-oid="nejqxwj"
             >
               A systematic approach to SEO that delivers consistent, measurable
               results for your business.
@@ -546,7 +548,7 @@ export default function SEOServicePage({ onNavigate }: SEOServicePageProps) {
 
           <div
             className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
-            data-oid="nr68ezl"
+            data-oid="isd2kt7"
           >
             {seoProcessSteps.map((step, index) => (
               <motion.div
@@ -558,7 +560,7 @@ export default function SEOServicePage({ onNavigate }: SEOServicePageProps) {
                 whileHover={{ y: -5, scale: 1.02 }}
                 className="group cursor-pointer"
                 onClick={() => setActiveProcess(index)}
-                data-oid="6g6aw7i"
+                data-oid="7zv9d17"
               >
                 <Card
                   className={`glass-card h-full border-white/15 hover:border-white/25 transition-all duration-300 relative overflow-hidden ${
@@ -566,23 +568,23 @@ export default function SEOServicePage({ onNavigate }: SEOServicePageProps) {
                       ? "border-blue-400/50 bg-blue-500/5"
                       : ""
                   }`}
-                  data-oid="f5n:t:x"
+                  data-oid="wnzw6_y"
                 >
-                  <CardContent className="p-6 text-center" data-oid="gpkz-kv">
-                    <div className="relative mb-6" data-oid="46xwil3">
+                  <CardContent className="p-6 text-center" data-oid="do4pry4">
+                    <div className="relative mb-6" data-oid="us35td.">
                       <motion.div
                         className="w-16 h-16 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-2xl flex items-center justify-center mx-auto group-hover:scale-110 transition-transform duration-300"
                         whileHover={{ rotate: 10 }}
-                        data-oid="r8vei6d"
+                        data-oid="xne70eg"
                       >
                         <step.icon
                           className="w-8 h-8 text-white"
-                          data-oid="f4agkx0"
+                          data-oid="cfyar4c"
                         />
                       </motion.div>
                       <div
                         className="absolute -top-2 -right-2 w-8 h-8 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center text-white font-bold text-sm"
-                        data-oid="hep90s9"
+                        data-oid="fyrq_6."
                       >
                         {index + 1}
                       </div>
@@ -590,20 +592,20 @@ export default function SEOServicePage({ onNavigate }: SEOServicePageProps) {
 
                     <Badge
                       className="mb-4 bg-blue-500/20 text-blue-400 px-3 py-1 text-sm"
-                      data-oid="m7uwtn4"
+                      data-oid="4ui6axx"
                     >
                       {step.timeline}
                     </Badge>
 
                     <h3
                       className="text-xl font-bold text-white mb-4 group-hover:text-blue-100 transition-colors duration-300"
-                      data-oid="wijzyke"
+                      data-oid="vk5v634"
                     >
                       {step.title}
                     </h3>
                     <p
                       className="text-gray-300 group-hover:text-white transition-colors duration-300 text-sm"
-                      data-oid="dmgu:hv"
+                      data-oid="88m7a:j"
                     >
                       {step.description}
                     </p>
@@ -615,7 +617,7 @@ export default function SEOServicePage({ onNavigate }: SEOServicePageProps) {
                       initial={{ opacity: 0 }}
                       animate={{ opacity: 1 }}
                       transition={{ duration: 0.3 }}
-                      data-oid="e54bqz."
+                      data-oid="317_avs"
                     />
                   )}
                 </Card>
@@ -631,24 +633,24 @@ export default function SEOServicePage({ onNavigate }: SEOServicePageProps) {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          data-oid="gxgsc4w"
+          data-oid="xjl7crj"
         >
-          <div className="text-center mb-16" data-oid="18p_4b3">
+          <div className="text-center mb-16" data-oid=".widuzp">
             <h2
               className="text-3xl md:text-5xl font-bold text-white mb-6"
-              data-oid="p:8nqe6"
+              data-oid="3.tdmpq"
             >
               SEO{" "}
               <span
                 className="bg-gradient-to-r from-blue-400 to-cyan-500 bg-clip-text text-transparent"
-                data-oid="r9fdy7z"
+                data-oid="7x0bfbx"
               >
                 Success Stories
               </span>
             </h2>
             <p
               className="text-xl text-gray-300 max-w-3xl mx-auto"
-              data-oid="zmewzy3"
+              data-oid="yp6evml"
             >
               Real results from real clients who trusted us with their SEO
               strategy.
@@ -657,7 +659,7 @@ export default function SEOServicePage({ onNavigate }: SEOServicePageProps) {
 
           <div
             className="grid grid-cols-1 md:grid-cols-3 gap-8"
-            data-oid=":77toew"
+            data-oid="eho0dg7"
           >
             {caseStudies.map((study, index) => (
               <motion.div
@@ -668,51 +670,51 @@ export default function SEOServicePage({ onNavigate }: SEOServicePageProps) {
                 viewport={{ once: true }}
                 whileHover={{ y: -5, scale: 1.02 }}
                 className="group"
-                data-oid="bicah_a"
+                data-oid="ygnwmhv"
               >
                 <Card
                   className="glass-card h-full border-white/15 hover:border-white/25 transition-all duration-300"
-                  data-oid="0s3st._"
+                  data-oid="hhzizh1"
                 >
-                  <CardContent className="p-6" data-oid="2fio8bf">
-                    <div className="mb-4" data-oid="omle4s_">
+                  <CardContent className="p-6" data-oid="8v:2ulg">
+                    <div className="mb-4" data-oid="q1zz3gy">
                       <h3
                         className="text-xl font-bold text-white mb-1"
-                        data-oid="15msisa"
+                        data-oid=":xk3bgs"
                       >
                         {study.client}
                       </h3>
                       <Badge
                         className="bg-blue-500/20 text-blue-400 px-2 py-1 text-xs"
-                        data-oid="b_hull5"
+                        data-oid="wh3f52y"
                       >
                         {study.industry}
                       </Badge>
                     </div>
 
-                    <div className="mb-4" data-oid="b_3fd8m">
+                    <div className="mb-4" data-oid="tdzhy-v">
                       <h4
                         className="text-sm font-semibold text-gray-300 mb-2"
-                        data-oid="sk4ky.a"
+                        data-oid="dq689yt"
                       >
                         Challenge:
                       </h4>
                       <p
                         className="text-gray-400 text-sm mb-3"
-                        data-oid="wm757h0"
+                        data-oid="f0ypl4-"
                       >
                         {study.challenge}
                       </p>
 
                       <h4
                         className="text-sm font-semibold text-gray-300 mb-2"
-                        data-oid="k.64.k1"
+                        data-oid="a3aoil7"
                       >
                         Solution:
                       </h4>
                       <p
                         className="text-gray-400 text-sm mb-4"
-                        data-oid="g-ofto8"
+                        data-oid="vi7lqm2"
                       >
                         {study.solution}
                       </p>
@@ -720,62 +722,62 @@ export default function SEOServicePage({ onNavigate }: SEOServicePageProps) {
 
                     <div
                       className="border-t border-white/10 pt-4"
-                      data-oid="yf.5fr7"
+                      data-oid="ssczd39"
                     >
                       <h4
                         className="text-sm font-semibold text-white mb-3"
-                        data-oid="h41jy2p"
+                        data-oid="7dur369"
                       >
                         Results in {study.timeframe}:
                       </h4>
-                      <div className="space-y-2" data-oid="xovihth">
+                      <div className="space-y-2" data-oid="w7gm37t">
                         <div
                           className="flex justify-between"
-                          data-oid=".csw.ja"
+                          data-oid="3f:.qle"
                         >
                           <span
                             className="text-gray-400 text-sm"
-                            data-oid="8cxohhs"
+                            data-oid="avzpm.9"
                           >
                             Traffic:
                           </span>
                           <span
                             className="text-green-400 font-bold text-sm"
-                            data-oid="_hyf9h0"
+                            data-oid="cr6m4cb"
                           >
                             {study.results.traffic}
                           </span>
                         </div>
                         <div
                           className="flex justify-between"
-                          data-oid="fr3j_7-"
+                          data-oid="gg0wt.:"
                         >
                           <span
                             className="text-gray-400 text-sm"
-                            data-oid="pr_fwyt"
+                            data-oid="k3nc_5t"
                           >
                             Rankings:
                           </span>
                           <span
                             className="text-blue-400 font-bold text-sm"
-                            data-oid="l-a1.:g"
+                            data-oid="uu82-bi"
                           >
                             {study.results.rankings}
                           </span>
                         </div>
                         <div
                           className="flex justify-between"
-                          data-oid="iho4fx1"
+                          data-oid="jzquc0:"
                         >
                           <span
                             className="text-gray-400 text-sm"
-                            data-oid="vmolybe"
+                            data-oid="in1j8oy"
                           >
                             Revenue:
                           </span>
                           <span
                             className="text-purple-400 font-bold text-sm"
-                            data-oid="5vvw_0c"
+                            data-oid="1v80..f"
                           >
                             {study.results.revenue}
                           </span>
@@ -796,24 +798,24 @@ export default function SEOServicePage({ onNavigate }: SEOServicePageProps) {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          data-oid="shhs_tu"
+          data-oid="2:fi.l3"
         >
-          <div className="text-center mb-16" data-oid="d-9z:1g">
+          <div className="text-center mb-16" data-oid="51b02uk">
             <h2
               className="text-3xl md:text-5xl font-bold text-white mb-6"
-              data-oid="z5oob9-"
+              data-oid="bnnc-fw"
             >
               SEO{" "}
               <span
                 className="bg-gradient-to-r from-blue-400 to-cyan-500 bg-clip-text text-transparent"
-                data-oid="ng-93xs"
+                data-oid="hs34vwc"
               >
                 Pricing Plans
               </span>
             </h2>
             <p
               className="text-xl text-gray-300 max-w-3xl mx-auto"
-              data-oid="t324ao:"
+              data-oid="yit.5qg"
             >
               Choose the SEO package that best fits your business goals and
               budget.
@@ -822,7 +824,7 @@ export default function SEOServicePage({ onNavigate }: SEOServicePageProps) {
 
           <div
             className="grid grid-cols-1 md:grid-cols-3 gap-8"
-            data-oid=":ysryip"
+            data-oid="7f285ii"
           >
             {pricingTiers.map((tier, index) => (
               <motion.div
@@ -833,18 +835,18 @@ export default function SEOServicePage({ onNavigate }: SEOServicePageProps) {
                 viewport={{ once: true }}
                 whileHover={{ y: -5, scale: 1.02 }}
                 className="relative group"
-                data-oid="xwrka9-"
+                data-oid="k55y8-f"
               >
                 {tier.popular && (
                   <div
                     className="absolute -top-4 left-1/2 transform -translate-x-1/2 z-10"
-                    data-oid="v67px-a"
+                    data-oid="nc.:nsc"
                   >
                     <Badge
                       className="bg-gradient-to-r from-purple-500 to-pink-500 text-white px-4 py-1 shadow-lg"
-                      data-oid="miwoscm"
+                      data-oid="ocfdb9e"
                     >
-                      <Star className="w-3 h-3 mr-1" data-oid="dhvnyu:" />
+                      <Star className="w-3 h-3 mr-1" data-oid="a6fpwi2" />
                       Most Popular
                     </Badge>
                   </div>
@@ -856,53 +858,54 @@ export default function SEOServicePage({ onNavigate }: SEOServicePageProps) {
                       ? "border-purple-500/50"
                       : "border-white/15 hover:border-white/25"
                   }`}
-                  data-oid="jnb-rtv"
+                  data-oid="k-kekcg"
                 >
-                  <CardContent className="p-8 text-center" data-oid="b0.ch41">
+                  <CardContent className="p-8 text-center" data-oid="01wmbge">
                     <h3
                       className="text-2xl font-bold text-white mb-2"
-                      data-oid="zoqijro"
+                      data-oid="ecvcev8"
                     >
                       {tier.name}
                     </h3>
-                    <p className="text-gray-300 mb-6" data-oid="iywt4-v">
+                    <p className="text-gray-300 mb-6" data-oid="dc.pizo">
                       {tier.description}
                     </p>
 
-                    <div className="mb-6" data-oid="151.2wj">
+                    <div className="mb-6" data-oid="n9rg4sg">
                       <span
                         className="text-4xl font-bold text-white"
-                        data-oid="qct64pa"
+                        data-oid="u.g2yy0"
                       >
                         ${tier.price}
                       </span>
-                      <span className="text-gray-400" data-oid="6h9ovxa">
+                      <span className="text-gray-400" data-oid="-hr4j0h">
                         {tier.period}
                       </span>
                     </div>
 
-                    <div className="space-y-3 mb-8" data-oid="nlhvr4h">
+                    <div className="space-y-3 mb-8" data-oid="wzuobv7">
                       {tier.features.map((feature, i) => (
                         <div
                           key={i}
                           className="flex items-center text-sm"
-                          data-oid=":gxb.f0"
+                          data-oid="y6waud7"
                         >
                           <CheckCircle
                             className="w-4 h-4 text-green-400 mr-3 flex-shrink-0"
-                            data-oid="h3bcuo0"
+                            data-oid="x1kta36"
                           />
-                          <span className="text-gray-300" data-oid="bl6ff9z">
+
+                          <span className="text-gray-300" data-oid="4b0o.:6">
                             {feature}
                           </span>
                         </div>
                       ))}
                     </div>
 
-                    <div className="mb-6" data-oid="gx_mc-y">
+                    <div className="mb-6" data-oid="dhm3qu0">
                       <p
                         className="text-blue-400 text-sm font-medium"
-                        data-oid="hhq3.6z"
+                        data-oid=".ma_e6:"
                       >
                         Ideal for: {tier.ideal}
                       </p>
@@ -915,14 +918,14 @@ export default function SEOServicePage({ onNavigate }: SEOServicePageProps) {
                           : "glass border-white/20 hover:bg-white/20 text-white"
                       }`}
                       onClick={() => onNavigate("home")}
-                      data-oid="iuow6js"
+                      data-oid="ko6mt_j"
                     >
                       Get Started with {tier.name}
                     </Button>
                   </CardContent>
                   <div
                     className={`absolute inset-0 bg-gradient-to-br ${tier.gradient} opacity-0 group-hover:opacity-5 transition-opacity duration-300`}
-                    data-oid="i-yhbz0"
+                    data-oid="mz_9:3x"
                   ></div>
                 </Card>
               </motion.div>
@@ -937,17 +940,17 @@ export default function SEOServicePage({ onNavigate }: SEOServicePageProps) {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          data-oid="ctp9mse"
+          data-oid="2c01m:8"
         >
-          <div className="text-center mb-16" data-oid="mskihnr">
+          <div className="text-center mb-16" data-oid="85.w.hf">
             <h2
               className="text-3xl md:text-5xl font-bold text-white mb-6"
-              data-oid="vth57gr"
+              data-oid="m6y8r8f"
             >
               What Our{" "}
               <span
                 className="bg-gradient-to-r from-blue-400 to-cyan-500 bg-clip-text text-transparent"
-                data-oid="h1uthxc"
+                data-oid="dhmh7q:"
               >
                 SEO Clients
               </span>{" "}
@@ -957,7 +960,7 @@ export default function SEOServicePage({ onNavigate }: SEOServicePageProps) {
 
           <div
             className="grid grid-cols-1 md:grid-cols-2 gap-8"
-            data-oid="t57p17g"
+            data-oid="hwse6o6"
           >
             {testimonials.map((testimonial, index) => (
               <motion.div
@@ -968,24 +971,24 @@ export default function SEOServicePage({ onNavigate }: SEOServicePageProps) {
                 viewport={{ once: true }}
                 whileHover={{ y: -5, scale: 1.02 }}
                 className="group"
-                data-oid="_.liy6."
+                data-oid="xwgrhd5"
               >
                 <Card
                   className="glass-card border-white/15 hover:border-white/25 transition-all duration-300"
-                  data-oid="41vtp_i"
+                  data-oid="pstf8-9"
                 >
-                  <CardContent className="p-8" data-oid="2dez50t">
-                    <div className="flex items-center mb-4" data-oid="xd_7mqz">
+                  <CardContent className="p-8" data-oid="-2339ey">
+                    <div className="flex items-center mb-4" data-oid="uohhptf">
                       {[...Array(testimonial.rating)].map((_, i) => (
                         <Star
                           key={i}
                           className="w-5 h-5 text-yellow-400 fill-current"
-                          data-oid="bdlc2.e"
+                          data-oid="dv6_sv5"
                         />
                       ))}
                       <Badge
                         className="ml-auto bg-green-500/20 text-green-400 px-2 py-1 text-xs"
-                        data-oid="o2fer7n"
+                        data-oid="yoiy42a"
                       >
                         {testimonial.result}
                       </Badge>
@@ -993,37 +996,37 @@ export default function SEOServicePage({ onNavigate }: SEOServicePageProps) {
 
                     <blockquote
                       className="text-gray-300 mb-6 italic"
-                      data-oid="3at24i0"
+                      data-oid="c38d:p-"
                     >
                       "{testimonial.text}"
                     </blockquote>
 
-                    <div className="flex items-center" data-oid="c6tmd8g">
+                    <div className="flex items-center" data-oid="da4xk8k">
                       <div
                         className="w-12 h-12 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-full flex items-center justify-center text-white font-bold mr-4"
-                        data-oid="m7-o0q-"
+                        data-oid="lvfmk.q"
                       >
                         {testimonial.name
                           .split(" ")
                           .map((n) => n[0])
                           .join("")}
                       </div>
-                      <div data-oid="5opx7df">
+                      <div data-oid="d4gp.qe">
                         <div
                           className="font-bold text-white"
-                          data-oid="abujd39"
+                          data-oid="8x6z3dj"
                         >
                           {testimonial.name}
                         </div>
                         <div
                           className="text-gray-400 text-sm"
-                          data-oid="wpq25ft"
+                          data-oid="-scup9p"
                         >
                           {testimonial.role}
                         </div>
                         <div
                           className="text-gray-400 text-sm"
-                          data-oid="qvylogp"
+                          data-oid="m6rnx8q"
                         >
                           {testimonial.company}
                         </div>
@@ -1042,33 +1045,33 @@ export default function SEOServicePage({ onNavigate }: SEOServicePageProps) {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          data-oid="pwftf33"
+          data-oid="gwomj8z"
         >
           <Card
             className="glass-card-enhanced rounded-3xl p-12 text-center relative overflow-hidden group"
-            data-oid="rycg9qg"
+            data-oid="kns0l.h"
           >
-            <div className="relative z-10" data-oid="93:idym">
+            <div className="relative z-10" data-oid="o-mmo:a">
               <motion.div
                 animate={{ y: [0, -10, 0] }}
                 transition={{ duration: 3, repeat: Infinity }}
                 className="inline-block mb-8"
-                data-oid="edz:6ow"
+                data-oid="ga3su:2"
               >
                 <Search
                   className="w-20 h-20 text-blue-400 glow-effect"
-                  data-oid="ql5hk4h"
+                  data-oid="gifjplh"
                 />
               </motion.div>
 
               <h2
                 className="text-3xl md:text-5xl font-bold text-white mb-6"
-                data-oid="11-t2:o"
+                data-oid="e:mr5n4"
               >
                 Ready to{" "}
                 <span
                   className="bg-gradient-to-r from-blue-400 to-cyan-500 bg-clip-text text-transparent"
-                  data-oid="o4i2m4x"
+                  data-oid="wxr13ts"
                 >
                   Dominate
                 </span>{" "}
@@ -1077,7 +1080,7 @@ export default function SEOServicePage({ onNavigate }: SEOServicePageProps) {
 
               <p
                 className="text-xl text-gray-300 mb-10 max-w-3xl mx-auto"
-                data-oid="pdzcejm"
+                data-oid="-34jc5:"
               >
                 Get a free SEO audit and discover how we can help your business
                 rank higher, drive more organic traffic, and generate qualified
@@ -1086,27 +1089,27 @@ export default function SEOServicePage({ onNavigate }: SEOServicePageProps) {
 
               <div
                 className="flex flex-col sm:flex-row gap-6 justify-center"
-                data-oid="n.bq7q9"
+                data-oid="52c8ipr"
               >
                 <motion.div
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
-                  data-oid="3my594b"
+                  data-oid="xy63lk."
                 >
                   <Button
                     size="lg"
-                    className="bg-gradient-to-r from-blue-500 to-cyan-600 hover:from-blue-600 hover:to-cyan-700 text-white px-12 py-6 text-lg font-bold shadow-2xl btn-premium group"
+                    className="bg-gradient-to-r from-blue-500 to-cyan-600 hover:from-blue-600 hover:to-cyan-700 text-white btn-responsive text-lg font-bold shadow-2xl btn-premium group"
                     onClick={() => onNavigate("home")}
-                    data-oid="wwei_-s"
+                    data-oid="ao-5u:d"
                   >
                     <Calendar
                       className="mr-3 h-6 w-6 group-hover:animate-bounce"
-                      data-oid="0uwgzs0"
+                      data-oid="exg3raz"
                     />
                     Get Free SEO Audit
                     <ArrowRight
                       className="ml-3 h-6 w-6 group-hover:translate-x-1 transition-transform"
-                      data-oid="1o20btb"
+                      data-oid="lda36s5"
                     />
                   </Button>
                 </motion.div>
@@ -1114,18 +1117,18 @@ export default function SEOServicePage({ onNavigate }: SEOServicePageProps) {
                 <motion.div
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
-                  data-oid="ksgx2:s"
+                  data-oid="_pjjn00"
                 >
                   <Button
                     variant="outline"
                     size="lg"
-                    className="glass border-white/30 text-white hover:bg-white/15 px-12 py-6 text-lg font-semibold group"
+                    className="glass border-white/30 text-white hover:bg-white/15 btn-responsive text-lg font-semibold group"
                     onClick={() => onNavigate("pricing")}
-                    data-oid="r_e4rnp"
+                    data-oid="e2st00a"
                   >
                     <BarChart3
                       className="mr-3 h-6 w-6 group-hover:scale-110 transition-transform"
-                      data-oid="3xazcn:"
+                      data-oid="28_h326"
                     />
                     View SEO Pricing
                   </Button>
@@ -1135,7 +1138,7 @@ export default function SEOServicePage({ onNavigate }: SEOServicePageProps) {
 
             <div
               className="absolute inset-0 bg-gradient-to-br from-blue-500/5 to-cyan-500/5 group-hover:from-blue-500/10 group-hover:to-cyan-500/10 transition-all duration-500"
-              data-oid="57dxna9"
+              data-oid="qvqkjsa"
             ></div>
           </Card>
         </motion.section>

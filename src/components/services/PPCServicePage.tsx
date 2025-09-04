@@ -263,10 +263,10 @@ export default function PPCServicePage({ onNavigate }: PPCServicePageProps) {
   ];
 
   return (
-    <div className="pt-24 pb-20 relative" data-oid="52pgx-t">
+    <div className="pt-24 pb-20 relative" data-oid="lwns-69">
       <div
         className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
-        data-oid="lwv-s1t"
+        data-oid="4vu7h34"
       >
         {/* Hero Section */}
         <motion.section
@@ -274,20 +274,20 @@ export default function PPCServicePage({ onNavigate }: PPCServicePageProps) {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          data-oid="kqo3.hz"
+          data-oid="ml73-aq"
         >
           <motion.div
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.6, delay: 0.2 }}
             className="mb-8"
-            data-oid="hiarm.."
+            data-oid="kd:ayoo"
           >
             <Badge
               className="mb-6 bg-gradient-to-r from-green-500 to-emerald-600 text-white px-6 py-3 text-lg font-semibold"
-              data-oid=".mrrufk"
+              data-oid="wl_a6bf"
             >
-              <MousePointer className="w-5 h-5 mr-2" data-oid="6yni-z2" />
+              <MousePointer className="w-5 h-5 mr-2" data-oid="abt42v5" />
               Pay-Per-Click Advertising
             </Badge>
           </motion.div>
@@ -297,12 +297,12 @@ export default function PPCServicePage({ onNavigate }: PPCServicePageProps) {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.3 }}
-            data-oid="_r3z7me"
+            data-oid=":u:8fkz"
           >
             Maximize ROI with
             <span
               className="block bg-gradient-to-r from-green-400 via-emerald-500 to-cyan-600 bg-clip-text text-transparent"
-              data-oid="nqr4mwj"
+              data-oid="64qldq8"
             >
               Strategic PPC Campaigns
             </span>
@@ -313,7 +313,7 @@ export default function PPCServicePage({ onNavigate }: PPCServicePageProps) {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.5 }}
-            data-oid="jd6ufip"
+            data-oid="oza_7jb"
           >
             Drive immediate results with expertly managed PPC campaigns across
             Google Ads, Facebook, and premium platforms. Our data-driven
@@ -326,7 +326,7 @@ export default function PPCServicePage({ onNavigate }: PPCServicePageProps) {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.7 }}
-            data-oid="5frd1dc"
+            data-oid="j-s7se-"
           >
             {heroStats.map((stat, index) => (
               <motion.div
@@ -336,24 +336,25 @@ export default function PPCServicePage({ onNavigate }: PPCServicePageProps) {
                 transition={{ duration: 0.6, delay: 0.8 + index * 0.1 }}
                 whileHover={{ y: -5 }}
                 className="text-center"
-                data-oid="hnmjr5s"
+                data-oid="9k8hn.-"
               >
                 <Card
                   className="glass-card border-white/20 hover:border-white/30 transition-all duration-300"
-                  data-oid="pqgd0l2"
+                  data-oid="n6jp372"
                 >
-                  <CardContent className="p-6" data-oid="5_ame_q">
+                  <CardContent className="p-6" data-oid="w67pskm">
                     <stat.icon
                       className="w-8 h-8 text-green-400 mx-auto mb-3"
-                      data-oid="bzq.jic"
+                      data-oid="y-rdnwk"
                     />
+
                     <div
                       className="text-2xl font-bold text-white mb-1"
-                      data-oid="d2n1p._"
+                      data-oid="oj:j361"
                     >
                       {stat.value}
                     </div>
-                    <div className="text-gray-400 text-sm" data-oid="m_-0arz">
+                    <div className="text-gray-400 text-sm" data-oid="7jn_p5c">
                       {stat.label}
                     </div>
                   </CardContent>
@@ -364,45 +365,45 @@ export default function PPCServicePage({ onNavigate }: PPCServicePageProps) {
 
           <div
             className="flex flex-col sm:flex-row gap-4 justify-center"
-            data-oid="byxpoiq"
+            data-oid="s2nkw-6"
           >
             <motion.div
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
-              data-oid="bh.x9zx"
+              data-oid="t7lc22p"
             >
               <Button
                 size="lg"
                 className="bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white px-8 py-4 font-semibold btn-premium group"
                 onClick={() => onNavigate("home")}
-                data-oid=":xm7iyq"
+                data-oid="kprxdwr"
               >
                 <Calendar
                   className="mr-2 h-5 w-5 group-hover:animate-bounce"
-                  data-oid="1i_tcyz"
+                  data-oid="tw6t-h8"
                 />
                 Get Free PPC Audit
                 <ArrowRight
                   className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform"
-                  data-oid="764zo:m"
+                  data-oid="d3itvwk"
                 />
               </Button>
             </motion.div>
             <motion.div
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
-              data-oid=".8crrv2"
+              data-oid="a7eps4g"
             >
               <Button
                 variant="outline"
                 size="lg"
                 className="glass border-white/30 text-white hover:bg-white/10 px-8 py-4 font-semibold group"
                 onClick={() => onNavigate("portfolio")}
-                data-oid="3raz3:."
+                data-oid="76-ida3"
               >
                 <Eye
                   className="mr-2 h-5 w-5 group-hover:scale-110 transition-transform"
-                  data-oid="9mhb9j5"
+                  data-oid="a.:wee4"
                 />
                 View PPC Case Studies
               </Button>
@@ -417,24 +418,24 @@ export default function PPCServicePage({ onNavigate }: PPCServicePageProps) {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          data-oid="xob:xlo"
+          data-oid="xrqlnk."
         >
-          <div className="text-center mb-16" data-oid="4q.wq99">
+          <div className="text-center mb-16" data-oid="dwzqna4">
             <h2
               className="text-3xl md:text-5xl font-bold text-white mb-6"
-              data-oid="us2f_um"
+              data-oid="3nyps1j"
             >
               Advanced{" "}
               <span
                 className="bg-gradient-to-r from-green-400 to-emerald-500 bg-clip-text text-transparent"
-                data-oid="rzb6cnm"
+                data-oid="j0qzl2w"
               >
                 PPC Solutions
               </span>
             </h2>
             <p
               className="text-xl text-gray-300 max-w-3xl mx-auto"
-              data-oid="8kt9gp2"
+              data-oid="m7cmg-8"
             >
               Our comprehensive PPC approach maximizes every advertising dollar
               to deliver exceptional results and sustainable growth.
@@ -443,7 +444,7 @@ export default function PPCServicePage({ onNavigate }: PPCServicePageProps) {
 
           <div
             className="grid grid-cols-1 md:grid-cols-2 gap-8"
-            data-oid="5xrqx2o"
+            data-oid="f.6m-7-"
           >
             {ppcFeatures.map((feature, index) => (
               <motion.div
@@ -454,51 +455,52 @@ export default function PPCServicePage({ onNavigate }: PPCServicePageProps) {
                 viewport={{ once: true }}
                 whileHover={{ y: -5, scale: 1.02 }}
                 className="group"
-                data-oid="5.h6.g3"
+                data-oid="f37bmm0"
               >
                 <Card
                   className="glass-card h-full border-white/15 hover:border-white/25 transition-all duration-300 relative overflow-hidden"
-                  data-oid="tzmj3ub"
+                  data-oid="kjkw5wr"
                 >
-                  <CardContent className="p-8" data-oid=".jyklqp">
+                  <CardContent className="p-8" data-oid="t7kctb5">
                     <motion.div
                       className="w-16 h-16 bg-gradient-to-r from-green-500 to-emerald-500 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300"
                       whileHover={{ rotate: 5 }}
-                      data-oid="-wj:4so"
+                      data-oid="v9o5jol"
                     >
                       <feature.icon
                         className="w-8 h-8 text-white"
-                        data-oid="7rzhxep"
+                        data-oid="ixyjn3t"
                       />
                     </motion.div>
 
                     <h3
                       className="text-2xl font-bold text-white mb-4 group-hover:text-green-100 transition-colors duration-300"
-                      data-oid="0wxw8cf"
+                      data-oid="9drp5au"
                     >
                       {feature.title}
                     </h3>
                     <p
                       className="text-gray-300 mb-6 group-hover:text-white transition-colors duration-300"
-                      data-oid="..cy9pv"
+                      data-oid="8yxj:rl"
                     >
                       {feature.description}
                     </p>
 
-                    <div className="space-y-2" data-oid="r7fdco6">
+                    <div className="space-y-2" data-oid="cexi856">
                       {feature.benefits.map((benefit, i) => (
                         <div
                           key={i}
                           className="flex items-center text-sm"
-                          data-oid="zgwrkx2"
+                          data-oid="e1_j9b1"
                         >
                           <CheckCircle
                             className="w-4 h-4 text-green-400 mr-3 flex-shrink-0"
-                            data-oid="ta_bagc"
+                            data-oid="z-vk0a6"
                           />
+
                           <span
                             className="text-gray-300 group-hover:text-white transition-colors duration-300"
-                            data-oid="e:hgqjt"
+                            data-oid="cmh9um."
                           >
                             {benefit}
                           </span>
@@ -508,7 +510,7 @@ export default function PPCServicePage({ onNavigate }: PPCServicePageProps) {
                   </CardContent>
                   <div
                     className="absolute inset-0 bg-gradient-to-br from-green-500/5 to-emerald-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-                    data-oid="sl0pvdi"
+                    data-oid="23b5tv4"
                   ></div>
                 </Card>
               </motion.div>
@@ -523,24 +525,24 @@ export default function PPCServicePage({ onNavigate }: PPCServicePageProps) {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          data-oid="89sma01"
+          data-oid="todtc8q"
         >
-          <div className="text-center mb-16" data-oid="5vcxzno">
+          <div className="text-center mb-16" data-oid="bxdpxpb">
             <h2
               className="text-3xl md:text-5xl font-bold text-white mb-6"
-              data-oid="9::uox:"
+              data-oid="j.zd6ci"
             >
               Our Proven{" "}
               <span
                 className="bg-gradient-to-r from-green-400 to-emerald-500 bg-clip-text text-transparent"
-                data-oid="_dum:a7"
+                data-oid="jua6jbp"
               >
                 PPC Process
               </span>
             </h2>
             <p
               className="text-xl text-gray-300 max-w-3xl mx-auto"
-              data-oid="v3b7hji"
+              data-oid="ix0u2bq"
             >
               A systematic approach to PPC management that delivers consistent,
               profitable results for your business.
@@ -549,7 +551,7 @@ export default function PPCServicePage({ onNavigate }: PPCServicePageProps) {
 
           <div
             className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
-            data-oid="t4ojehs"
+            data-oid="j4:br0-"
           >
             {ppcProcessSteps.map((step, index) => (
               <motion.div
@@ -561,7 +563,7 @@ export default function PPCServicePage({ onNavigate }: PPCServicePageProps) {
                 whileHover={{ y: -5, scale: 1.02 }}
                 className="group cursor-pointer"
                 onClick={() => setActiveProcess(index)}
-                data-oid="5k-jqt9"
+                data-oid="dtj_3qh"
               >
                 <Card
                   className={`glass-card h-full border-white/15 hover:border-white/25 transition-all duration-300 relative overflow-hidden ${
@@ -569,23 +571,23 @@ export default function PPCServicePage({ onNavigate }: PPCServicePageProps) {
                       ? "border-green-400/50 bg-green-500/5"
                       : ""
                   }`}
-                  data-oid="_5yr:p."
+                  data-oid="afbdmq0"
                 >
-                  <CardContent className="p-6 text-center" data-oid="hg00dbx">
-                    <div className="relative mb-6" data-oid="m8hh_c6">
+                  <CardContent className="p-6 text-center" data-oid="4c715o:">
+                    <div className="relative mb-6" data-oid="fsgoktl">
                       <motion.div
                         className="w-16 h-16 bg-gradient-to-r from-green-500 to-emerald-500 rounded-2xl flex items-center justify-center mx-auto group-hover:scale-110 transition-transform duration-300"
                         whileHover={{ rotate: 10 }}
-                        data-oid="-ekfbf3"
+                        data-oid="ej5i559"
                       >
                         <step.icon
                           className="w-8 h-8 text-white"
-                          data-oid="lrq4rcp"
+                          data-oid="0_pf9bm"
                         />
                       </motion.div>
                       <div
                         className="absolute -top-2 -right-2 w-8 h-8 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center text-white font-bold text-sm"
-                        data-oid="8bcf34x"
+                        data-oid="3yhpj8c"
                       >
                         {index + 1}
                       </div>
@@ -593,20 +595,20 @@ export default function PPCServicePage({ onNavigate }: PPCServicePageProps) {
 
                     <Badge
                       className="mb-4 bg-green-500/20 text-green-400 px-3 py-1 text-sm"
-                      data-oid="gvuo1-g"
+                      data-oid="gca7sio"
                     >
                       {step.timeline}
                     </Badge>
 
                     <h3
                       className="text-xl font-bold text-white mb-4 group-hover:text-green-100 transition-colors duration-300"
-                      data-oid="a6-crb."
+                      data-oid="xufmr_5"
                     >
                       {step.title}
                     </h3>
                     <p
                       className="text-gray-300 group-hover:text-white transition-colors duration-300 text-sm"
-                      data-oid="8v90knh"
+                      data-oid="zw_gyvw"
                     >
                       {step.description}
                     </p>
@@ -618,7 +620,7 @@ export default function PPCServicePage({ onNavigate }: PPCServicePageProps) {
                       initial={{ opacity: 0 }}
                       animate={{ opacity: 1 }}
                       transition={{ duration: 0.3 }}
-                      data-oid="o4mga38"
+                      data-oid="5y2ot0z"
                     />
                   )}
                 </Card>
@@ -634,24 +636,24 @@ export default function PPCServicePage({ onNavigate }: PPCServicePageProps) {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          data-oid="gp3cg36"
+          data-oid=".e_9:1b"
         >
-          <div className="text-center mb-16" data-oid="vgs8rma">
+          <div className="text-center mb-16" data-oid="744jbu4">
             <h2
               className="text-3xl md:text-5xl font-bold text-white mb-6"
-              data-oid="h3z8a7x"
+              data-oid="aa1av4_"
             >
               PPC{" "}
               <span
                 className="bg-gradient-to-r from-green-400 to-emerald-500 bg-clip-text text-transparent"
-                data-oid="d_:1_p7"
+                data-oid="8jmi:dk"
               >
                 Success Stories
               </span>
             </h2>
             <p
               className="text-xl text-gray-300 max-w-3xl mx-auto"
-              data-oid="if41x8:"
+              data-oid="ylr55.8"
             >
               Real results from real clients who trusted us with their PPC
               advertising investment.
@@ -660,7 +662,7 @@ export default function PPCServicePage({ onNavigate }: PPCServicePageProps) {
 
           <div
             className="grid grid-cols-1 md:grid-cols-3 gap-8"
-            data-oid="x1an7w1"
+            data-oid="oivno6d"
           >
             {caseStudies.map((study, index) => (
               <motion.div
@@ -671,51 +673,51 @@ export default function PPCServicePage({ onNavigate }: PPCServicePageProps) {
                 viewport={{ once: true }}
                 whileHover={{ y: -5, scale: 1.02 }}
                 className="group"
-                data-oid="dy243gw"
+                data-oid="a_gynkz"
               >
                 <Card
                   className="glass-card h-full border-white/15 hover:border-white/25 transition-all duration-300"
-                  data-oid="ikhw9tl"
+                  data-oid=":mre9dq"
                 >
-                  <CardContent className="p-6" data-oid="li-s8d_">
-                    <div className="mb-4" data-oid="cy5aw:b">
+                  <CardContent className="p-6" data-oid="zaz:a6v">
+                    <div className="mb-4" data-oid="mcjn-t4">
                       <h3
                         className="text-xl font-bold text-white mb-1"
-                        data-oid="x__hyf9"
+                        data-oid="y-t7oli"
                       >
                         {study.client}
                       </h3>
                       <Badge
                         className="bg-green-500/20 text-green-400 px-2 py-1 text-xs"
-                        data-oid="3ic:sn."
+                        data-oid="1di8g2h"
                       >
                         {study.industry}
                       </Badge>
                     </div>
 
-                    <div className="mb-4" data-oid="5b0fqqp">
+                    <div className="mb-4" data-oid="1qvl4sc">
                       <h4
                         className="text-sm font-semibold text-gray-300 mb-2"
-                        data-oid="-rd:d8b"
+                        data-oid="c4fg:wn"
                       >
                         Challenge:
                       </h4>
                       <p
                         className="text-gray-400 text-sm mb-3"
-                        data-oid=".l:cu4a"
+                        data-oid="gog8d3_"
                       >
                         {study.challenge}
                       </p>
 
                       <h4
                         className="text-sm font-semibold text-gray-300 mb-2"
-                        data-oid="2sy37nn"
+                        data-oid="oc5i_gw"
                       >
                         Solution:
                       </h4>
                       <p
                         className="text-gray-400 text-sm mb-4"
-                        data-oid="kf4-kxg"
+                        data-oid="vyc26ru"
                       >
                         {study.solution}
                       </p>
@@ -723,62 +725,62 @@ export default function PPCServicePage({ onNavigate }: PPCServicePageProps) {
 
                     <div
                       className="border-t border-white/10 pt-4"
-                      data-oid="-ydkg9m"
+                      data-oid="khiijo:"
                     >
                       <h4
                         className="text-sm font-semibold text-white mb-3"
-                        data-oid="ut:ikqv"
+                        data-oid="hh.vt._"
                       >
                         Results in {study.timeframe}:
                       </h4>
-                      <div className="space-y-2" data-oid="58kfle5">
+                      <div className="space-y-2" data-oid="cslxeh0">
                         <div
                           className="flex justify-between"
-                          data-oid="gxo2:te"
+                          data-oid="o01ypgv"
                         >
                           <span
                             className="text-gray-400 text-sm"
-                            data-oid="b8krqxp"
+                            data-oid="-kwb.9o"
                           >
                             ROAS:
                           </span>
                           <span
                             className="text-green-400 font-bold text-sm"
-                            data-oid="ge6zvbz"
+                            data-oid="-m43uzv"
                           >
                             {study.results.roas}
                           </span>
                         </div>
                         <div
                           className="flex justify-between"
-                          data-oid="iwwwy48"
+                          data-oid="27y2359"
                         >
                           <span
                             className="text-gray-400 text-sm"
-                            data-oid="pxcza3r"
+                            data-oid=".b8bzkb"
                           >
                             CPA:
                           </span>
                           <span
                             className="text-blue-400 font-bold text-sm"
-                            data-oid="80bkv7h"
+                            data-oid="brzxf3g"
                           >
                             {study.results.cpa}
                           </span>
                         </div>
                         <div
                           className="flex justify-between"
-                          data-oid=".hnxsp1"
+                          data-oid="7wy.how"
                         >
                           <span
                             className="text-gray-400 text-sm"
-                            data-oid="m5rqifs"
+                            data-oid="pbu1m06"
                           >
                             Growth:
                           </span>
                           <span
                             className="text-purple-400 font-bold text-sm"
-                            data-oid=":g9-226"
+                            data-oid="p7smpwv"
                           >
                             {study.results.conversions}
                           </span>
@@ -799,24 +801,24 @@ export default function PPCServicePage({ onNavigate }: PPCServicePageProps) {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          data-oid=".nky14y"
+          data-oid="6:zkdvh"
         >
-          <div className="text-center mb-16" data-oid="qxmu.mz">
+          <div className="text-center mb-16" data-oid="gp737b1">
             <h2
               className="text-3xl md:text-5xl font-bold text-white mb-6"
-              data-oid="3-z34_b"
+              data-oid="7neo6v_"
             >
               PPC{" "}
               <span
                 className="bg-gradient-to-r from-green-400 to-emerald-500 bg-clip-text text-transparent"
-                data-oid=".882ubq"
+                data-oid="6p_j.s."
               >
                 Pricing Plans
               </span>
             </h2>
             <p
               className="text-xl text-gray-300 max-w-3xl mx-auto"
-              data-oid="98ny68m"
+              data-oid="k.it_c."
             >
               Choose the PPC management package that best fits your advertising
               goals and budget.
@@ -825,7 +827,7 @@ export default function PPCServicePage({ onNavigate }: PPCServicePageProps) {
 
           <div
             className="grid grid-cols-1 md:grid-cols-3 gap-8"
-            data-oid="kx8fju6"
+            data-oid="l6a2c.2"
           >
             {pricingTiers.map((tier, index) => (
               <motion.div
@@ -836,18 +838,18 @@ export default function PPCServicePage({ onNavigate }: PPCServicePageProps) {
                 viewport={{ once: true }}
                 whileHover={{ y: -5, scale: 1.02 }}
                 className="relative group"
-                data-oid="oc5bc-d"
+                data-oid="_gukgq9"
               >
                 {tier.popular && (
                   <div
                     className="absolute -top-4 left-1/2 transform -translate-x-1/2 z-10"
-                    data-oid="dsp3_u1"
+                    data-oid="7xq:n0f"
                   >
                     <Badge
                       className="bg-gradient-to-r from-purple-500 to-pink-500 text-white px-4 py-1 shadow-lg"
-                      data-oid="6dp-wol"
+                      data-oid="o5oq4:q"
                     >
-                      <Star className="w-3 h-3 mr-1" data-oid="ck:pt-_" />
+                      <Star className="w-3 h-3 mr-1" data-oid="b9:alzh" />
                       Most Popular
                     </Badge>
                   </div>
@@ -859,53 +861,54 @@ export default function PPCServicePage({ onNavigate }: PPCServicePageProps) {
                       ? "border-purple-500/50"
                       : "border-white/15 hover:border-white/25"
                   }`}
-                  data-oid="abg0mq5"
+                  data-oid="sxz5jzr"
                 >
-                  <CardContent className="p-8 text-center" data-oid="pc:qtk1">
+                  <CardContent className="p-8 text-center" data-oid="pkgz7.t">
                     <h3
                       className="text-2xl font-bold text-white mb-2"
-                      data-oid="yk_irnw"
+                      data-oid="9-z9j.y"
                     >
                       {tier.name}
                     </h3>
-                    <p className="text-gray-300 mb-6" data-oid="1ni:a7h">
+                    <p className="text-gray-300 mb-6" data-oid="nw0u:wp">
                       {tier.description}
                     </p>
 
-                    <div className="mb-6" data-oid="53g_6md">
+                    <div className="mb-6" data-oid="_5-llms">
                       <span
                         className="text-4xl font-bold text-white"
-                        data-oid="p3s7cmd"
+                        data-oid="_6gl4ub"
                       >
                         ${tier.price}
                       </span>
-                      <span className="text-gray-400" data-oid="j-r1d93">
+                      <span className="text-gray-400" data-oid="ind6h_8">
                         {tier.period}
                       </span>
                     </div>
 
-                    <div className="space-y-3 mb-8" data-oid=":ydfjor">
+                    <div className="space-y-3 mb-8" data-oid="n5tn679">
                       {tier.features.map((feature, i) => (
                         <div
                           key={i}
                           className="flex items-center text-sm"
-                          data-oid="uc57s1r"
+                          data-oid="v8xm.4w"
                         >
                           <CheckCircle
                             className="w-4 h-4 text-green-400 mr-3 flex-shrink-0"
-                            data-oid="3pzl7k0"
+                            data-oid="m-4j4k5"
                           />
-                          <span className="text-gray-300" data-oid="pm0rlmt">
+
+                          <span className="text-gray-300" data-oid="0m9ihb4">
                             {feature}
                           </span>
                         </div>
                       ))}
                     </div>
 
-                    <div className="mb-6" data-oid="_ai.d41">
+                    <div className="mb-6" data-oid="tkt_ife">
                       <p
                         className="text-green-400 text-sm font-medium"
-                        data-oid="4iz1k0s"
+                        data-oid="5-l8lmc"
                       >
                         Ideal for: {tier.ideal}
                       </p>
@@ -918,14 +921,14 @@ export default function PPCServicePage({ onNavigate }: PPCServicePageProps) {
                           : "glass border-white/20 hover:bg-white/20 text-white"
                       }`}
                       onClick={() => onNavigate("home")}
-                      data-oid="9ixmwvg"
+                      data-oid="8f2wrd:"
                     >
                       Get Started with {tier.name}
                     </Button>
                   </CardContent>
                   <div
                     className={`absolute inset-0 bg-gradient-to-br ${tier.gradient} opacity-0 group-hover:opacity-5 transition-opacity duration-300`}
-                    data-oid="hicu:f3"
+                    data-oid="n3y13-y"
                   ></div>
                 </Card>
               </motion.div>
@@ -940,17 +943,17 @@ export default function PPCServicePage({ onNavigate }: PPCServicePageProps) {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          data-oid=".l6ntwo"
+          data-oid="3zo-i5-"
         >
-          <div className="text-center mb-16" data-oid="pojwko-">
+          <div className="text-center mb-16" data-oid="_fc7n2s">
             <h2
               className="text-3xl md:text-5xl font-bold text-white mb-6"
-              data-oid="ayfvohu"
+              data-oid="acx8w42"
             >
               What Our{" "}
               <span
                 className="bg-gradient-to-r from-green-400 to-emerald-500 bg-clip-text text-transparent"
-                data-oid="mjsslsl"
+                data-oid="thf:zvz"
               >
                 PPC Clients
               </span>{" "}
@@ -960,7 +963,7 @@ export default function PPCServicePage({ onNavigate }: PPCServicePageProps) {
 
           <div
             className="grid grid-cols-1 md:grid-cols-2 gap-8"
-            data-oid="zvyed9z"
+            data-oid="e6zw1it"
           >
             {testimonials.map((testimonial, index) => (
               <motion.div
@@ -971,24 +974,24 @@ export default function PPCServicePage({ onNavigate }: PPCServicePageProps) {
                 viewport={{ once: true }}
                 whileHover={{ y: -5, scale: 1.02 }}
                 className="group"
-                data-oid="8ca.6r1"
+                data-oid="cp_t7f9"
               >
                 <Card
                   className="glass-card border-white/15 hover:border-white/25 transition-all duration-300"
-                  data-oid="gj_wybt"
+                  data-oid="cmf04p6"
                 >
-                  <CardContent className="p-8" data-oid="q_-sh-k">
-                    <div className="flex items-center mb-4" data-oid="pax101g">
+                  <CardContent className="p-8" data-oid="n3qzs3n">
+                    <div className="flex items-center mb-4" data-oid="q4tdqyx">
                       {[...Array(testimonial.rating)].map((_, i) => (
                         <Star
                           key={i}
                           className="w-5 h-5 text-yellow-400 fill-current"
-                          data-oid="f0vtv83"
+                          data-oid="_rq34m5"
                         />
                       ))}
                       <Badge
                         className="ml-auto bg-green-500/20 text-green-400 px-2 py-1 text-xs"
-                        data-oid="c9-_1fi"
+                        data-oid="di_tsvl"
                       >
                         {testimonial.result}
                       </Badge>
@@ -996,37 +999,37 @@ export default function PPCServicePage({ onNavigate }: PPCServicePageProps) {
 
                     <blockquote
                       className="text-gray-300 mb-6 italic"
-                      data-oid="9d6krxv"
+                      data-oid="00xm6vp"
                     >
                       "{testimonial.text}"
                     </blockquote>
 
-                    <div className="flex items-center" data-oid="mc-e2q6">
+                    <div className="flex items-center" data-oid="q2d8zw0">
                       <div
                         className="w-12 h-12 bg-gradient-to-r from-green-500 to-emerald-500 rounded-full flex items-center justify-center text-white font-bold mr-4"
-                        data-oid="q6_e-nc"
+                        data-oid="pg4xlr_"
                       >
                         {testimonial.name
                           .split(" ")
                           .map((n) => n[0])
                           .join("")}
                       </div>
-                      <div data-oid="9yl9nai">
+                      <div data-oid="m2uej4s">
                         <div
                           className="font-bold text-white"
-                          data-oid="h6r_lmp"
+                          data-oid="f1-0a6-"
                         >
                           {testimonial.name}
                         </div>
                         <div
                           className="text-gray-400 text-sm"
-                          data-oid="p.snj_x"
+                          data-oid="ehoxy26"
                         >
                           {testimonial.role}
                         </div>
                         <div
                           className="text-gray-400 text-sm"
-                          data-oid="wmxt455"
+                          data-oid="lv.bch5"
                         >
                           {testimonial.company}
                         </div>
@@ -1045,33 +1048,33 @@ export default function PPCServicePage({ onNavigate }: PPCServicePageProps) {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          data-oid="v5i3gsl"
+          data-oid="5w6m_jw"
         >
           <Card
             className="glass-card-enhanced rounded-3xl p-12 text-center relative overflow-hidden group"
-            data-oid="0svou7s"
+            data-oid="6j1enx8"
           >
-            <div className="relative z-10" data-oid="jk:qgxn">
+            <div className="relative z-10" data-oid="f-.ko58">
               <motion.div
                 animate={{ y: [0, -10, 0] }}
                 transition={{ duration: 3, repeat: Infinity }}
                 className="inline-block mb-8"
-                data-oid="spyoczr"
+                data-oid="c97orvl"
               >
                 <MousePointer
                   className="w-20 h-20 text-green-400 glow-effect"
-                  data-oid="onjubab"
+                  data-oid="jub5-ra"
                 />
               </motion.div>
 
               <h2
                 className="text-3xl md:text-5xl font-bold text-white mb-6"
-                data-oid="xmlfm6c"
+                data-oid="6c5zwf1"
               >
                 Ready to{" "}
                 <span
                   className="bg-gradient-to-r from-green-400 to-emerald-500 bg-clip-text text-transparent"
-                  data-oid="u2x:.0d"
+                  data-oid="vdfblwe"
                 >
                   Maximize
                 </span>{" "}
@@ -1080,7 +1083,7 @@ export default function PPCServicePage({ onNavigate }: PPCServicePageProps) {
 
               <p
                 className="text-xl text-gray-300 mb-10 max-w-3xl mx-auto"
-                data-oid="m:6cuk4"
+                data-oid="a9nbes5"
               >
                 Get a free PPC audit and discover how we can help your business
                 achieve higher conversions, lower costs, and exceptional return
@@ -1089,27 +1092,27 @@ export default function PPCServicePage({ onNavigate }: PPCServicePageProps) {
 
               <div
                 className="flex flex-col sm:flex-row gap-6 justify-center"
-                data-oid="ih9l.ry"
+                data-oid="28fx69p"
               >
                 <motion.div
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
-                  data-oid="bxpqctk"
+                  data-oid="x.5m42z"
                 >
                   <Button
                     size="lg"
-                    className="bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white px-12 py-6 text-lg font-bold shadow-2xl btn-premium group"
+                    className="bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white btn-responsive text-lg font-bold shadow-2xl btn-premium group"
                     onClick={() => onNavigate("home")}
-                    data-oid="qxt3nhz"
+                    data-oid="zoaf3fd"
                   >
                     <Calendar
                       className="mr-3 h-6 w-6 group-hover:animate-bounce"
-                      data-oid="ij:q-.i"
+                      data-oid="kww3:17"
                     />
                     Get Free PPC Audit
                     <ArrowRight
                       className="ml-3 h-6 w-6 group-hover:translate-x-1 transition-transform"
-                      data-oid="qjn7f:a"
+                      data-oid="d5515uv"
                     />
                   </Button>
                 </motion.div>
@@ -1117,18 +1120,18 @@ export default function PPCServicePage({ onNavigate }: PPCServicePageProps) {
                 <motion.div
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
-                  data-oid="5cby562"
+                  data-oid="yelri2g"
                 >
                   <Button
                     variant="outline"
                     size="lg"
-                    className="glass border-white/30 text-white hover:bg-white/15 px-12 py-6 text-lg font-semibold group"
+                    className="glass border-white/30 text-white hover:bg-white/15 btn-responsive text-lg font-semibold group"
                     onClick={() => onNavigate("pricing")}
-                    data-oid="8erx:ox"
+                    data-oid=".o9b26r"
                   >
                     <BarChart3
                       className="mr-3 h-6 w-6 group-hover:scale-110 transition-transform"
-                      data-oid="2y2ej88"
+                      data-oid="4-to1u."
                     />
                     View PPC Pricing
                   </Button>
@@ -1138,7 +1141,7 @@ export default function PPCServicePage({ onNavigate }: PPCServicePageProps) {
 
             <div
               className="absolute inset-0 bg-gradient-to-br from-green-500/5 to-emerald-500/5 group-hover:from-green-500/10 group-hover:to-emerald-500/10 transition-all duration-500"
-              data-oid="wdgs5z:"
+              data-oid="m5m683_"
             ></div>
           </Card>
         </motion.section>

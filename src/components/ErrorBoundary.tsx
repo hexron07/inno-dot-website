@@ -72,35 +72,35 @@ class ErrorBoundary extends Component<Props, State> {
       return (
         <div
           className="min-h-screen bg-black text-white flex items-center justify-center p-4"
-          data-oid="mvivxq1"
+          data-oid="v_pjlv6"
         >
           <Card
             className="glass-card-enhanced border-red-500/30 max-w-2xl w-full"
-            data-oid="me_08if"
+            data-oid="j97t5om"
           >
-            <CardContent className="p-8 text-center" data-oid="njvkc4p">
-              <div className="flex justify-center mb-6" data-oid="136sfhe">
+            <CardContent className="p-8 text-center" data-oid="56kumuz">
+              <div className="flex justify-center mb-6" data-oid="gnnk_2h">
                 <div
                   className="w-20 h-20 rounded-full bg-red-500/20 flex items-center justify-center"
-                  data-oid="i4s7y_-"
+                  data-oid="5hrja.."
                 >
                   <AlertTriangle
                     className="w-10 h-10 text-red-400"
-                    data-oid="0-cue79"
+                    data-oid="bvdx-vr"
                   />
                 </div>
               </div>
 
               <h1
                 className="text-2xl md:text-3xl font-bold text-white mb-4"
-                data-oid="_gx0_im"
+                data-oid="qbob:a0"
               >
                 Oops! Something went wrong
               </h1>
 
               <p
                 className="text-gray-300 mb-8 text-lg leading-relaxed"
-                data-oid="mg5iqrr"
+                data-oid="1vjo9sc"
               >
                 We apologize for the inconvenience. An unexpected error has
                 occurred. Please try refreshing the page or return to the
@@ -109,14 +109,14 @@ class ErrorBoundary extends Component<Props, State> {
 
               <div
                 className="flex flex-col sm:flex-row gap-4 justify-center"
-                data-oid="d1--gjr"
+                data-oid="z5q6xur"
               >
                 <Button
                   onClick={this.handleRetry}
                   className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white px-6 py-3 rounded-xl font-semibold transition-all duration-300"
-                  data-oid="8z_1qv0"
+                  data-oid="wrclscv"
                 >
-                  <RefreshCw className="w-4 h-4 mr-2" data-oid="q-fkbqf" />
+                  <RefreshCw className="w-4 h-4 mr-2" data-oid="99gabf5" />
                   Try Again
                 </Button>
 
@@ -124,9 +124,9 @@ class ErrorBoundary extends Component<Props, State> {
                   onClick={this.handleRefresh}
                   variant="outline"
                   className="border-white/30 text-white hover:bg-white/15 px-6 py-3 rounded-xl font-semibold"
-                  data-oid="hrgrmjb"
+                  data-oid="hjsanj5"
                 >
-                  <RefreshCw className="w-4 h-4 mr-2" data-oid="h3bb-cy" />
+                  <RefreshCw className="w-4 h-4 mr-2" data-oid="ntgbohk" />
                   Refresh Page
                 </Button>
 
@@ -134,48 +134,48 @@ class ErrorBoundary extends Component<Props, State> {
                   onClick={this.handleGoHome}
                   variant="outline"
                   className="border-white/30 text-white hover:bg-white/15 px-6 py-3 rounded-xl font-semibold"
-                  data-oid="vqtiy7t"
+                  data-oid="npyvajr"
                 >
-                  <Home className="w-4 h-4 mr-2" data-oid="6rzbjot" />
+                  <Home className="w-4 h-4 mr-2" data-oid="jlk7xhi" />
                   Go Home
                 </Button>
               </div>
 
               {/* Development error details */}
               {process.env.NODE_ENV === "development" && this.state.error && (
-                <details className="mt-8 text-left" data-oid=".mx4wv_">
+                <details className="mt-8 text-left" data-oid="37n551e">
                   <summary
                     className="cursor-pointer text-red-400 font-semibold mb-4 hover:text-red-300"
-                    data-oid="m8ws9tk"
+                    data-oid="fquf-j6"
                   >
                     Technical Details (Development Only)
                   </summary>
                   <div
                     className="bg-black/50 p-4 rounded-lg border border-red-500/30"
-                    data-oid="pz.ve4."
+                    data-oid="rwom7up"
                   >
                     <h3
                       className="text-red-400 font-semibold mb-2"
-                      data-oid="apvciqv"
+                      data-oid="c9pa2fs"
                     >
                       Error:
                     </h3>
                     <pre
                       className="text-sm text-gray-300 mb-4 overflow-auto"
-                      data-oid="muc25nc"
+                      data-oid="330qlcc"
                     >
                       {this.state.error.message}
                     </pre>
 
                     <h3
                       className="text-red-400 font-semibold mb-2"
-                      data-oid="zgsk.5z"
+                      data-oid="8w89bve"
                     >
                       Stack Trace:
                     </h3>
                     <pre
                       className="text-xs text-gray-400 overflow-auto"
-                      data-oid="7r8fhvg"
+                      data-oid="d-q2yfm"
                     >
                       {this.state.error.stack}
                     </pre>
@@ -184,13 +184,13 @@ class ErrorBoundary extends Component<Props, State> {
                       <>
                         <h3
                           className="text-red-400 font-semibold mb-2 mt-4"
-                          data-oid="64.r:bo"
+                          data-oid="iididuz"
                         >
                           Component Stack:
                         </h3>
                         <pre
                           className="text-xs text-gray-400 overflow-auto"
-                          data-oid="pyt-ze4"
+                          data-oid="7fdsmo4"
                         >
                           {this.state.errorInfo.componentStack}
                         </pre>

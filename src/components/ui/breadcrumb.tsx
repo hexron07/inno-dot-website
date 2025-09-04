@@ -10,7 +10,7 @@ function Breadcrumb({ ...props }: React.ComponentProps<"nav">) {
       aria-label="breadcrumb"
       data-slot="breadcrumb"
       {...props}
-      data-oid="ca1heg-"
+      data-oid="ilgkl4v"
     />
   );
 }
@@ -24,7 +24,7 @@ function BreadcrumbList({ className, ...props }: React.ComponentProps<"ol">) {
         className,
       )}
       {...props}
-      data-oid="xbe1_v2"
+      data-oid="ny.mimu"
     />
   );
 }
@@ -35,7 +35,7 @@ function BreadcrumbItem({ className, ...props }: React.ComponentProps<"li">) {
       data-slot="breadcrumb-item"
       className={cn("inline-flex items-center gap-1.5", className)}
       {...props}
-      data-oid="61z5ivm"
+      data-oid="3wtluci"
     />
   );
 }
@@ -52,7 +52,7 @@ function BreadcrumbLink({
       data-slot="breadcrumb-link"
       className={cn("hover:text-foreground transition-colors", className)}
       {...props}
-      data-oid="dr6d.a9"
+      data-oid="lpv:c6:"
     />
   );
 }
@@ -66,7 +66,7 @@ function BreadcrumbPage({ className, ...props }: React.ComponentProps<"span">) {
       aria-current="page"
       className={cn("text-foreground font-normal", className)}
       {...props}
-      data-oid="xyvl:e6"
+      data-oid="wxkz_p6"
     />
   );
 }
@@ -83,9 +83,9 @@ function BreadcrumbSeparator({
       aria-hidden="true"
       className={cn("[&>svg]:size-3.5", className)}
       {...props}
-      data-oid="7:vcqmr"
+      data-oid=":_:wtww"
     >
-      {children ?? <ChevronRight data-oid="gnztz_f" />}
+      {children ?? <ChevronRight data-oid="5bidxg:" />}
     </li>
   );
 }
@@ -101,10 +101,10 @@ function BreadcrumbEllipsis({
       aria-hidden="true"
       className={cn("flex size-9 items-center justify-center", className)}
       {...props}
-      data-oid="ml5qm_c"
+      data-oid="tm3pif0"
     >
-      <MoreHorizontal className="size-4" data-oid="0gp_2f5" />
-      <span className="sr-only" data-oid="3c789w.">
+      <MoreHorizontal className="size-4" data-oid="5_k.si0" />
+      <span className="sr-only" data-oid="1_zbmwx">
         More
       </span>
     </span>

@@ -32,14 +32,14 @@ function LoadingSpinner() {
       role="status"
       aria-live="polite"
       aria-label="Loading content"
-      data-oid="tjlnw.i"
+      data-oid="cq-30pn"
     >
-      <div className="relative" data-oid="9qokch2">
+      <div className="relative" data-oid="w3r2uiw">
         <div
           className="w-12 h-12 border-4 border-blue-500/20 border-t-blue-500 rounded-full animate-spin"
-          data-oid="-9ym9qr"
+          data-oid="ml_6b5f"
         ></div>
-        <span className="sr-only" data-oid="tt-vo61">
+        <span className="sr-only" data-oid=":s8xune">
           Loading...
         </span>
       </div>
@@ -264,104 +264,105 @@ export default function App() {
 
   const renderPage = () => {
     if (isLoading) {
-      return <LoadingSpinner data-oid="12up9kc" />;
+      return <LoadingSpinner data-oid="gz6hsgo" />;
     }
 
     switch (currentPage) {
       case "home":
-        return <HomePage onNavigate={navigateToPage} data-oid="4ds1:fg" />;
+        return <HomePage onNavigate={navigateToPage} data-oid="js131yp" />;
       case "portfolio":
-        return <PortfolioPage onNavigate={navigateToPage} data-oid="l7lma.c" />;
+        return <PortfolioPage onNavigate={navigateToPage} data-oid="jwndotr" />;
       case "pricing":
-        return <PricingPage onNavigate={navigateToPage} data-oid="1rxwz2e" />;
+        return <PricingPage onNavigate={navigateToPage} data-oid="i994xl5" />;
       case "services":
-        return <ServicesPage onNavigate={navigateToPage} data-oid="9os7ycv" />;
+        return <ServicesPage onNavigate={navigateToPage} data-oid=".go1yxn" />;
       case "service-detail":
         return (
           <ServiceDetailPage
             service={currentService}
             onNavigate={navigateToPage}
-            data-oid="lml.ecl"
+            data-oid="-6vievt"
           />
         );
+
       case "privacy":
-        return <PrivacyPage onNavigate={navigateToPage} data-oid="mk0.fl_" />;
+        return <PrivacyPage onNavigate={navigateToPage} data-oid="8_t9wv." />;
       default:
-        return <HomePage onNavigate={navigateToPage} data-oid="fifllyw" />;
+        return <HomePage onNavigate={navigateToPage} data-oid="7.8rphg" />;
     }
   };
 
   return (
-    <ErrorBoundary data-oid="lf4srup">
-      <AccessibilityProvider data-oid="qze2op5">
+    <ErrorBoundary data-oid="xh.m-g0">
+      <AccessibilityProvider data-oid="ev:ath4">
         <div
           className="min-h-screen bg-black text-white relative overflow-hidden"
-          data-oid="0g1_r:x"
+          data-oid="32va478"
         >
           {/* SEO Manager */}
           <SEOManager
             data={getCurrentSEOData()}
             page={currentPage}
-            data-oid="2dnaaki"
+            data-oid="b__dpi_"
           />
 
           {/* Skip Link for accessibility */}
-          <SkipLink data-oid="yda57_:" />
+          <SkipLink data-oid="i_-.2xt" />
 
           {/* Enhanced animated background elements with better contrast */}
           <div
             className="fixed inset-0 z-0"
             aria-hidden="true"
-            data-oid="jpen.2r"
+            data-oid="ui11_vo"
           >
             {/* Strong dark overlay for better text contrast */}
-            <div className="absolute inset-0 bg-black" data-oid="bt8ved1"></div>
+            <div className="absolute inset-0 bg-black" data-oid="35jj9:w"></div>
             <div
               className="absolute inset-0 bg-gradient-to-br from-black via-slate-950 to-black"
-              data-oid="5l-2mq:"
+              data-oid="pi14cic"
             ></div>
 
             {/* Multiple floating orbs for depth - reduced opacity for better contrast */}
             <div
               className="absolute top-1/4 left-1/4 w-96 h-96 bg-blue-600/15 rounded-full filter blur-3xl animate-pulse"
-              data-oid="e.v_.nx"
+              data-oid="7v1wm37"
             ></div>
             <div
               className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-purple-600/15 rounded-full filter blur-3xl animate-pulse delay-1000"
-              data-oid="zfiovhe"
+              data-oid="k.q-k::"
             ></div>
             <div
               className="absolute top-3/4 left-1/2 w-96 h-96 bg-cyan-600/10 rounded-full filter blur-3xl animate-pulse delay-2000"
-              data-oid="f5mtkrw"
+              data-oid="5dc:lw4"
             ></div>
             <div
               className="absolute top-1/2 right-1/3 w-64 h-64 bg-pink-600/10 rounded-full filter blur-2xl animate-pulse delay-3000"
-              data-oid="yd8v5v2"
+              data-oid="t47fshx"
             ></div>
             <div
               className="absolute bottom-1/3 left-1/5 w-80 h-80 bg-indigo-600/12 rounded-full filter blur-3xl animate-pulse delay-4000"
-              data-oid="r.s_:ox"
+              data-oid="_cghk0d"
             ></div>
 
             {/* Subtle grid pattern overlay */}
             <div
               className="absolute inset-0 bg-[radial-gradient(circle_at_1px_1px,rgba(255,255,255,0.02)_1px,transparent_0)] bg-[length:50px_50px]"
-              data-oid="fq4w6_i"
+              data-oid="1p13:.."
             ></div>
 
             {/* Additional dark overlay for maximum contrast */}
             <div
               className="absolute inset-0 bg-black/20"
-              data-oid="pryb-re"
+              data-oid="1zho-es"
             ></div>
           </div>
 
-          <div className="relative z-10" data-oid="uc2-o4.">
+          <div className="relative z-10" data-oid="w32v6hf">
             {/* Navigation with enhanced accessibility */}
             <Navigation
               currentPage={currentPage}
               onNavigate={navigateToPage}
-              data-oid="-0hnusx"
+              data-oid="fm.8f05"
             />
 
             {/* Main content area */}
@@ -371,9 +372,9 @@ export default function App() {
               aria-label="Main content"
               className="focus:outline-none"
               tabIndex={-1}
-              data-oid="icd9bkd"
+              data-oid="m-f-hnb"
             >
-              <AnimatePresence mode="wait" data-oid="v3bi79e">
+              <AnimatePresence mode="wait" data-oid="7pq:kv2">
                 <motion.div
                   key={currentPage}
                   initial={{ opacity: 0, y: 20 }}
@@ -388,11 +389,11 @@ export default function App() {
                       duration: 0.01,
                     }),
                   }}
-                  data-oid="lkomh6i"
+                  data-oid="-nrglnc"
                 >
                   <Suspense
-                    fallback={<LoadingSpinner data-oid="ea7:2lo" />}
-                    data-oid="idp14hy"
+                    fallback={<LoadingSpinner data-oid="6szutzn" />}
+                    data-oid="tutg2:j"
                   >
                     {renderPage()}
                   </Suspense>
@@ -401,7 +402,7 @@ export default function App() {
             </main>
 
             {/* Footer */}
-            <Footer onNavigate={navigateToPage} data-oid="gy:h35x" />
+            <Footer onNavigate={navigateToPage} data-oid="2ri9g:6" />
           </div>
 
           {/* Live region for announcements */}
@@ -410,7 +411,7 @@ export default function App() {
             aria-live="polite"
             aria-atomic="true"
             className="sr-only"
-            data-oid="93wo7eb"
+            data-oid="rd3ybyf"
           ></div>
 
           {/* Schema.org structured data for better SEO */}
@@ -439,7 +440,7 @@ export default function App() {
                 },
               }),
             }}
-            data-oid=":9hcvtc"
+            data-oid="7qv.rrf"
           />
         </div>
       </AccessibilityProvider>

@@ -32,27 +32,27 @@ export default function Footer({ onNavigate }: FooterProps) {
   return (
     <footer
       className="relative mt-24 glass-dark border-t border-white/10"
-      data-oid=":opgrxq"
+      data-oid="iy3i.ui"
     >
       {/* Background decoration */}
-      <div className="absolute inset-0 overflow-hidden" data-oid="twkzww_">
+      <div className="absolute inset-0 overflow-hidden" data-oid="ynx265p">
         <div
           className="absolute -bottom-32 -left-32 w-64 h-64 bg-blue-500/10 rounded-full filter blur-3xl"
-          data-oid="5pn:7j_"
+          data-oid="6t_4_4c"
         ></div>
         <div
           className="absolute -bottom-32 -right-32 w-64 h-64 bg-purple-500/10 rounded-full filter blur-3xl"
-          data-oid="w32h-xi"
+          data-oid="onvsklf"
         ></div>
       </div>
 
       <div
         className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16"
-        data-oid="lukq1j3"
+        data-oid="za3yso0"
       >
         <div
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12"
-          data-oid="jsxd:1b"
+          data-oid="mxl_vv1"
         >
           {/* Company Info */}
           <motion.div
@@ -61,11 +61,11 @@ export default function Footer({ onNavigate }: FooterProps) {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
-            data-oid="te:-x:-"
+            data-oid=":dl270i"
           >
             <div
               className="flex items-center space-x-3 mb-6"
-              data-oid="8i7.468"
+              data-oid="hsabxxh"
             >
               <motion.div
                 className="w-10 h-10 bg-gradient-to-r from-blue-500 to-purple-600 rounded-xl flex items-center justify-center glow-effect"
@@ -79,31 +79,31 @@ export default function Footer({ onNavigate }: FooterProps) {
                   repeatType: "reverse",
                   ease: "easeInOut",
                 }}
-                data-oid="utwm_v6"
+                data-oid="v06afvt"
               >
-                <Sparkles className="w-6 h-6 text-white" data-oid="hep81tc" />
+                <Sparkles className="w-6 h-6 text-white" data-oid="2o.ii75" />
               </motion.div>
-              <div data-oid="sn7mifx">
+              <div data-oid="h--dbl9">
                 <h3
                   className="text-xl heading-tertiary bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent"
-                  data-oid="1q0h-bh"
+                  data-oid="m.sectw"
                 >
                   Inno Dot
                 </h3>
-                <p className="text-xs text-blue-400 -mt-1" data-oid="sgjv4vr">
+                <p className="text-xs text-blue-400 -mt-1" data-oid="02w9rjo">
                   Digital Innovation
                 </p>
               </div>
             </div>
             <p
               className="text-gray-300 mb-6 leading-relaxed"
-              data-oid="er0kx59"
+              data-oid="jjtc.-6"
             >
               Transforming businesses through innovative digital marketing
               strategies. We help brands connect, engage, and grow in the
               digital world.
             </p>
-            <div className="flex space-x-4" data-oid="rtmlppp">
+            <div className="flex space-x-4" data-oid="78:hoe-">
               {[
                 { icon: Facebook, href: "#", label: "Facebook" },
                 { icon: Twitter, href: "#", label: "Twitter" },
@@ -121,9 +121,9 @@ export default function Footer({ onNavigate }: FooterProps) {
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.3, delay: index * 0.1 }}
                   viewport={{ once: true }}
-                  data-oid="fea5v7l"
+                  data-oid="17qskvz"
                 >
-                  <social.icon className="w-5 h-5" data-oid="97ost2r" />
+                  <social.icon className="w-5 h-5" data-oid="7uszr7g" />
                 </motion.a>
               ))}
             </div>
@@ -135,12 +135,12 @@ export default function Footer({ onNavigate }: FooterProps) {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.1 }}
             viewport={{ once: true }}
-            data-oid="dk8fmtm"
+            data-oid="ebxxuoq"
           >
-            <h4 className="heading-tertiary mb-6" data-oid="iru36_g">
+            <h4 className="heading-tertiary mb-6" data-oid="6_:_f19">
               Quick Links
             </h4>
-            <ul className="space-y-4" data-oid="tuy3f8u">
+            <ul className="space-y-4" data-oid="bl5p7hk">
               {[
                 { name: "Home", page: "home" as Page },
                 { name: "About Us", page: "home" as Page },
@@ -155,17 +155,17 @@ export default function Footer({ onNavigate }: FooterProps) {
                   whileInView={{ opacity: 1, x: 0 }}
                   transition={{ duration: 0.3, delay: index * 0.05 }}
                   viewport={{ once: true }}
-                  data-oid="_6hn216"
+                  data-oid="99123dt"
                 >
                   <button
                     onClick={() => onNavigate(link.page)}
                     className="text-gray-300 hover:text-blue-400 transition-colors duration-300 flex items-center group"
-                    data-oid="rlvkkde"
+                    data-oid="whsufgd"
                   >
-                    <span data-oid="55pl3iv">{link.name}</span>
+                    <span data-oid="tbha9gg">{link.name}</span>
                     <ArrowRight
                       className="w-4 h-4 ml-2 opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all duration-300"
-                      data-oid="wrzcz-u"
+                      data-oid="50oq3o8"
                     />
                   </button>
                 </motion.li>
@@ -179,12 +179,12 @@ export default function Footer({ onNavigate }: FooterProps) {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
             viewport={{ once: true }}
-            data-oid="vud-7rj"
+            data-oid="y-ui.2x"
           >
-            <h4 className="heading-tertiary mb-6" data-oid="pa.dewj">
+            <h4 className="heading-tertiary mb-6" data-oid="_5mt44g">
               Services
             </h4>
-            <ul className="space-y-4" data-oid="da.0.-a">
+            <ul className="space-y-4" data-oid="7i.sihg">
               {[
                 { name: "SEO Optimization", slug: "SEO" },
                 { name: "PPC Advertising", slug: "PPC" },
@@ -202,17 +202,17 @@ export default function Footer({ onNavigate }: FooterProps) {
                   whileInView={{ opacity: 1, x: 0 }}
                   transition={{ duration: 0.3, delay: index * 0.05 }}
                   viewport={{ once: true }}
-                  data-oid="e:-7foh"
+                  data-oid="mxbham0"
                 >
                   <button
                     onClick={() => onNavigate("service-detail", service.slug)}
                     className="text-gray-300 hover:text-blue-400 transition-colors duration-300 flex items-center group"
-                    data-oid="bnd.m22"
+                    data-oid="2k8g7.t"
                   >
-                    <span data-oid="j6b6uny">{service.name}</span>
+                    <span data-oid="a9niaot">{service.name}</span>
                     <ArrowRight
                       className="w-4 h-4 ml-2 opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all duration-300"
-                      data-oid=":nwr_j3"
+                      data-oid="wyooymd"
                     />
                   </button>
                 </motion.li>
@@ -226,28 +226,29 @@ export default function Footer({ onNavigate }: FooterProps) {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.3 }}
             viewport={{ once: true }}
-            data-oid="exhsf9r"
+            data-oid=".62ytof"
           >
-            <h4 className="heading-tertiary mb-6" data-oid="j-ksiko">
+            <h4 className="heading-tertiary mb-6" data-oid="68qy6lu">
               Contact Info
             </h4>
-            <div className="space-y-4" data-oid="1dgqcz-">
+            <div className="space-y-4" data-oid="yr7ygc3">
               <motion.div
                 className="flex items-start space-x-3"
                 whileHover={{ x: 5 }}
                 transition={{ duration: 0.2 }}
-                data-oid="4ya732z"
+                data-oid="0o44sp6"
               >
                 <MapPin
                   className="w-5 h-5 text-blue-400 mt-0.5 flex-shrink-0"
-                  data-oid="ey0hvvx"
+                  data-oid="-.:0arn"
                 />
-                <div data-oid="c.7t6v.">
-                  <p className="text-gray-300" data-oid="ne_kho1">
-                    123 Innovation Drive
+
+                <div data-oid=":qgnye0">
+                  <p className="text-gray-300" data-oid="egycnot">
+                    Morgan Hill, California
                   </p>
-                  <p className="text-gray-300" data-oid="qi:h2uz">
-                    Digital City, DC 12345
+                  <p className="text-gray-300" data-oid="_zof2-w">
+                    95037
                   </p>
                 </div>
               </motion.div>
@@ -256,16 +257,17 @@ export default function Footer({ onNavigate }: FooterProps) {
                 className="flex items-center space-x-3"
                 whileHover={{ x: 5 }}
                 transition={{ duration: 0.2 }}
-                data-oid=":9wvyiq"
+                data-oid="bj:zwq7"
               >
                 <Phone
                   className="w-5 h-5 text-blue-400 flex-shrink-0"
-                  data-oid="bgm3c-t"
+                  data-oid="yooxorl"
                 />
+
                 <a
                   href="tel:+15551234567"
                   className="text-gray-300 hover:text-blue-400 transition-colors duration-300"
-                  data-oid="npiph2e"
+                  data-oid="p5w9bcr"
                 >
                   +1 (555) 123-4567
                 </a>
@@ -275,16 +277,17 @@ export default function Footer({ onNavigate }: FooterProps) {
                 className="flex items-center space-x-3"
                 whileHover={{ x: 5 }}
                 transition={{ duration: 0.2 }}
-                data-oid="tz2luiq"
+                data-oid="txvwabn"
               >
                 <Mail
                   className="w-5 h-5 text-blue-400 flex-shrink-0"
-                  data-oid="p9ey_e_"
+                  data-oid="osxdgjh"
                 />
+
                 <a
                   href="mailto:hello@innodot.com"
                   className="text-gray-300 hover:text-blue-400 transition-colors duration-300"
-                  data-oid="br2x.8a"
+                  data-oid="i0jkqbv"
                 >
                   hello@innodot.com
                 </a>
@@ -292,24 +295,24 @@ export default function Footer({ onNavigate }: FooterProps) {
             </div>
 
             {/* Newsletter Signup */}
-            <div className="mt-8" data-oid="3_gop89">
-              <h5 className="text-sm heading-tertiary mb-4" data-oid="cgrhex4">
+            <div className="mt-8" data-oid="ik:4m70">
+              <h5 className="text-sm heading-tertiary mb-4" data-oid="jgy2wkz">
                 Stay Updated
               </h5>
-              <div className="flex space-x-2" data-oid="bf3dz.d">
+              <div className="flex space-x-2" data-oid="1..ag59">
                 <input
                   type="email"
                   placeholder="Enter your email"
                   className="flex-1 px-4 py-2 glass-card border border-white/20 text-white placeholder:text-gray-400 focus:border-blue-500 focus:outline-none transition-colors duration-200 rounded-lg"
-                  data-oid="4:ddbkp"
+                  data-oid="mib-_:."
                 />
 
                 <Button
                   size="sm"
                   className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white button-glow"
-                  data-oid="zltm9a."
+                  data-oid="n5g23dq"
                 >
-                  <ArrowRight className="w-4 h-4" data-oid="e:maa7y" />
+                  <ArrowRight className="w-4 h-4" data-oid="3yksrpe" />
                 </Button>
               </div>
             </div>
@@ -323,34 +326,34 @@ export default function Footer({ onNavigate }: FooterProps) {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.4 }}
           viewport={{ once: true }}
-          data-oid="qos5ef8"
+          data-oid="4:zibrh"
         >
           <div
             className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-6"
-            data-oid="7nvni5z"
+            data-oid="fn3a75l"
           >
-            <p className="text-gray-400 text-sm" data-oid="i_ezq3o">
+            <p className="text-gray-400 text-sm" data-oid="f-0:_80">
               © {currentYear} Inno Dot. All rights reserved.
             </p>
-            <div className="flex space-x-6" data-oid="erl30bz">
+            <div className="flex space-x-6" data-oid="awfz8n6">
               <button
                 onClick={() => onNavigate("privacy")}
                 className="text-gray-400 hover:text-blue-400 text-sm transition-colors duration-300"
-                data-oid="nmchu:z"
+                data-oid="o4-tmlb"
               >
                 Privacy Policy
               </button>
               <a
                 href="#"
                 className="text-gray-400 hover:text-blue-400 text-sm transition-colors duration-300"
-                data-oid="tnrby::"
+                data-oid="xojr5ut"
               >
                 Terms of Service
               </a>
               <a
                 href="#"
                 className="text-gray-400 hover:text-blue-400 text-sm transition-colors duration-300"
-                data-oid="ft6xsy3"
+                data-oid="bgcn6-n"
               >
                 Cookie Policy
               </a>
@@ -361,14 +364,14 @@ export default function Footer({ onNavigate }: FooterProps) {
             className="mt-4 md:mt-0"
             whileHover={{ scale: 1.05 }}
             transition={{ duration: 0.2 }}
-            data-oid="si6wov4"
+            data-oid="l_0tc-p"
           >
             <p
               className="text-gray-400 text-sm flex items-center"
-              data-oid="82cj0mj"
+              data-oid="7.-nwb8"
             >
               Made with{" "}
-              <span className="text-red-400 mx-1" data-oid="hma7btb">
+              <span className="text-red-400 mx-1" data-oid="-v9bm4x">
                 ♥
               </span>{" "}
               by Inno Dot Team

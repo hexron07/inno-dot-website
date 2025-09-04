@@ -161,10 +161,10 @@ export default function PortfolioPage({ onNavigate }: PortfolioPageProps) {
       : projects.filter((project) => project.category === activeFilter);
 
   return (
-    <div className="pt-24 pb-20" data-oid="dcmm.22">
+    <div className="pt-24 pb-20" data-oid="8-pm0t:">
       <div
         className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
-        data-oid="m1rf9ru"
+        data-oid="sm36x26"
       >
         {/* Header */}
         <motion.div
@@ -172,13 +172,13 @@ export default function PortfolioPage({ onNavigate }: PortfolioPageProps) {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          data-oid="e0vq8qv"
+          data-oid="i7l39_g"
         >
           <Badge
             className="mb-6 bg-gradient-to-r from-blue-500/20 to-purple-500/20 text-blue-300 border-blue-500/30"
-            data-oid="c.4u13c"
+            data-oid="h6vv.np"
           >
-            <TrendingUp className="w-4 h-4 mr-2" data-oid="h3s_gvl" />
+            <TrendingUp className="w-4 h-4 mr-2" data-oid="gq4sk8g" />
             Success Stories
           </Badge>
 
@@ -187,14 +187,14 @@ export default function PortfolioPage({ onNavigate }: PortfolioPageProps) {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            data-oid="kwgwdd0"
+            data-oid="kia1xsd"
           >
-            <span className="block" data-oid="1wen6ve">
+            <span className="block" data-oid="_dsssyz">
               Our
             </span>
             <span
               className="block bg-gradient-to-r from-blue-400 via-purple-500 to-cyan-400 bg-clip-text text-transparent"
-              data-oid="orxq8zt"
+              data-oid="svltanz"
             >
               Portfolio
             </span>
@@ -205,7 +205,7 @@ export default function PortfolioPage({ onNavigate }: PortfolioPageProps) {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            data-oid="ns4g4kq"
+            data-oid="8cxqv.w"
           >
             Explore our successful digital marketing campaigns and see how we've
             helped businesses across industries achieve remarkable growth and
@@ -219,15 +219,15 @@ export default function PortfolioPage({ onNavigate }: PortfolioPageProps) {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          data-oid="c-jyu30"
+          data-oid="3cpq:fp"
         >
-          <div className="flex flex-wrap gap-2" data-oid="fa0xjqp">
+          <div className="flex flex-wrap gap-2" data-oid="iob72v.">
             {filters.map((filter) => (
               <motion.div
                 key={filter.id}
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                data-oid="4x.ymrz"
+                data-oid="r7r8a8-"
               >
                 <Button
                   variant={activeFilter === filter.id ? "default" : "outline"}
@@ -237,7 +237,7 @@ export default function PortfolioPage({ onNavigate }: PortfolioPageProps) {
                       : "glass border-white/20 text-gray-300 hover:bg-white/10"
                   } transition-all duration-300`}
                   onClick={() => setActiveFilter(filter.id)}
-                  data-oid="xtkwj5b"
+                  data-oid="uzjrsrg"
                 >
                   {filter.label}
                 </Button>
@@ -245,11 +245,11 @@ export default function PortfolioPage({ onNavigate }: PortfolioPageProps) {
             ))}
           </div>
 
-          <div className="flex items-center gap-2" data-oid="p1j0-s3">
+          <div className="flex items-center gap-2" data-oid="2qtm6i9">
             <motion.div
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              data-oid="1hr0x_f"
+              data-oid="kga7fkg"
             >
               <Button
                 variant={viewMode === "grid" ? "default" : "outline"}
@@ -260,15 +260,15 @@ export default function PortfolioPage({ onNavigate }: PortfolioPageProps) {
                     ? "bg-blue-500 shadow-lg"
                     : "glass border-white/20 text-gray-300"
                 }
-                data-oid="p3ld-_f"
+                data-oid="wjdksro"
               >
-                <Grid3X3 className="w-4 h-4" data-oid="xgmic69" />
+                <Grid3X3 className="w-4 h-4" data-oid="uhj6-mq" />
               </Button>
             </motion.div>
             <motion.div
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              data-oid="-95ivhr"
+              data-oid="r3ct58p"
             >
               <Button
                 variant={viewMode === "list" ? "default" : "outline"}
@@ -279,16 +279,16 @@ export default function PortfolioPage({ onNavigate }: PortfolioPageProps) {
                     ? "bg-blue-500 shadow-lg"
                     : "glass border-white/20 text-gray-300"
                 }
-                data-oid="pasdsju"
+                data-oid="4b:oblv"
               >
-                <List className="w-4 h-4" data-oid="3ud3:3j" />
+                <List className="w-4 h-4" data-oid="xm9bu.-" />
               </Button>
             </motion.div>
           </div>
         </motion.div>
 
         {/* Projects Grid/List */}
-        <AnimatePresence mode="wait" data-oid="7eo.ypg">
+        <AnimatePresence mode="wait" data-oid="crxjdrz">
           <motion.div
             key={activeFilter}
             initial={{ opacity: 0, y: 20 }}
@@ -300,7 +300,7 @@ export default function PortfolioPage({ onNavigate }: PortfolioPageProps) {
                 ? "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
                 : "space-y-8"
             }
-            data-oid="sfilqcc"
+            data-oid="v_-use:"
           >
             {filteredProjects.map((project, index) => (
               <motion.div
@@ -310,97 +310,97 @@ export default function PortfolioPage({ onNavigate }: PortfolioPageProps) {
                 transition={{ duration: 0.6, delay: index * 0.1 }}
                 whileHover={{ y: -8, scale: 1.02 }}
                 className="group"
-                data-oid="jq9y0u_"
+                data-oid="0ju8tcu"
               >
                 <Card
                   className={`bg-gradient-to-br ${project.gradient} glass-card border-white/10 hover:border-white/20 transition-all duration-500 h-full overflow-hidden`}
-                  data-oid="rik6i9n"
+                  data-oid="77g7jfr"
                 >
-                  <div className="relative" data-oid="q-ycwr-">
+                  <div className="relative" data-oid="sjjfkcq">
                     <ImageWithFallback
                       src={project.image}
                       alt={project.title}
                       className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-500"
-                      data-oid="8o.beq6"
+                      data-oid="z1h:cd6"
                     />
 
                     <div
                       className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"
-                      data-oid="l_9-x92"
+                      data-oid="he3ov9w"
                     ></div>
-                    <div className="absolute top-4 right-4" data-oid="c_hcxpr">
+                    <div className="absolute top-4 right-4" data-oid="r7je3iq">
                       <motion.div
                         whileHover={{ scale: 1.1 }}
                         whileTap={{ scale: 0.9 }}
-                        data-oid="9dz_1tm"
+                        data-oid="m--1s:n"
                       >
                         <Button
                           size="sm"
                           variant="outline"
                           className="bg-white/10 backdrop-blur-sm border-white/20 hover:bg-white/20"
-                          data-oid="640665t"
+                          data-oid="_-2r8y_"
                         >
                           <ExternalLink
                             className="w-4 h-4"
-                            data-oid="4611-mr"
+                            data-oid="n5i0fhi"
                           />
                         </Button>
                       </motion.div>
                     </div>
                   </div>
 
-                  <CardContent className="p-6" data-oid="t57_9n1">
+                  <CardContent className="p-6" data-oid="e0z5dib">
                     <div
                       className="flex items-center justify-between mb-3"
-                      data-oid="76ano8-"
+                      data-oid="d-5dpdc"
                     >
                       <Badge
                         className="bg-white/10 text-white border-white/20 text-xs"
-                        data-oid="y79jw42"
+                        data-oid="kmq9hqv"
                       >
                         {filters.find((f) => f.id === project.category)?.label}
                       </Badge>
                       <span
                         className="text-xs text-gray-400"
-                        data-oid="lo6d009"
+                        data-oid="26tiw5."
                       >
                         {project.duration}
                       </span>
                     </div>
 
-                    <h3 className="heading-card mb-2" data-oid="1vdc2j3">
+                    <h3 className="heading-card mb-2" data-oid="__ezfzj">
                       {project.title}
                     </h3>
                     <p
                       className="text-caption text-gray-400 mb-2"
-                      data-oid="v9:b5.8"
+                      data-oid="xx:b_86"
                     >
                       Client: {project.client}
                     </p>
-                    <p className="text-body-sm mb-4" data-oid="zkr4:py">
+                    <p className="text-body-sm mb-4" data-oid="i3yv8zl">
                       {project.description}
                     </p>
 
                     {/* Results */}
                     <div
                       className="grid grid-cols-3 gap-2 mb-4"
-                      data-oid="6.07i-9"
+                      data-oid="xj4m2-k"
                     >
                       {Object.entries(project.results).map(([key, value]) => (
                         <div
                           key={key}
                           className="text-center"
-                          data-oid="3_ap_9h"
+                          data-oid="x8r.k2x"
                         >
                           <div
                             className="text-sm text-white font-semibold"
-                            data-oid="ebi8zg:"
+                            data-oid="e2qz7c3"
                           >
                             {value}
                           </div>
                           <div
                             className="text-xs text-gray-400 capitalize"
-                            data-oid="62:p-ej"
+                            data-oid="gsf6vip"
                           >
                             {key}
                           </div>
@@ -411,13 +411,13 @@ export default function PortfolioPage({ onNavigate }: PortfolioPageProps) {
                     {/* Services */}
                     <div
                       className="flex flex-wrap gap-1 mb-4"
-                      data-oid="xbco-8x"
+                      data-oid="79q4s1o"
                     >
                       {project.services.map((service) => (
                         <Badge
                           key={service}
                           className="bg-white/5 text-gray-300 border-white/10 text-xs"
-                          data-oid="1wa_jq9"
+                          data-oid="t:r7vyi"
                         >
                           {service}
                         </Badge>
@@ -427,17 +427,17 @@ export default function PortfolioPage({ onNavigate }: PortfolioPageProps) {
                     <motion.div
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      data-oid="tqdh6tn"
+                      data-oid="i7oieuo"
                     >
                       <Button
                         variant="ghost"
                         className="bg-gradient-to-r from-blue-600/20 to-purple-600/20 hover:from-blue-500/30 hover:to-purple-500/30 text-blue-400 hover:text-blue-300 border border-blue-500/30 hover:border-blue-400/50 p-4 group-hover:translate-x-1 transition-all duration-300 font-semibold"
-                        data-oid=".uk27-g"
+                        data-oid="507-7r-"
                       >
                         View Case Study{" "}
                         <ArrowRight
                           className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform duration-300"
-                          data-oid="dk69p62"
+                          data-oid="o.e4_om"
                         />
                       </Button>
                     </motion.div>
@@ -455,7 +455,7 @@ export default function PortfolioPage({ onNavigate }: PortfolioPageProps) {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
-          data-oid="i-fmdi6"
+          data-oid="v6i4yzl"
         >
           <motion.h2
             className="heading-section mb-8"
@@ -463,14 +463,14 @@ export default function PortfolioPage({ onNavigate }: PortfolioPageProps) {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
             viewport={{ once: true }}
-            data-oid="kinpm1c"
+            data-oid="1bq:n9i"
           >
             Portfolio Results at a Glance
           </motion.h2>
 
           <div
             className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8"
-            data-oid="b1x.fer"
+            data-oid="8gquv.e"
           >
             <motion.div
               className="text-center"
@@ -479,21 +479,21 @@ export default function PortfolioPage({ onNavigate }: PortfolioPageProps) {
               transition={{ duration: 0.6, delay: 0.1 }}
               viewport={{ once: true }}
               whileHover={{ scale: 1.05 }}
-              data-oid="-oo2c92"
+              data-oid="35eiiv2"
             >
               <div
                 className="w-16 h-16 mx-auto mb-4 bg-gradient-to-r from-blue-500/20 to-cyan-500/20 rounded-full flex items-center justify-center"
-                data-oid="8x90-65"
+                data-oid="62zil59"
               >
                 <TrendingUp
                   className="w-8 h-8 text-blue-400"
-                  data-oid="b-byf0r"
+                  data-oid="-k0uczi"
                 />
               </div>
-              <div className="infographic-stat mb-2" data-oid="wio7:_x">
+              <div className="infographic-stat mb-2" data-oid="x_6nwou">
                 300%
               </div>
-              <div className="text-muted" data-oid="icehkqt">
+              <div className="text-muted" data-oid="f022b5t">
                 Average Traffic Increase
               </div>
             </motion.div>
@@ -505,21 +505,21 @@ export default function PortfolioPage({ onNavigate }: PortfolioPageProps) {
               transition={{ duration: 0.6, delay: 0.2 }}
               viewport={{ once: true }}
               whileHover={{ scale: 1.05 }}
-              data-oid="h92z3s6"
+              data-oid="4r:-0td"
             >
               <div
                 className="w-16 h-16 mx-auto mb-4 bg-gradient-to-r from-green-500/20 to-emerald-500/20 rounded-full flex items-center justify-center"
-                data-oid="-26al7p"
+                data-oid="28si7o2"
               >
                 <DollarSign
                   className="w-8 h-8 text-green-400"
-                  data-oid="jq_nqdh"
+                  data-oid="0n9bjx1"
                 />
               </div>
-              <div className="infographic-stat mb-2" data-oid="e00fg-2">
+              <div className="infographic-stat mb-2" data-oid="946wrmm">
                 $50M+
               </div>
-              <div className="text-muted" data-oid="wgi8.gj">
+              <div className="text-muted" data-oid="vseouum">
                 Revenue Generated
               </div>
             </motion.div>
@@ -531,18 +531,18 @@ export default function PortfolioPage({ onNavigate }: PortfolioPageProps) {
               transition={{ duration: 0.6, delay: 0.3 }}
               viewport={{ once: true }}
               whileHover={{ scale: 1.05 }}
-              data-oid="ubtvk_f"
+              data-oid="x_royq0"
             >
               <div
                 className="w-16 h-16 mx-auto mb-4 bg-gradient-to-r from-purple-500/20 to-pink-500/20 rounded-full flex items-center justify-center"
-                data-oid="hhkb3kt"
+                data-oid="5--5pl:"
               >
-                <Users className="w-8 h-8 text-purple-400" data-oid="c776.87" />
+                <Users className="w-8 h-8 text-purple-400" data-oid="5_.tv4g" />
               </div>
-              <div className="infographic-stat mb-2" data-oid="8mvaytr">
+              <div className="infographic-stat mb-2" data-oid="_ywg84:">
                 500K+
               </div>
-              <div className="text-muted" data-oid=".qk:87c">
+              <div className="text-muted" data-oid="91uggjl">
                 New Customers Acquired
               </div>
             </motion.div>
@@ -554,60 +554,60 @@ export default function PortfolioPage({ onNavigate }: PortfolioPageProps) {
               transition={{ duration: 0.6, delay: 0.4 }}
               viewport={{ once: true }}
               whileHover={{ scale: 1.05 }}
-              data-oid="sp.4uvc"
+              data-oid="qqz6y2k"
             >
               <div
                 className="w-16 h-16 mx-auto mb-4 bg-gradient-to-r from-orange-500/20 to-red-500/20 rounded-full flex items-center justify-center"
-                data-oid="9n20f6n"
+                data-oid="5rmjxud"
               >
                 <Filter
                   className="w-8 h-8 text-orange-400"
-                  data-oid="jejf:-g"
+                  data-oid="qllv1.r"
                 />
               </div>
-              <div className="infographic-stat mb-2" data-oid="d0juswi">
+              <div className="infographic-stat mb-2" data-oid="e6vudma">
                 98%
               </div>
-              <div className="text-muted" data-oid="2vfzh9y">
+              <div className="text-muted" data-oid="jg9lcpo">
                 Client Satisfaction
               </div>
             </motion.div>
           </div>
 
-          <p className="text-body-xl max-w-2xl mx-auto mb-8" data-oid="4jmqca-">
+          <p className="text-body-xl max-w-2xl mx-auto mb-8" data-oid="6j6mtsg">
             Ready to become our next success story? Let's discuss how we can
             help you achieve similar results.
           </p>
 
           <div
             className="flex flex-col sm:flex-row gap-4 justify-center"
-            data-oid="o5wlmww"
+            data-oid="oe4xsvi"
           >
             <motion.div
               whileHover={{ scale: 1.05, y: -2 }}
               whileTap={{ scale: 0.98 }}
-              data-oid="wjg7:5s"
+              data-oid="46gtzt9"
             >
               <Button
                 size="lg"
                 className="btn-premium bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-500 hover:to-purple-500 shadow-lg hover:shadow-2xl text-white px-8 py-4 font-bold tracking-wide"
-                data-oid="7_dm2qj"
+                data-oid="rhya4ut"
               >
                 Start Your Project
-                <ArrowRight className="ml-2 h-5 w-5" data-oid="s1a17v6" />
+                <ArrowRight className="ml-2 h-5 w-5" data-oid="_fa9za7" />
               </Button>
             </motion.div>
             <motion.div
               whileHover={{ scale: 1.05, y: -2 }}
               whileTap={{ scale: 0.98 }}
-              data-oid="qu.zeqo"
+              data-oid="ya:by2-"
             >
               <Button
                 variant="outline"
                 size="lg"
                 className="glass border-white/20 text-white hover:bg-white/20 px-8 py-4 font-semibold tracking-wide"
                 onClick={() => onNavigate("services")}
-                data-oid="-7n5mzw"
+                data-oid="9qlr9qv"
               >
                 View Our Services
               </Button>

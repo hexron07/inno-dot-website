@@ -270,10 +270,10 @@ export default function ContentMarketingServicePage({
   ];
 
   return (
-    <div className="pt-24 pb-20 relative" data-oid="6fd3zdg">
+    <div className="pt-24 pb-20 relative" data-oid="ps5mggf">
       <div
         className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
-        data-oid="ryr8sn-"
+        data-oid="szavjs6"
       >
         {/* Hero Section */}
         <motion.section
@@ -281,20 +281,20 @@ export default function ContentMarketingServicePage({
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          data-oid="0a:8b_8"
+          data-oid="tvb3ay0"
         >
           <motion.div
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.6, delay: 0.2 }}
             className="mb-8"
-            data-oid="on.x455"
+            data-oid="uu_j9de"
           >
             <Badge
               className="mb-6 bg-gradient-to-r from-purple-500 to-violet-600 text-white px-6 py-3 text-lg font-semibold"
-              data-oid=".f7xhg8"
+              data-oid="ubne1mv"
             >
-              <Edit3 className="w-5 h-5 mr-2" data-oid="g2g7vcs" />
+              <Edit3 className="w-5 h-5 mr-2" data-oid="2-xfot8" />
               Content Marketing
             </Badge>
           </motion.div>
@@ -304,12 +304,12 @@ export default function ContentMarketingServicePage({
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.3 }}
-            data-oid="ff.x5p0"
+            data-oid="d4gav1w"
           >
             Engage Your Audience with
             <span
               className="block bg-gradient-to-r from-purple-400 via-violet-500 to-cyan-600 bg-clip-text text-transparent"
-              data-oid=".9:lp2h"
+              data-oid="o_dn6kq"
             >
               Strategic Content Marketing
             </span>
@@ -320,7 +320,7 @@ export default function ContentMarketingServicePage({
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.5 }}
-            data-oid="v3w491."
+            data-oid="uz4wz.e"
           >
             Build trust, establish thought leadership, and drive conversions
             with compelling content strategies. From blog posts to videos, we
@@ -333,7 +333,7 @@ export default function ContentMarketingServicePage({
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.7 }}
-            data-oid="evii9cp"
+            data-oid="vv_57ld"
           >
             {heroStats.map((stat, index) => (
               <motion.div
@@ -343,24 +343,25 @@ export default function ContentMarketingServicePage({
                 transition={{ duration: 0.6, delay: 0.8 + index * 0.1 }}
                 whileHover={{ y: -5 }}
                 className="text-center"
-                data-oid="lh-u:2w"
+                data-oid="nbfm:bn"
               >
                 <Card
                   className="glass-card border-white/20 hover:border-white/30 transition-all duration-300"
-                  data-oid="mh.1w56"
+                  data-oid="gn44jsq"
                 >
-                  <CardContent className="p-6" data-oid="rnmsb:6">
+                  <CardContent className="p-6" data-oid="ctitq.u">
                     <stat.icon
                       className="w-8 h-8 text-purple-400 mx-auto mb-3"
-                      data-oid="ycjdnkx"
+                      data-oid="6-em5:0"
                     />
+
                     <div
                       className="text-2xl font-bold text-white mb-1"
-                      data-oid="3ht:dfk"
+                      data-oid="aphnnpl"
                     >
                       {stat.value}
                     </div>
-                    <div className="text-gray-400 text-sm" data-oid="d1t:xy:">
+                    <div className="text-gray-400 text-sm" data-oid="5.m8uu4">
                       {stat.label}
                     </div>
                   </CardContent>
@@ -371,45 +372,45 @@ export default function ContentMarketingServicePage({
 
           <div
             className="flex flex-col sm:flex-row gap-4 justify-center"
-            data-oid="d164iy3"
+            data-oid="la11noi"
           >
             <motion.div
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
-              data-oid="hjqcaec"
+              data-oid="3j6y4z4"
             >
               <Button
                 size="lg"
                 className="bg-gradient-to-r from-purple-500 to-violet-600 hover:from-purple-600 hover:to-violet-700 text-white px-8 py-4 font-semibold btn-premium group"
                 onClick={() => onNavigate("home")}
-                data-oid="h1xjqho"
+                data-oid="d9ovste"
               >
                 <Calendar
                   className="mr-2 h-5 w-5 group-hover:animate-bounce"
-                  data-oid="rsajb_d"
+                  data-oid="0-xo.cb"
                 />
                 Get Free Content Audit
                 <ArrowRight
                   className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform"
-                  data-oid="w1v71f7"
+                  data-oid="czasfw4"
                 />
               </Button>
             </motion.div>
             <motion.div
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
-              data-oid="5p:jisv"
+              data-oid="d0eq435"
             >
               <Button
                 variant="outline"
                 size="lg"
                 className="glass border-white/30 text-white hover:bg-white/10 px-8 py-4 font-semibold group"
                 onClick={() => onNavigate("portfolio")}
-                data-oid="1c8a8_0"
+                data-oid="5x1-lse"
               >
                 <Eye
                   className="mr-2 h-5 w-5 group-hover:scale-110 transition-transform"
-                  data-oid="057c0yl"
+                  data-oid="du63ycs"
                 />
                 View Content Case Studies
               </Button>
@@ -424,24 +425,24 @@ export default function ContentMarketingServicePage({
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          data-oid="u0un5oy"
+          data-oid="l07qhm0"
         >
-          <div className="text-center mb-16" data-oid="fpx_hlz">
+          <div className="text-center mb-16" data-oid="pw2xdeg">
             <h2
               className="text-3xl md:text-5xl font-bold text-white mb-6"
-              data-oid="xhpt628"
+              data-oid="a2xu1tk"
             >
               Complete{" "}
               <span
                 className="bg-gradient-to-r from-purple-400 to-violet-500 bg-clip-text text-transparent"
-                data-oid="u7qksd8"
+                data-oid="g4rsk54"
               >
                 Content Solutions
               </span>
             </h2>
             <p
               className="text-xl text-gray-300 max-w-3xl mx-auto"
-              data-oid="y2t:o:j"
+              data-oid="jzxndbq"
             >
               Our comprehensive approach covers every aspect of content
               marketing to engage your audience and drive business growth.
@@ -450,7 +451,7 @@ export default function ContentMarketingServicePage({
 
           <div
             className="grid grid-cols-1 md:grid-cols-2 gap-8"
-            data-oid="2arag8:"
+            data-oid="dfk0tvl"
           >
             {contentFeatures.map((feature, index) => (
               <motion.div
@@ -461,51 +462,52 @@ export default function ContentMarketingServicePage({
                 viewport={{ once: true }}
                 whileHover={{ y: -5, scale: 1.02 }}
                 className="group"
-                data-oid="7ehzklk"
+                data-oid="w.q7jt:"
               >
                 <Card
                   className="glass-card h-full border-white/15 hover:border-white/25 transition-all duration-300 relative overflow-hidden"
-                  data-oid=":osy_9x"
+                  data-oid="he85vg9"
                 >
-                  <CardContent className="p-8" data-oid=".yrb0v_">
+                  <CardContent className="p-8" data-oid="h6i26a8">
                     <motion.div
                       className="w-16 h-16 bg-gradient-to-r from-purple-500 to-violet-500 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300"
                       whileHover={{ rotate: 5 }}
-                      data-oid="u0si_tm"
+                      data-oid="e-oo236"
                     >
                       <feature.icon
                         className="w-8 h-8 text-white"
-                        data-oid="x7-3s7q"
+                        data-oid="g9brccl"
                       />
                     </motion.div>
 
                     <h3
                       className="text-2xl font-bold text-white mb-4 group-hover:text-purple-100 transition-colors duration-300"
-                      data-oid="8074wtl"
+                      data-oid="6_h3gef"
                     >
                       {feature.title}
                     </h3>
                     <p
                       className="text-gray-300 mb-6 group-hover:text-white transition-colors duration-300"
-                      data-oid="v4mnx51"
+                      data-oid="cv5ggxo"
                     >
                       {feature.description}
                     </p>
 
-                    <div className="space-y-2" data-oid="2:1c44z">
+                    <div className="space-y-2" data-oid="jw77_v7">
                       {feature.benefits.map((benefit, i) => (
                         <div
                           key={i}
                           className="flex items-center text-sm"
-                          data-oid="in0_mf_"
+                          data-oid=".0b6_5j"
                         >
                           <CheckCircle
                             className="w-4 h-4 text-purple-400 mr-3 flex-shrink-0"
-                            data-oid="m18rijl"
+                            data-oid="b3e3bru"
                           />
+
                           <span
                             className="text-gray-300 group-hover:text-white transition-colors duration-300"
-                            data-oid="zq6l.vp"
+                            data-oid="7:xhu73"
                           >
                             {benefit}
                           </span>
@@ -515,7 +517,7 @@ export default function ContentMarketingServicePage({
                   </CardContent>
                   <div
                     className="absolute inset-0 bg-gradient-to-br from-purple-500/5 to-violet-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-                    data-oid="2kwib-b"
+                    data-oid=":mdsg6w"
                   ></div>
                 </Card>
               </motion.div>
@@ -530,24 +532,24 @@ export default function ContentMarketingServicePage({
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          data-oid="-zu_i0_"
+          data-oid="orotfzb"
         >
-          <div className="text-center mb-16" data-oid="nj0:3vs">
+          <div className="text-center mb-16" data-oid="h0zd4pl">
             <h2
               className="text-3xl md:text-5xl font-bold text-white mb-6"
-              data-oid="45v38:4"
+              data-oid="8jym05l"
             >
               Our Proven{" "}
               <span
                 className="bg-gradient-to-r from-purple-400 to-violet-500 bg-clip-text text-transparent"
-                data-oid="cy47qbz"
+                data-oid="rdq8dw4"
               >
                 Content Process
               </span>
             </h2>
             <p
               className="text-xl text-gray-300 max-w-3xl mx-auto"
-              data-oid="2qbxkmg"
+              data-oid="8lqrp8g"
             >
               A systematic approach to content marketing that creates valuable,
               engaging content that drives real business results.
@@ -556,7 +558,7 @@ export default function ContentMarketingServicePage({
 
           <div
             className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
-            data-oid="t73:y.p"
+            data-oid="j39u_8g"
           >
             {contentProcessSteps.map((step, index) => (
               <motion.div
@@ -568,7 +570,7 @@ export default function ContentMarketingServicePage({
                 whileHover={{ y: -5, scale: 1.02 }}
                 className="group cursor-pointer"
                 onClick={() => setActiveProcess(index)}
-                data-oid="2-:6_74"
+                data-oid="x6fo8yb"
               >
                 <Card
                   className={`glass-card h-full border-white/15 hover:border-white/25 transition-all duration-300 relative overflow-hidden ${
@@ -576,23 +578,23 @@ export default function ContentMarketingServicePage({
                       ? "border-purple-400/50 bg-purple-500/5"
                       : ""
                   }`}
-                  data-oid="_s0_7l9"
+                  data-oid="9-w4q6c"
                 >
-                  <CardContent className="p-6 text-center" data-oid="o80g.qf">
-                    <div className="relative mb-6" data-oid="o7i9x-8">
+                  <CardContent className="p-6 text-center" data-oid="5bb_6u9">
+                    <div className="relative mb-6" data-oid="iwhdtby">
                       <motion.div
                         className="w-16 h-16 bg-gradient-to-r from-purple-500 to-violet-500 rounded-2xl flex items-center justify-center mx-auto group-hover:scale-110 transition-transform duration-300"
                         whileHover={{ rotate: 10 }}
-                        data-oid="w41:drd"
+                        data-oid="lxduxxq"
                       >
                         <step.icon
                           className="w-8 h-8 text-white"
-                          data-oid="j3uo9v."
+                          data-oid="fvu0ilu"
                         />
                       </motion.div>
                       <div
                         className="absolute -top-2 -right-2 w-8 h-8 bg-gradient-to-r from-pink-500 to-rose-500 rounded-full flex items-center justify-center text-white font-bold text-sm"
-                        data-oid="qrxwfiw"
+                        data-oid="0wl2yy-"
                       >
                         {index + 1}
                       </div>
@@ -600,20 +602,20 @@ export default function ContentMarketingServicePage({
 
                     <Badge
                       className="mb-4 bg-purple-500/20 text-purple-400 px-3 py-1 text-sm"
-                      data-oid="3waduwn"
+                      data-oid="x-4eb8d"
                     >
                       {step.timeline}
                     </Badge>
 
                     <h3
                       className="text-xl font-bold text-white mb-4 group-hover:text-purple-100 transition-colors duration-300"
-                      data-oid="v.bbwe9"
+                      data-oid="sol6739"
                     >
                       {step.title}
                     </h3>
                     <p
                       className="text-gray-300 group-hover:text-white transition-colors duration-300 text-sm"
-                      data-oid="452r10o"
+                      data-oid="dppm2dj"
                     >
                       {step.description}
                     </p>
@@ -625,7 +627,7 @@ export default function ContentMarketingServicePage({
                       initial={{ opacity: 0 }}
                       animate={{ opacity: 1 }}
                       transition={{ duration: 0.3 }}
-                      data-oid="yuv6rsp"
+                      data-oid=":7tyklx"
                     />
                   )}
                 </Card>
@@ -641,24 +643,24 @@ export default function ContentMarketingServicePage({
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          data-oid="4pf7loz"
+          data-oid="9e9up-x"
         >
-          <div className="text-center mb-16" data-oid=":5x-pbg">
+          <div className="text-center mb-16" data-oid="3-4hug2">
             <h2
               className="text-3xl md:text-5xl font-bold text-white mb-6"
-              data-oid="_60l2rm"
+              data-oid="cx:-zyu"
             >
               Content{" "}
               <span
                 className="bg-gradient-to-r from-purple-400 to-violet-500 bg-clip-text text-transparent"
-                data-oid="bs28gl9"
+                data-oid="2ubhd4r"
               >
                 Success Stories
               </span>
             </h2>
             <p
               className="text-xl text-gray-300 max-w-3xl mx-auto"
-              data-oid="lu9ls-8"
+              data-oid="7-cpiso"
             >
               Real results from real clients who trusted us with their content
               marketing strategy and execution.
@@ -667,7 +669,7 @@ export default function ContentMarketingServicePage({
 
           <div
             className="grid grid-cols-1 md:grid-cols-3 gap-8"
-            data-oid="31dqhd3"
+            data-oid="ujrcqmh"
           >
             {caseStudies.map((study, index) => (
               <motion.div
@@ -678,51 +680,51 @@ export default function ContentMarketingServicePage({
                 viewport={{ once: true }}
                 whileHover={{ y: -5, scale: 1.02 }}
                 className="group"
-                data-oid="5kqu47v"
+                data-oid="d450lu6"
               >
                 <Card
                   className="glass-card h-full border-white/15 hover:border-white/25 transition-all duration-300"
-                  data-oid="643le3i"
+                  data-oid="6uam7wv"
                 >
-                  <CardContent className="p-6" data-oid="p50_-yu">
-                    <div className="mb-4" data-oid="fj_oh8f">
+                  <CardContent className="p-6" data-oid="uelnmzu">
+                    <div className="mb-4" data-oid=":86-kqw">
                       <h3
                         className="text-xl font-bold text-white mb-1"
-                        data-oid="g0e.uab"
+                        data-oid="vmbehf4"
                       >
                         {study.client}
                       </h3>
                       <Badge
                         className="bg-purple-500/20 text-purple-400 px-2 py-1 text-xs"
-                        data-oid="csav.oa"
+                        data-oid="xdf_k08"
                       >
                         {study.industry}
                       </Badge>
                     </div>
 
-                    <div className="mb-4" data-oid="xkixcrp">
+                    <div className="mb-4" data-oid="cv8ra67">
                       <h4
                         className="text-sm font-semibold text-gray-300 mb-2"
-                        data-oid="7028r6i"
+                        data-oid="7a8j5b_"
                       >
                         Challenge:
                       </h4>
                       <p
                         className="text-gray-400 text-sm mb-3"
-                        data-oid="k1d7a71"
+                        data-oid="6u6-ysv"
                       >
                         {study.challenge}
                       </p>
 
                       <h4
                         className="text-sm font-semibold text-gray-300 mb-2"
-                        data-oid="j0v:r.r"
+                        data-oid="cx:8gqy"
                       >
                         Solution:
                       </h4>
                       <p
                         className="text-gray-400 text-sm mb-4"
-                        data-oid="l4yc51x"
+                        data-oid="q5ehkqj"
                       >
                         {study.solution}
                       </p>
@@ -730,62 +732,62 @@ export default function ContentMarketingServicePage({
 
                     <div
                       className="border-t border-white/10 pt-4"
-                      data-oid="6vkov6_"
+                      data-oid="al8pum."
                     >
                       <h4
                         className="text-sm font-semibold text-white mb-3"
-                        data-oid="11n3572"
+                        data-oid="7b1r7ik"
                       >
                         Results in {study.timeframe}:
                       </h4>
-                      <div className="space-y-2" data-oid="g4oyo6n">
+                      <div className="space-y-2" data-oid="2oo112-">
                         <div
                           className="flex justify-between"
-                          data-oid="b5za0r5"
+                          data-oid="dknl.ws"
                         >
                           <span
                             className="text-gray-400 text-sm"
-                            data-oid="j9_p-wn"
+                            data-oid="_0rjt5j"
                           >
                             Traffic:
                           </span>
                           <span
                             className="text-purple-400 font-bold text-sm"
-                            data-oid="r5pvuog"
+                            data-oid="k5nov.7"
                           >
                             {study.results.traffic}
                           </span>
                         </div>
                         <div
                           className="flex justify-between"
-                          data-oid="u855i0s"
+                          data-oid="35_mj9_"
                         >
                           <span
                             className="text-gray-400 text-sm"
-                            data-oid="j9679_k"
+                            data-oid="3nn_8tv"
                           >
                             Leads:
                           </span>
                           <span
                             className="text-blue-400 font-bold text-sm"
-                            data-oid="tx8hrza"
+                            data-oid="2:yz0qh"
                           >
                             {study.results.leads}
                           </span>
                         </div>
                         <div
                           className="flex justify-between"
-                          data-oid=":y5xgf."
+                          data-oid="iqafkjp"
                         >
                           <span
                             className="text-gray-400 text-sm"
-                            data-oid="7m7ekgr"
+                            data-oid="p0t1.o2"
                           >
                             Engagement:
                           </span>
                           <span
                             className="text-green-400 font-bold text-sm"
-                            data-oid="6nojn:2"
+                            data-oid=":0m5isy"
                           >
                             {study.results.engagement}
                           </span>
@@ -806,24 +808,24 @@ export default function ContentMarketingServicePage({
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          data-oid="ikt2geo"
+          data-oid="uh9:rnx"
         >
-          <div className="text-center mb-16" data-oid="rel90_o">
+          <div className="text-center mb-16" data-oid="1hbo6pn">
             <h2
               className="text-3xl md:text-5xl font-bold text-white mb-6"
-              data-oid="-hj41ih"
+              data-oid="bqih207"
             >
               Content Marketing{" "}
               <span
                 className="bg-gradient-to-r from-purple-400 to-violet-500 bg-clip-text text-transparent"
-                data-oid="_uhpwx3"
+                data-oid="yfzl-1i"
               >
                 Pricing Plans
               </span>
             </h2>
             <p
               className="text-xl text-gray-300 max-w-3xl mx-auto"
-              data-oid="fjsd:zp"
+              data-oid="4iwrut."
             >
               Choose the content marketing package that best fits your brand's
               storytelling goals and budget.
@@ -832,7 +834,7 @@ export default function ContentMarketingServicePage({
 
           <div
             className="grid grid-cols-1 md:grid-cols-3 gap-8"
-            data-oid="1jdllw1"
+            data-oid="ka7t72_"
           >
             {pricingTiers.map((tier, index) => (
               <motion.div
@@ -843,18 +845,18 @@ export default function ContentMarketingServicePage({
                 viewport={{ once: true }}
                 whileHover={{ y: -5, scale: 1.02 }}
                 className="relative group"
-                data-oid="y1ozb1r"
+                data-oid="ce8es-f"
               >
                 {tier.popular && (
                   <div
                     className="absolute -top-4 left-1/2 transform -translate-x-1/2 z-10"
-                    data-oid="e0n9jro"
+                    data-oid="pjuf5v3"
                   >
                     <Badge
                       className="bg-gradient-to-r from-purple-500 to-pink-500 text-white px-4 py-1 shadow-lg"
-                      data-oid="5vizxlf"
+                      data-oid="s69l3q7"
                     >
-                      <Star className="w-3 h-3 mr-1" data-oid="fv2ms38" />
+                      <Star className="w-3 h-3 mr-1" data-oid="yem00k1" />
                       Most Popular
                     </Badge>
                   </div>
@@ -866,53 +868,54 @@ export default function ContentMarketingServicePage({
                       ? "border-purple-500/50"
                       : "border-white/15 hover:border-white/25"
                   }`}
-                  data-oid="_iom2:p"
+                  data-oid="iva0:rk"
                 >
-                  <CardContent className="p-8 text-center" data-oid="a_1ayxr">
+                  <CardContent className="p-8 text-center" data-oid="n-re6ve">
                     <h3
                       className="text-2xl font-bold text-white mb-2"
-                      data-oid="3v_nbfr"
+                      data-oid="eo6n-b2"
                     >
                       {tier.name}
                     </h3>
-                    <p className="text-gray-300 mb-6" data-oid="sajsvdu">
+                    <p className="text-gray-300 mb-6" data-oid="8jc18x0">
                       {tier.description}
                     </p>
 
-                    <div className="mb-6" data-oid="_b9wyt1">
+                    <div className="mb-6" data-oid="z3.4.cp">
                       <span
                         className="text-4xl font-bold text-white"
-                        data-oid="ku6.2l-"
+                        data-oid="rzy0cum"
                       >
                         ${tier.price}
                       </span>
-                      <span className="text-gray-400" data-oid="kbpuq0h">
+                      <span className="text-gray-400" data-oid="o8krkcj">
                         {tier.period}
                       </span>
                     </div>
 
-                    <div className="space-y-3 mb-8" data-oid="8kp-0-d">
+                    <div className="space-y-3 mb-8" data-oid="kxvchn7">
                       {tier.features.map((feature, i) => (
                         <div
                           key={i}
                           className="flex items-center text-sm"
-                          data-oid="mmx6_6y"
+                          data-oid="so07kj1"
                         >
                           <CheckCircle
                             className="w-4 h-4 text-purple-400 mr-3 flex-shrink-0"
-                            data-oid="a1p18ee"
+                            data-oid="ri87482"
                           />
-                          <span className="text-gray-300" data-oid="ji7a.kt">
+
+                          <span className="text-gray-300" data-oid="afptm6x">
                             {feature}
                           </span>
                         </div>
                       ))}
                     </div>
 
-                    <div className="mb-6" data-oid="rj-.t8b">
+                    <div className="mb-6" data-oid="7dz-zji">
                       <p
                         className="text-purple-400 text-sm font-medium"
-                        data-oid="7uziko0"
+                        data-oid="klwgu:j"
                       >
                         Ideal for: {tier.ideal}
                       </p>
@@ -925,14 +928,14 @@ export default function ContentMarketingServicePage({
                           : "glass border-white/20 hover:bg-white/20 text-white"
                       }`}
                       onClick={() => onNavigate("home")}
-                      data-oid="dco8o5v"
+                      data-oid="-9nkywq"
                     >
                       Get Started with {tier.name}
                     </Button>
                   </CardContent>
                   <div
                     className={`absolute inset-0 bg-gradient-to-br ${tier.gradient} opacity-0 group-hover:opacity-5 transition-opacity duration-300`}
-                    data-oid="d2sa0vt"
+                    data-oid="fk765iq"
                   ></div>
                 </Card>
               </motion.div>
@@ -947,17 +950,17 @@ export default function ContentMarketingServicePage({
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          data-oid="e3buyb3"
+          data-oid="eg9kevu"
         >
-          <div className="text-center mb-16" data-oid="2fum4na">
+          <div className="text-center mb-16" data-oid="1h83di8">
             <h2
               className="text-3xl md:text-5xl font-bold text-white mb-6"
-              data-oid="dmml6az"
+              data-oid="3135::r"
             >
               What Our{" "}
               <span
                 className="bg-gradient-to-r from-purple-400 to-violet-500 bg-clip-text text-transparent"
-                data-oid="ue:6q0t"
+                data-oid="qhfulcg"
               >
                 Content Clients
               </span>{" "}
@@ -967,7 +970,7 @@ export default function ContentMarketingServicePage({
 
           <div
             className="grid grid-cols-1 md:grid-cols-2 gap-8"
-            data-oid="td8a9to"
+            data-oid="8__my2o"
           >
             {testimonials.map((testimonial, index) => (
               <motion.div
@@ -978,24 +981,24 @@ export default function ContentMarketingServicePage({
                 viewport={{ once: true }}
                 whileHover={{ y: -5, scale: 1.02 }}
                 className="group"
-                data-oid="jct3fpa"
+                data-oid="if:et96"
               >
                 <Card
                   className="glass-card border-white/15 hover:border-white/25 transition-all duration-300"
-                  data-oid="ck0_qn7"
+                  data-oid="yefq8os"
                 >
-                  <CardContent className="p-8" data-oid=".2im7kn">
-                    <div className="flex items-center mb-4" data-oid="zxpwlg3">
+                  <CardContent className="p-8" data-oid="3erxv1k">
+                    <div className="flex items-center mb-4" data-oid="arz09l5">
                       {[...Array(testimonial.rating)].map((_, i) => (
                         <Star
                           key={i}
                           className="w-5 h-5 text-yellow-400 fill-current"
-                          data-oid="boc8g1y"
+                          data-oid="3uatv.6"
                         />
                       ))}
                       <Badge
                         className="ml-auto bg-purple-500/20 text-purple-400 px-2 py-1 text-xs"
-                        data-oid="x-6pdi4"
+                        data-oid="mkucgxl"
                       >
                         {testimonial.result}
                       </Badge>
@@ -1003,37 +1006,37 @@ export default function ContentMarketingServicePage({
 
                     <blockquote
                       className="text-gray-300 mb-6 italic"
-                      data-oid="2mgj_29"
+                      data-oid="a.g5kqv"
                     >
                       "{testimonial.text}"
                     </blockquote>
 
-                    <div className="flex items-center" data-oid="6vr-sb1">
+                    <div className="flex items-center" data-oid="6lf2-3-">
                       <div
                         className="w-12 h-12 bg-gradient-to-r from-purple-500 to-violet-500 rounded-full flex items-center justify-center text-white font-bold mr-4"
-                        data-oid="8-ybg8e"
+                        data-oid="7my3sh2"
                       >
                         {testimonial.name
                           .split(" ")
                           .map((n) => n[0])
                           .join("")}
                       </div>
-                      <div data-oid="8j8n2w_">
+                      <div data-oid="j46di1c">
                         <div
                           className="font-bold text-white"
-                          data-oid="pznp7mt"
+                          data-oid="59tjnu_"
                         >
                           {testimonial.name}
                         </div>
                         <div
                           className="text-gray-400 text-sm"
-                          data-oid=".yu.1va"
+                          data-oid="7f-3a_z"
                         >
                           {testimonial.role}
                         </div>
                         <div
                           className="text-gray-400 text-sm"
-                          data-oid="y3-7ihm"
+                          data-oid="bipjwy7"
                         >
                           {testimonial.company}
                         </div>
@@ -1052,33 +1055,33 @@ export default function ContentMarketingServicePage({
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          data-oid="p-9w._j"
+          data-oid="h3jckkc"
         >
           <Card
             className="glass-card-enhanced rounded-3xl p-12 text-center relative overflow-hidden group"
-            data-oid="ql9vmxl"
+            data-oid="vfbh.wn"
           >
-            <div className="relative z-10" data-oid="3zday4a">
+            <div className="relative z-10" data-oid="j6ajly:">
               <motion.div
                 animate={{ y: [0, -10, 0] }}
                 transition={{ duration: 3, repeat: Infinity }}
                 className="inline-block mb-8"
-                data-oid=".jo.4mm"
+                data-oid="qq6:e76"
               >
                 <Edit3
                   className="w-20 h-20 text-purple-400 glow-effect"
-                  data-oid="_ywin.a"
+                  data-oid="7irsdpd"
                 />
               </motion.div>
 
               <h2
                 className="text-3xl md:text-5xl font-bold text-white mb-6"
-                data-oid="wbfdotj"
+                data-oid="b8mqo:9"
               >
                 Ready to{" "}
                 <span
                   className="bg-gradient-to-r from-purple-400 to-violet-500 bg-clip-text text-transparent"
-                  data-oid="3h_jr_1"
+                  data-oid="sj6:-r:"
                 >
                   Tell Your Story?
                 </span>
@@ -1086,7 +1089,7 @@ export default function ContentMarketingServicePage({
 
               <p
                 className="text-xl text-gray-300 mb-10 max-w-3xl mx-auto"
-                data-oid="trdrccc"
+                data-oid="082sst8"
               >
                 Get a free content audit and discover how we can help you create
                 compelling content that engages your audience, builds trust, and
@@ -1095,27 +1098,27 @@ export default function ContentMarketingServicePage({
 
               <div
                 className="flex flex-col sm:flex-row gap-6 justify-center"
-                data-oid="r7t6jav"
+                data-oid="m-2uwrm"
               >
                 <motion.div
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
-                  data-oid="f9hewqq"
+                  data-oid="-u8u6yg"
                 >
                   <Button
                     size="lg"
-                    className="bg-gradient-to-r from-purple-500 to-violet-600 hover:from-purple-600 hover:to-violet-700 text-white px-12 py-6 text-lg font-bold shadow-2xl btn-premium group"
+                    className="bg-gradient-to-r from-purple-500 to-violet-600 hover:from-purple-600 hover:to-violet-700 text-white btn-responsive text-lg font-bold shadow-2xl btn-premium group"
                     onClick={() => onNavigate("home")}
-                    data-oid="9:c7csh"
+                    data-oid="anje:eo"
                   >
                     <Calendar
                       className="mr-3 h-6 w-6 group-hover:animate-bounce"
-                      data-oid="b.w0de8"
+                      data-oid="rihfta2"
                     />
                     Get Free Content Audit
                     <ArrowRight
                       className="ml-3 h-6 w-6 group-hover:translate-x-1 transition-transform"
-                      data-oid="bes1x2e"
+                      data-oid="fo2nuym"
                     />
                   </Button>
                 </motion.div>
@@ -1123,18 +1126,18 @@ export default function ContentMarketingServicePage({
                 <motion.div
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
-                  data-oid="dyx8c57"
+                  data-oid="8tse2ff"
                 >
                   <Button
                     variant="outline"
                     size="lg"
-                    className="glass border-white/30 text-white hover:bg-white/15 px-12 py-6 text-lg font-semibold group"
+                    className="glass border-white/30 text-white hover:bg-white/15 btn-responsive text-lg font-semibold group"
                     onClick={() => onNavigate("pricing")}
-                    data-oid="ximp32h"
+                    data-oid=":7w668e"
                   >
                     <BarChart3
                       className="mr-3 h-6 w-6 group-hover:scale-110 transition-transform"
-                      data-oid="25ljdn3"
+                      data-oid="hxfcugs"
                     />
                     View Content Pricing
                   </Button>
@@ -1144,7 +1147,7 @@ export default function ContentMarketingServicePage({
 
             <div
               className="absolute inset-0 bg-gradient-to-br from-purple-500/5 to-violet-500/5 group-hover:from-purple-500/10 group-hover:to-violet-500/10 transition-all duration-500"
-              data-oid="f_9q5t."
+              data-oid="yjwjh1:"
             ></div>
           </Card>
         </motion.section>

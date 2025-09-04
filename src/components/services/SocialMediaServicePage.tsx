@@ -267,10 +267,10 @@ export default function SocialMediaServicePage({
   ];
 
   return (
-    <div className="pt-24 pb-20 relative" data-oid="5r:2rpk">
+    <div className="pt-24 pb-20 relative" data-oid="n65y7e_">
       <div
         className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
-        data-oid="6k_mxnx"
+        data-oid="7k_qmxw"
       >
         {/* Hero Section */}
         <motion.section
@@ -278,20 +278,20 @@ export default function SocialMediaServicePage({
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          data-oid="esn7qat"
+          data-oid="suuy_oo"
         >
           <motion.div
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.6, delay: 0.2 }}
             className="mb-8"
-            data-oid="_voaz8."
+            data-oid="aaqcdx9"
           >
             <Badge
               className="mb-6 bg-gradient-to-r from-pink-500 to-rose-600 text-white px-6 py-3 text-lg font-semibold"
-              data-oid="ipnebut"
+              data-oid="u8iq7n3"
             >
-              <Share2 className="w-5 h-5 mr-2" data-oid="c_:bysm" />
+              <Share2 className="w-5 h-5 mr-2" data-oid="hgaxurt" />
               Social Media Marketing
             </Badge>
           </motion.div>
@@ -301,12 +301,12 @@ export default function SocialMediaServicePage({
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.3 }}
-            data-oid="5w-:eb2"
+            data-oid="zgydy0j"
           >
             Build Your Brand with
             <span
               className="block bg-gradient-to-r from-pink-400 via-rose-500 to-purple-600 bg-clip-text text-transparent"
-              data-oid="9p_a7t."
+              data-oid="qbbmk1n"
             >
               Strategic Social Media
             </span>
@@ -317,7 +317,7 @@ export default function SocialMediaServicePage({
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.5 }}
-            data-oid="i8dh7f4"
+            data-oid="dg_usq3"
           >
             Engage your audience, build community, and drive conversions with
             our comprehensive social media strategies. From content creation to
@@ -330,7 +330,7 @@ export default function SocialMediaServicePage({
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.7 }}
-            data-oid="tmiwbs7"
+            data-oid="dvo:4:f"
           >
             {heroStats.map((stat, index) => (
               <motion.div
@@ -340,24 +340,25 @@ export default function SocialMediaServicePage({
                 transition={{ duration: 0.6, delay: 0.8 + index * 0.1 }}
                 whileHover={{ y: -5 }}
                 className="text-center"
-                data-oid=".fps0h5"
+                data-oid="tagrzhd"
               >
                 <Card
                   className="glass-card border-white/20 hover:border-white/30 transition-all duration-300"
-                  data-oid="zejt.yn"
+                  data-oid="pmzgtyj"
                 >
-                  <CardContent className="p-6" data-oid="glff5dx">
+                  <CardContent className="p-6" data-oid="_t-t41a">
                     <stat.icon
                       className="w-8 h-8 text-pink-400 mx-auto mb-3"
-                      data-oid="q7oy6u0"
+                      data-oid="39rmlx7"
                     />
+
                     <div
                       className="text-2xl font-bold text-white mb-1"
-                      data-oid="c.lmj76"
+                      data-oid="cmgy_3w"
                     >
                       {stat.value}
                     </div>
-                    <div className="text-gray-400 text-sm" data-oid="-4mbgyv">
+                    <div className="text-gray-400 text-sm" data-oid="uqe2z62">
                       {stat.label}
                     </div>
                   </CardContent>
@@ -368,45 +369,45 @@ export default function SocialMediaServicePage({
 
           <div
             className="flex flex-col sm:flex-row gap-4 justify-center"
-            data-oid="s2jh3m."
+            data-oid="ubl..u8"
           >
             <motion.div
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
-              data-oid="oipehh."
+              data-oid="8:o5-aq"
             >
               <Button
                 size="lg"
                 className="bg-gradient-to-r from-pink-500 to-rose-600 hover:from-pink-600 hover:to-rose-700 text-white px-8 py-4 font-semibold btn-premium group"
                 onClick={() => onNavigate("home")}
-                data-oid="9.4s:4_"
+                data-oid="j8d8e2v"
               >
                 <Calendar
                   className="mr-2 h-5 w-5 group-hover:animate-bounce"
-                  data-oid="58l9ahu"
+                  data-oid="d6fijh."
                 />
                 Get Free Social Audit
                 <ArrowRight
                   className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform"
-                  data-oid="-2vptrx"
+                  data-oid="9m-8xzl"
                 />
               </Button>
             </motion.div>
             <motion.div
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
-              data-oid="2imxwer"
+              data-oid="ettpp-0"
             >
               <Button
                 variant="outline"
                 size="lg"
                 className="glass border-white/30 text-white hover:bg-white/10 px-8 py-4 font-semibold group"
                 onClick={() => onNavigate("portfolio")}
-                data-oid="q8v43z2"
+                data-oid="mpiqjj4"
               >
                 <Eye
                   className="mr-2 h-5 w-5 group-hover:scale-110 transition-transform"
-                  data-oid=":4r.qot"
+                  data-oid="gm41xl."
                 />
                 View Social Case Studies
               </Button>
@@ -421,24 +422,24 @@ export default function SocialMediaServicePage({
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          data-oid="iq:f::s"
+          data-oid="sj5:f64"
         >
-          <div className="text-center mb-16" data-oid="-vqn3:v">
+          <div className="text-center mb-16" data-oid="bw..dbw">
             <h2
               className="text-3xl md:text-5xl font-bold text-white mb-6"
-              data-oid="qsl4c.s"
+              data-oid="9mz.jor"
             >
               Complete{" "}
               <span
                 className="bg-gradient-to-r from-pink-400 to-rose-500 bg-clip-text text-transparent"
-                data-oid="kv_y8ve"
+                data-oid="_l6c0o9"
               >
                 Social Media Solutions
               </span>
             </h2>
             <p
               className="text-xl text-gray-300 max-w-3xl mx-auto"
-              data-oid="pts91np"
+              data-oid="scltuk0"
             >
               Our comprehensive approach covers every aspect of social media
               marketing to build your brand and engage your audience.
@@ -447,7 +448,7 @@ export default function SocialMediaServicePage({
 
           <div
             className="grid grid-cols-1 md:grid-cols-2 gap-8"
-            data-oid="vdp212y"
+            data-oid="tb1r.6r"
           >
             {socialFeatures.map((feature, index) => (
               <motion.div
@@ -458,51 +459,52 @@ export default function SocialMediaServicePage({
                 viewport={{ once: true }}
                 whileHover={{ y: -5, scale: 1.02 }}
                 className="group"
-                data-oid="g:_4_09"
+                data-oid="5yv5nm9"
               >
                 <Card
                   className="glass-card h-full border-white/15 hover:border-white/25 transition-all duration-300 relative overflow-hidden"
-                  data-oid="8x2rhep"
+                  data-oid="wt9-ss6"
                 >
-                  <CardContent className="p-8" data-oid="le8iz-9">
+                  <CardContent className="p-8" data-oid="jxo9e2x">
                     <motion.div
                       className="w-16 h-16 bg-gradient-to-r from-pink-500 to-rose-500 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300"
                       whileHover={{ rotate: 5 }}
-                      data-oid=".svpb_n"
+                      data-oid="-9-y8-a"
                     >
                       <feature.icon
                         className="w-8 h-8 text-white"
-                        data-oid="4ro54g3"
+                        data-oid="81soi_r"
                       />
                     </motion.div>
 
                     <h3
                       className="text-2xl font-bold text-white mb-4 group-hover:text-pink-100 transition-colors duration-300"
-                      data-oid="1hijeo1"
+                      data-oid="::m-kxq"
                     >
                       {feature.title}
                     </h3>
                     <p
                       className="text-gray-300 mb-6 group-hover:text-white transition-colors duration-300"
-                      data-oid="pskfjmq"
+                      data-oid="78orxkc"
                     >
                       {feature.description}
                     </p>
 
-                    <div className="space-y-2" data-oid="f4rsugd">
+                    <div className="space-y-2" data-oid="zur80bk">
                       {feature.benefits.map((benefit, i) => (
                         <div
                           key={i}
                           className="flex items-center text-sm"
-                          data-oid="4wpmg3t"
+                          data-oid="b.4ws9m"
                         >
                           <CheckCircle
                             className="w-4 h-4 text-pink-400 mr-3 flex-shrink-0"
-                            data-oid="lmr3huk"
+                            data-oid="6d3r5o0"
                           />
+
                           <span
                             className="text-gray-300 group-hover:text-white transition-colors duration-300"
-                            data-oid="51gm-8i"
+                            data-oid="8-pb7n6"
                           >
                             {benefit}
                           </span>
@@ -512,7 +514,7 @@ export default function SocialMediaServicePage({
                   </CardContent>
                   <div
                     className="absolute inset-0 bg-gradient-to-br from-pink-500/5 to-rose-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-                    data-oid="ogpa62w"
+                    data-oid="u4.epg9"
                   ></div>
                 </Card>
               </motion.div>
@@ -527,24 +529,24 @@ export default function SocialMediaServicePage({
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          data-oid=".rz8:.9"
+          data-oid="7gm3q4."
         >
-          <div className="text-center mb-16" data-oid="y9v85c_">
+          <div className="text-center mb-16" data-oid="7pmls50">
             <h2
               className="text-3xl md:text-5xl font-bold text-white mb-6"
-              data-oid="g9nymo5"
+              data-oid="7_dpy6:"
             >
               Our Proven{" "}
               <span
                 className="bg-gradient-to-r from-pink-400 to-rose-500 bg-clip-text text-transparent"
-                data-oid="rblsuv9"
+                data-oid="5x:w6a:"
               >
                 Social Process
               </span>
             </h2>
             <p
               className="text-xl text-gray-300 max-w-3xl mx-auto"
-              data-oid="akugxh2"
+              data-oid="9odoe19"
             >
               A systematic approach to social media marketing that builds
               authentic communities and drives real business results.
@@ -553,7 +555,7 @@ export default function SocialMediaServicePage({
 
           <div
             className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
-            data-oid="f_rmw5m"
+            data-oid="rf2-xf0"
           >
             {socialProcessSteps.map((step, index) => (
               <motion.div
@@ -565,7 +567,7 @@ export default function SocialMediaServicePage({
                 whileHover={{ y: -5, scale: 1.02 }}
                 className="group cursor-pointer"
                 onClick={() => setActiveProcess(index)}
-                data-oid="0zqyc1."
+                data-oid="kvduk8f"
               >
                 <Card
                   className={`glass-card h-full border-white/15 hover:border-white/25 transition-all duration-300 relative overflow-hidden ${
@@ -573,23 +575,23 @@ export default function SocialMediaServicePage({
                       ? "border-pink-400/50 bg-pink-500/5"
                       : ""
                   }`}
-                  data-oid="gjqo31g"
+                  data-oid="65kj89x"
                 >
-                  <CardContent className="p-6 text-center" data-oid="_rsmik4">
-                    <div className="relative mb-6" data-oid="9fb0uxv">
+                  <CardContent className="p-6 text-center" data-oid="ydu465.">
+                    <div className="relative mb-6" data-oid="1.rppu-">
                       <motion.div
                         className="w-16 h-16 bg-gradient-to-r from-pink-500 to-rose-500 rounded-2xl flex items-center justify-center mx-auto group-hover:scale-110 transition-transform duration-300"
                         whileHover={{ rotate: 10 }}
-                        data-oid="2czdrnq"
+                        data-oid="mgnf6os"
                       >
                         <step.icon
                           className="w-8 h-8 text-white"
-                          data-oid="3zy_8k_"
+                          data-oid="crnjpgz"
                         />
                       </motion.div>
                       <div
                         className="absolute -top-2 -right-2 w-8 h-8 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center text-white font-bold text-sm"
-                        data-oid="tkrxuj1"
+                        data-oid="r093gzs"
                       >
                         {index + 1}
                       </div>
@@ -597,20 +599,20 @@ export default function SocialMediaServicePage({
 
                     <Badge
                       className="mb-4 bg-pink-500/20 text-pink-400 px-3 py-1 text-sm"
-                      data-oid="u5j6obv"
+                      data-oid="k.1ahoz"
                     >
                       {step.timeline}
                     </Badge>
 
                     <h3
                       className="text-xl font-bold text-white mb-4 group-hover:text-pink-100 transition-colors duration-300"
-                      data-oid="i82x.49"
+                      data-oid="e8at:g."
                     >
                       {step.title}
                     </h3>
                     <p
                       className="text-gray-300 group-hover:text-white transition-colors duration-300 text-sm"
-                      data-oid="ddy0mo5"
+                      data-oid="7orrgvk"
                     >
                       {step.description}
                     </p>
@@ -622,7 +624,7 @@ export default function SocialMediaServicePage({
                       initial={{ opacity: 0 }}
                       animate={{ opacity: 1 }}
                       transition={{ duration: 0.3 }}
-                      data-oid="r44vwky"
+                      data-oid=".wjcx1-"
                     />
                   )}
                 </Card>
@@ -638,24 +640,24 @@ export default function SocialMediaServicePage({
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          data-oid="t9awr29"
+          data-oid="1tzamz1"
         >
-          <div className="text-center mb-16" data-oid="st8hujk">
+          <div className="text-center mb-16" data-oid="16hvl-p">
             <h2
               className="text-3xl md:text-5xl font-bold text-white mb-6"
-              data-oid="3xk6w9h"
+              data-oid="n19k3lw"
             >
               Social Media{" "}
               <span
                 className="bg-gradient-to-r from-pink-400 to-rose-500 bg-clip-text text-transparent"
-                data-oid="zhkg6k7"
+                data-oid="9diqowr"
               >
                 Success Stories
               </span>
             </h2>
             <p
               className="text-xl text-gray-300 max-w-3xl mx-auto"
-              data-oid="y_4o23c"
+              data-oid="ug6j738"
             >
               Real results from real clients who trusted us with their social
               media presence and community building.
@@ -664,7 +666,7 @@ export default function SocialMediaServicePage({
 
           <div
             className="grid grid-cols-1 md:grid-cols-3 gap-8"
-            data-oid="iqpeh_3"
+            data-oid="pdgc6li"
           >
             {caseStudies.map((study, index) => (
               <motion.div
@@ -675,51 +677,51 @@ export default function SocialMediaServicePage({
                 viewport={{ once: true }}
                 whileHover={{ y: -5, scale: 1.02 }}
                 className="group"
-                data-oid="n-ev7hl"
+                data-oid="vtkmsoi"
               >
                 <Card
                   className="glass-card h-full border-white/15 hover:border-white/25 transition-all duration-300"
-                  data-oid="le57j-w"
+                  data-oid="7ulwx39"
                 >
-                  <CardContent className="p-6" data-oid="29ofji1">
-                    <div className="mb-4" data-oid="3k4ri7:">
+                  <CardContent className="p-6" data-oid="6kcgaqi">
+                    <div className="mb-4" data-oid="jzpgd7i">
                       <h3
                         className="text-xl font-bold text-white mb-1"
-                        data-oid="2rew--z"
+                        data-oid="1c80li5"
                       >
                         {study.client}
                       </h3>
                       <Badge
                         className="bg-pink-500/20 text-pink-400 px-2 py-1 text-xs"
-                        data-oid="dwusqkd"
+                        data-oid="npoaua-"
                       >
                         {study.industry}
                       </Badge>
                     </div>
 
-                    <div className="mb-4" data-oid="y14gi7o">
+                    <div className="mb-4" data-oid="p54xne.">
                       <h4
                         className="text-sm font-semibold text-gray-300 mb-2"
-                        data-oid="zfg6l17"
+                        data-oid="7-mi-l8"
                       >
                         Challenge:
                       </h4>
                       <p
                         className="text-gray-400 text-sm mb-3"
-                        data-oid="gojz4ab"
+                        data-oid="ui-9uny"
                       >
                         {study.challenge}
                       </p>
 
                       <h4
                         className="text-sm font-semibold text-gray-300 mb-2"
-                        data-oid="521vfn."
+                        data-oid="ivojnz9"
                       >
                         Solution:
                       </h4>
                       <p
                         className="text-gray-400 text-sm mb-4"
-                        data-oid="p0mtvwy"
+                        data-oid="_m93qm5"
                       >
                         {study.solution}
                       </p>
@@ -727,62 +729,62 @@ export default function SocialMediaServicePage({
 
                     <div
                       className="border-t border-white/10 pt-4"
-                      data-oid="6nhyupc"
+                      data-oid="_k-ai22"
                     >
                       <h4
                         className="text-sm font-semibold text-white mb-3"
-                        data-oid="rf89.w6"
+                        data-oid="-94c:1l"
                       >
                         Results in {study.timeframe}:
                       </h4>
-                      <div className="space-y-2" data-oid="hze25gy">
+                      <div className="space-y-2" data-oid="376brol">
                         <div
                           className="flex justify-between"
-                          data-oid="3mp44eh"
+                          data-oid="293bk99"
                         >
                           <span
                             className="text-gray-400 text-sm"
-                            data-oid="p8hhx-j"
+                            data-oid="1qsjldg"
                           >
                             Engagement:
                           </span>
                           <span
                             className="text-pink-400 font-bold text-sm"
-                            data-oid="tgtg9gz"
+                            data-oid="0sc.kal"
                           >
                             {study.results.engagement}
                           </span>
                         </div>
                         <div
                           className="flex justify-between"
-                          data-oid="9v9aw-c"
+                          data-oid="rl_iw6p"
                         >
                           <span
                             className="text-gray-400 text-sm"
-                            data-oid="gla_rfm"
+                            data-oid="yucazxw"
                           >
                             Followers:
                           </span>
                           <span
                             className="text-blue-400 font-bold text-sm"
-                            data-oid="l3qkwwq"
+                            data-oid="6clgvgv"
                           >
                             {study.results.followers}
                           </span>
                         </div>
                         <div
                           className="flex justify-between"
-                          data-oid="3c15vab"
+                          data-oid="3n0fl2w"
                         >
                           <span
                             className="text-gray-400 text-sm"
-                            data-oid="idgzx-n"
+                            data-oid="dp6rmkg"
                           >
                             Business:
                           </span>
                           <span
                             className="text-purple-400 font-bold text-sm"
-                            data-oid="d9jtcwz"
+                            data-oid="wggb39x"
                           >
                             {study.results.sales}
                           </span>
@@ -803,24 +805,24 @@ export default function SocialMediaServicePage({
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          data-oid="l.kc5dq"
+          data-oid=".px-xo3"
         >
-          <div className="text-center mb-16" data-oid="6f2sbev">
+          <div className="text-center mb-16" data-oid="_78gdzo">
             <h2
               className="text-3xl md:text-5xl font-bold text-white mb-6"
-              data-oid="2j6z-:c"
+              data-oid="7v3nqjq"
             >
               Social Media{" "}
               <span
                 className="bg-gradient-to-r from-pink-400 to-rose-500 bg-clip-text text-transparent"
-                data-oid="ag2mj3i"
+                data-oid="alsd79:"
               >
                 Pricing Plans
               </span>
             </h2>
             <p
               className="text-xl text-gray-300 max-w-3xl mx-auto"
-              data-oid=".sf9w2x"
+              data-oid="oomlesh"
             >
               Choose the social media management package that best fits your
               brand's goals and budget.
@@ -829,7 +831,7 @@ export default function SocialMediaServicePage({
 
           <div
             className="grid grid-cols-1 md:grid-cols-3 gap-8"
-            data-oid="-_771ja"
+            data-oid="v:t8gm:"
           >
             {pricingTiers.map((tier, index) => (
               <motion.div
@@ -840,18 +842,18 @@ export default function SocialMediaServicePage({
                 viewport={{ once: true }}
                 whileHover={{ y: -5, scale: 1.02 }}
                 className="relative group"
-                data-oid="vv05he3"
+                data-oid="n0mwq.f"
               >
                 {tier.popular && (
                   <div
                     className="absolute -top-4 left-1/2 transform -translate-x-1/2 z-10"
-                    data-oid="3thxqth"
+                    data-oid="0n38su2"
                   >
                     <Badge
                       className="bg-gradient-to-r from-purple-500 to-pink-500 text-white px-4 py-1 shadow-lg"
-                      data-oid="gw834fw"
+                      data-oid="bptxeu:"
                     >
-                      <Star className="w-3 h-3 mr-1" data-oid="xte3g6j" />
+                      <Star className="w-3 h-3 mr-1" data-oid="z5cp:tm" />
                       Most Popular
                     </Badge>
                   </div>
@@ -863,53 +865,54 @@ export default function SocialMediaServicePage({
                       ? "border-purple-500/50"
                       : "border-white/15 hover:border-white/25"
                   }`}
-                  data-oid="42io8t9"
+                  data-oid="q.vcqwp"
                 >
-                  <CardContent className="p-8 text-center" data-oid="uhedpu-">
+                  <CardContent className="p-8 text-center" data-oid="keymn.y">
                     <h3
                       className="text-2xl font-bold text-white mb-2"
-                      data-oid="c71i3ig"
+                      data-oid=".q8y7-g"
                     >
                       {tier.name}
                     </h3>
-                    <p className="text-gray-300 mb-6" data-oid="g2hd42g">
+                    <p className="text-gray-300 mb-6" data-oid="2kzh-ht">
                       {tier.description}
                     </p>
 
-                    <div className="mb-6" data-oid="eog1q8z">
+                    <div className="mb-6" data-oid="8hhcain">
                       <span
                         className="text-4xl font-bold text-white"
-                        data-oid="621jmb5"
+                        data-oid="thapf7w"
                       >
                         ${tier.price}
                       </span>
-                      <span className="text-gray-400" data-oid="gwkikvs">
+                      <span className="text-gray-400" data-oid="zklxkgs">
                         {tier.period}
                       </span>
                     </div>
 
-                    <div className="space-y-3 mb-8" data-oid="9.wo6fk">
+                    <div className="space-y-3 mb-8" data-oid="w9hqpa_">
                       {tier.features.map((feature, i) => (
                         <div
                           key={i}
                           className="flex items-center text-sm"
-                          data-oid="ec174_-"
+                          data-oid="2jsi1uy"
                         >
                           <CheckCircle
                             className="w-4 h-4 text-pink-400 mr-3 flex-shrink-0"
-                            data-oid="m_pdnpe"
+                            data-oid="vey.06l"
                           />
-                          <span className="text-gray-300" data-oid="nunp0et">
+
+                          <span className="text-gray-300" data-oid=".ju6h8r">
                             {feature}
                           </span>
                         </div>
                       ))}
                     </div>
 
-                    <div className="mb-6" data-oid="6iw:b52">
+                    <div className="mb-6" data-oid="46a:dks">
                       <p
                         className="text-pink-400 text-sm font-medium"
-                        data-oid="ru.1n7x"
+                        data-oid="3qcwg9z"
                       >
                         Ideal for: {tier.ideal}
                       </p>
@@ -922,14 +925,14 @@ export default function SocialMediaServicePage({
                           : "glass border-white/20 hover:bg-white/20 text-white"
                       }`}
                       onClick={() => onNavigate("home")}
-                      data-oid="g2q.dfd"
+                      data-oid="bno.t8w"
                     >
                       Get Started with {tier.name}
                     </Button>
                   </CardContent>
                   <div
                     className={`absolute inset-0 bg-gradient-to-br ${tier.gradient} opacity-0 group-hover:opacity-5 transition-opacity duration-300`}
-                    data-oid="qbglg4t"
+                    data-oid="nmllxyc"
                   ></div>
                 </Card>
               </motion.div>
@@ -944,17 +947,17 @@ export default function SocialMediaServicePage({
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          data-oid="avto7j."
+          data-oid="r.7ndqv"
         >
-          <div className="text-center mb-16" data-oid="5dr5po2">
+          <div className="text-center mb-16" data-oid="1ky7lu8">
             <h2
               className="text-3xl md:text-5xl font-bold text-white mb-6"
-              data-oid="5kix0z6"
+              data-oid="8n05::2"
             >
               What Our{" "}
               <span
                 className="bg-gradient-to-r from-pink-400 to-rose-500 bg-clip-text text-transparent"
-                data-oid="igitkoh"
+                data-oid="_5wzx3d"
               >
                 Social Clients
               </span>{" "}
@@ -964,7 +967,7 @@ export default function SocialMediaServicePage({
 
           <div
             className="grid grid-cols-1 md:grid-cols-2 gap-8"
-            data-oid="if09reo"
+            data-oid="2m:h0wz"
           >
             {testimonials.map((testimonial, index) => (
               <motion.div
@@ -975,24 +978,24 @@ export default function SocialMediaServicePage({
                 viewport={{ once: true }}
                 whileHover={{ y: -5, scale: 1.02 }}
                 className="group"
-                data-oid="7gjaf0p"
+                data-oid=".zd-8xq"
               >
                 <Card
                   className="glass-card border-white/15 hover:border-white/25 transition-all duration-300"
-                  data-oid="kw3rgov"
+                  data-oid="1l7l4lg"
                 >
-                  <CardContent className="p-8" data-oid="kfn-y5t">
-                    <div className="flex items-center mb-4" data-oid="llgqt60">
+                  <CardContent className="p-8" data-oid="sqo43j4">
+                    <div className="flex items-center mb-4" data-oid="qq4ht7t">
                       {[...Array(testimonial.rating)].map((_, i) => (
                         <Star
                           key={i}
                           className="w-5 h-5 text-yellow-400 fill-current"
-                          data-oid="st8a3ct"
+                          data-oid="ph..x5v"
                         />
                       ))}
                       <Badge
                         className="ml-auto bg-pink-500/20 text-pink-400 px-2 py-1 text-xs"
-                        data-oid="b0b-60j"
+                        data-oid="fh2q_hd"
                       >
                         {testimonial.result}
                       </Badge>
@@ -1000,37 +1003,37 @@ export default function SocialMediaServicePage({
 
                     <blockquote
                       className="text-gray-300 mb-6 italic"
-                      data-oid="i__cafm"
+                      data-oid="gtsqndl"
                     >
                       "{testimonial.text}"
                     </blockquote>
 
-                    <div className="flex items-center" data-oid="09p_511">
+                    <div className="flex items-center" data-oid="l9yes4.">
                       <div
                         className="w-12 h-12 bg-gradient-to-r from-pink-500 to-rose-500 rounded-full flex items-center justify-center text-white font-bold mr-4"
-                        data-oid="y1xifl5"
+                        data-oid=".ira-7b"
                       >
                         {testimonial.name
                           .split(" ")
                           .map((n) => n[0])
                           .join("")}
                       </div>
-                      <div data-oid="1n1a9ed">
+                      <div data-oid="5n3-5es">
                         <div
                           className="font-bold text-white"
-                          data-oid="_tatn51"
+                          data-oid="poxt778"
                         >
                           {testimonial.name}
                         </div>
                         <div
                           className="text-gray-400 text-sm"
-                          data-oid="9zi1z53"
+                          data-oid="8r874j5"
                         >
                           {testimonial.role}
                         </div>
                         <div
                           className="text-gray-400 text-sm"
-                          data-oid="-y8y-kt"
+                          data-oid="svsuobu"
                         >
                           {testimonial.company}
                         </div>
@@ -1049,33 +1052,33 @@ export default function SocialMediaServicePage({
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          data-oid="ndh_goa"
+          data-oid="g2j1.nj"
         >
           <Card
             className="glass-card-enhanced rounded-3xl p-12 text-center relative overflow-hidden group"
-            data-oid="mp.hj4_"
+            data-oid="s2jwbw:"
           >
-            <div className="relative z-10" data-oid=".-din_-">
+            <div className="relative z-10" data-oid="vjugzg-">
               <motion.div
                 animate={{ y: [0, -10, 0] }}
                 transition={{ duration: 3, repeat: Infinity }}
                 className="inline-block mb-8"
-                data-oid="ak-smj9"
+                data-oid="6vvwyfw"
               >
                 <Share2
                   className="w-20 h-20 text-pink-400 glow-effect"
-                  data-oid=":6ng1_y"
+                  data-oid="lfhks3x"
                 />
               </motion.div>
 
               <h2
                 className="text-3xl md:text-5xl font-bold text-white mb-6"
-                data-oid="0haowhe"
+                data-oid="m1474rw"
               >
                 Ready to{" "}
                 <span
                   className="bg-gradient-to-r from-pink-400 to-rose-500 bg-clip-text text-transparent"
-                  data-oid="6ljkehn"
+                  data-oid="ma_6g2y"
                 >
                   Amplify
                 </span>{" "}
@@ -1084,7 +1087,7 @@ export default function SocialMediaServicePage({
 
               <p
                 className="text-xl text-gray-300 mb-10 max-w-3xl mx-auto"
-                data-oid="391io6_"
+                data-oid="q1funug"
               >
                 Get a free social media audit and discover how we can help you
                 build an engaged community, increase brand awareness, and drive
@@ -1093,27 +1096,27 @@ export default function SocialMediaServicePage({
 
               <div
                 className="flex flex-col sm:flex-row gap-6 justify-center"
-                data-oid="fj15v36"
+                data-oid="ihfytlz"
               >
                 <motion.div
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
-                  data-oid="d09ma_d"
+                  data-oid="9khz52q"
                 >
                   <Button
                     size="lg"
-                    className="bg-gradient-to-r from-pink-500 to-rose-600 hover:from-pink-600 hover:to-rose-700 text-white px-12 py-6 text-lg font-bold shadow-2xl btn-premium group"
+                    className="bg-gradient-to-r from-pink-500 to-rose-600 hover:from-pink-600 hover:to-rose-700 text-white btn-responsive text-lg font-bold shadow-2xl btn-premium group"
                     onClick={() => onNavigate("home")}
-                    data-oid="_mv4r88"
+                    data-oid="38bs0ue"
                   >
                     <Calendar
                       className="mr-3 h-6 w-6 group-hover:animate-bounce"
-                      data-oid="2cb6pa-"
+                      data-oid=":82qo8f"
                     />
                     Get Free Social Audit
                     <ArrowRight
                       className="ml-3 h-6 w-6 group-hover:translate-x-1 transition-transform"
-                      data-oid="pcls3jf"
+                      data-oid="ew0d-om"
                     />
                   </Button>
                 </motion.div>
@@ -1121,18 +1124,18 @@ export default function SocialMediaServicePage({
                 <motion.div
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
-                  data-oid="-lm.a.f"
+                  data-oid="9j2jwqk"
                 >
                   <Button
                     variant="outline"
                     size="lg"
-                    className="glass border-white/30 text-white hover:bg-white/15 px-12 py-6 text-lg font-semibold group"
+                    className="glass border-white/30 text-white hover:bg-white/15 btn-responsive text-lg font-semibold group"
                     onClick={() => onNavigate("pricing")}
-                    data-oid="y4c:t0e"
+                    data-oid="q.b344y"
                   >
                     <BarChart3
                       className="mr-3 h-6 w-6 group-hover:scale-110 transition-transform"
-                      data-oid="lakytue"
+                      data-oid="004yrfs"
                     />
                     View Social Pricing
                   </Button>
@@ -1142,7 +1145,7 @@ export default function SocialMediaServicePage({
 
             <div
               className="absolute inset-0 bg-gradient-to-br from-pink-500/5 to-rose-500/5 group-hover:from-pink-500/10 group-hover:to-rose-500/10 transition-all duration-500"
-              data-oid="olnd5t6"
+              data-oid="82-n_xa"
             ></div>
           </Card>
         </motion.section>

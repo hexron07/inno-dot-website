@@ -21,44 +21,50 @@ export default function ServiceDetailPage({
   const renderServicePage = () => {
     switch (service) {
       case "SEO":
-        return <SEOServicePage onNavigate={onNavigate} data-oid="mn-4.qc" />;
+        return <SEOServicePage onNavigate={onNavigate} data-oid="f8wthjy" />;
       case "PPC":
-        return <PPCServicePage onNavigate={onNavigate} data-oid="b_pyp:i" />;
+        return <PPCServicePage onNavigate={onNavigate} data-oid="0m7g68x" />;
       case "Social Media Marketing":
         return (
-          <SocialMediaServicePage onNavigate={onNavigate} data-oid="1:h78a." />
+          <SocialMediaServicePage onNavigate={onNavigate} data-oid="6zs2v60" />
         );
+
       case "Content Marketing":
         return (
           <ContentMarketingServicePage
             onNavigate={onNavigate}
-            data-oid="lxrf24r"
+            data-oid="xu_abvl"
           />
         );
+
       case "Email Marketing":
         return (
           <EmailMarketingServicePage
             onNavigate={onNavigate}
-            data-oid="znxu5ab"
+            data-oid="tu8yi4r"
           />
         );
+
       case "Web Design & Development":
         return (
-          <WebDesignServicePage onNavigate={onNavigate} data-oid="ltlq9pf" />
+          <WebDesignServicePage onNavigate={onNavigate} data-oid="wz0sr.y" />
         );
+
       case "Brand Strategy & Design":
         return (
           <BrandStrategyServicePage
             onNavigate={onNavigate}
-            data-oid="xmbnl.y"
+            data-oid="9oz_.q9"
           />
         );
+
       case "AI Automation":
         return (
-          <AIAutomationServicePage onNavigate={onNavigate} data-oid="zx3_9-0" />
+          <AIAutomationServicePage onNavigate={onNavigate} data-oid="ozh07gj" />
         );
+
       default:
-        return <SEOServicePage onNavigate={onNavigate} data-oid="17e.1f4" />;
+        return <SEOServicePage onNavigate={onNavigate} data-oid="sr1m:9i" />;
     }
   };
 

@@ -24,6 +24,7 @@ import {
   Smartphone,
   BarChart3,
   Share2,
+  CreditCard,
 } from "lucide-react";
 
 type Page =
@@ -59,6 +60,7 @@ export default function PrivacyPage({ onNavigate }: PrivacyPageProps) {
             "Name, email address, phone number, and job title",
             "Company information including business name and address",
             "Billing and payment information for our services",
+            "Payment card information (processed securely through Stripe)",
             "Communication preferences and marketing opt-ins",
           ],
         },
@@ -130,7 +132,8 @@ export default function PrivacyPage({ onNavigate }: PrivacyPageProps) {
             "Marketing platforms (Google, Facebook, LinkedIn, etc.)",
             "Analytics tools (Google Analytics, etc.)",
             "CRM and email marketing services",
-            "Payment processors and billing systems",
+            "Payment processors (Stripe) and billing systems",
+            "Financial institutions for payment processing",
           ],
         },
         {
@@ -321,6 +324,59 @@ export default function PrivacyPage({ onNavigate }: PrivacyPageProps) {
       ],
     },
     {
+      id: "payment-processing",
+      title: "Payment Processing and Financial Data",
+      icon: CreditCard,
+      summary: "How we handle payment information and financial transactions through Stripe.",
+      content: [
+        {
+          subtitle: "Payment Information Collection",
+          details: [
+            "Credit card numbers, expiration dates, and CVV codes",
+            "Billing addresses and contact information",
+            "Bank account details for ACH payments (when applicable)",
+            "Payment history and transaction records",
+          ],
+        },
+        {
+          subtitle: "Stripe Payment Processing",
+          details: [
+            "All payment processing is handled by Stripe, Inc.",
+            "We do not store complete credit card information on our servers",
+            "Stripe maintains PCI DSS Level 1 compliance",
+            "Payment data is encrypted and tokenized by Stripe",
+          ],
+        },
+        {
+          subtitle: "Financial Data Security",
+          details: [
+            "SSL/TLS encryption for all payment transactions",
+            "Tokenization of sensitive payment information",
+            "Regular security audits and compliance monitoring",
+            "Fraud detection and prevention measures",
+          ],
+        },
+        {
+          subtitle: "Payment Data Retention",
+          details: [
+            "Transaction records retained for 7 years for tax purposes",
+            "Payment method tokens stored securely for recurring billing",
+            "Failed payment attempts logged for fraud prevention",
+            "Refund and chargeback data maintained per legal requirements",
+          ],
+        },
+        {
+          subtitle: "Third-Party Payment Services",
+          details: [
+            "Stripe's privacy policy applies to payment processing: https://stripe.com/privacy",
+            "Payment data may be processed in multiple jurisdictions",
+            "Stripe may share data with financial institutions as required",
+            "We receive limited payment information from Stripe for billing purposes",
+          ],
+        },
+      ],
+    },
+    {
       id: "compliance",
       title: "Legal Compliance",
       icon: Shield,
@@ -332,6 +388,7 @@ export default function PrivacyPage({ onNavigate }: PrivacyPageProps) {
             "General Data Protection Regulation (GDPR)",
             "California Consumer Privacy Act (CCPA)",
             "CAN-SPAM Act for email communications",
+            "Payment Card Industry Data Security Standard (PCI DSS)",
             "Various state and federal privacy regulations",
           ],
         },
@@ -341,36 +398,37 @@ export default function PrivacyPage({ onNavigate }: PrivacyPageProps) {
             "Regular privacy impact assessments",
             "Data Processing Agreements with service providers",
             "Privacy by design in new service development",
+            "PCI DSS compliance through Stripe payment processing",
             "Ongoing monitoring of regulatory changes",
           ],
         },
       ],
-    },
+    }
   ];
 
   const lastUpdated = "December 24, 2024";
 
   return (
-    <div className="pt-20 md:pt-24 pb-12 md:pb-20 relative" data-oid="6p3358v">
+    <div className="pt-20 md:pt-24 pb-12 md:pb-20 relative" data-oid="ydt9a:g">
       {/* Enhanced Background */}
-      <div className="fixed inset-0 z-0" data-oid="njygzi.">
+      <div className="fixed inset-0 z-0" data-oid="giraq6x">
         <div
           className="absolute top-20 right-20 w-96 h-96 bg-blue-600/15 rounded-full filter blur-3xl animate-float"
-          data-oid="opzkmfl"
+          data-oid="2o1cpie"
         ></div>
         <div
           className="absolute bottom-20 left-20 w-96 h-96 bg-purple-600/15 rounded-full filter blur-3xl animate-float-delayed"
-          data-oid="m.uxlmi"
+          data-oid="7-y_9pu"
         ></div>
         <div
           className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-gradient-to-r from-violet-500/10 to-cyan-500/10 rounded-full filter blur-3xl"
-          data-oid="ifsth8:"
+          data-oid="x2l0wqy"
         ></div>
       </div>
 
       <div
         className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8"
-        data-oid="h5fav0-"
+        data-oid="y:vi-8o"
       >
         {/* Header */}
         <motion.div
@@ -378,19 +436,19 @@ export default function PrivacyPage({ onNavigate }: PrivacyPageProps) {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          data-oid="srk91j7"
+          data-oid="phmgiu5"
         >
           <motion.div
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            data-oid="uzd5a2h"
+            data-oid="n55z92c"
           >
             <Badge
               className="mb-8 bg-gradient-to-r from-blue-500 to-purple-600 text-white px-6 py-3 text-lg font-semibold"
-              data-oid="-kbn0f2"
+              data-oid="183i94g"
             >
-              <Shield className="w-5 h-5 mr-2" data-oid="vt9yfvr" />
+              <Shield className="w-5 h-5 mr-2" data-oid="qadsj1." />
               Privacy & Data Protection
             </Badge>
           </motion.div>
@@ -400,12 +458,12 @@ export default function PrivacyPage({ onNavigate }: PrivacyPageProps) {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.3 }}
-            data-oid="tvuxn0z"
+            data-oid=".ejrjkd"
           >
-            <span className="block text-white" data-oid="bmr-cjs">
+            <span className="block text-white" data-oid="hrlan1i">
               Privacy
             </span>
-            <span className="block gradient-text-vibrant" data-oid="sbrn23_">
+            <span className="block gradient-text-vibrant" data-oid="0_mldh-">
               Policy
             </span>
           </motion.h1>
@@ -415,9 +473,9 @@ export default function PrivacyPage({ onNavigate }: PrivacyPageProps) {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.5 }}
-            data-oid="om51kq4"
+            data-oid="j.st_th"
           >
-            <p className="mb-4" data-oid="r66uqpk">
+            <p className="mb-4" data-oid="l8_de2z">
               At Inno Dot, we are committed to protecting your privacy and
               ensuring the security of your personal information. This privacy
               policy explains how we collect, use, and safeguard your data when
@@ -425,10 +483,10 @@ export default function PrivacyPage({ onNavigate }: PrivacyPageProps) {
             </p>
             <div
               className="flex items-center justify-center space-x-2 text-sm text-gray-400"
-              data-oid="ins5ew2"
+              data-oid="jxtmxf9"
             >
-              <Calendar className="w-4 h-4" data-oid="owi_i11" />
-              <span data-oid="2d-0sxp">Last updated: {lastUpdated}</span>
+              <Calendar className="w-4 h-4" data-oid="vvcij7u" />
+              <span data-oid="reeu0j8">Last updated: {lastUpdated}</span>
             </div>
           </motion.div>
 
@@ -438,17 +496,17 @@ export default function PrivacyPage({ onNavigate }: PrivacyPageProps) {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.7 }}
             className="mb-12"
-            data-oid="wnoeceh"
+            data-oid="ghkxw1q"
           >
             <h3
               className="text-xl font-semibold text-white mb-6"
-              data-oid="v.c1ps-"
+              data-oid="ylpmz6a"
             >
               Quick Navigation
             </h3>
             <div
               className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3"
-              data-oid="1-.yq3d"
+              data-oid="xvx8t-m"
             >
               {privacySections.map((section, index) => (
                 <motion.button
@@ -463,15 +521,16 @@ export default function PrivacyPage({ onNavigate }: PrivacyPageProps) {
                   initial={{ opacity: 0, y: 10 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.3, delay: 0.8 + index * 0.05 }}
-                  data-oid="v1el7zs"
+                  data-oid=":u-hup."
                 >
                   <section.icon
                     className="w-5 h-5 text-blue-400 mb-2"
-                    data-oid="43qccbh"
+                    data-oid="kvddof7"
                   />
+
                   <div
                     className="text-sm font-medium text-white group-hover:text-blue-300 transition-colors"
-                    data-oid="xwymn:f"
+                    data-oid="5qy7xg5"
                   >
                     {section.title}
                   </div>
@@ -482,7 +541,7 @@ export default function PrivacyPage({ onNavigate }: PrivacyPageProps) {
         </motion.div>
 
         {/* Privacy Sections */}
-        <div className="space-y-8" data-oid="k-uzrun">
+        <div className="space-y-8" data-oid="a.tgfx2">
           {privacySections.map((section, index) => (
             <motion.div
               key={section.id}
@@ -492,43 +551,43 @@ export default function PrivacyPage({ onNavigate }: PrivacyPageProps) {
               transition={{ duration: 0.6, delay: index * 0.1 }}
               viewport={{ once: true }}
               className="scroll-mt-24"
-              data-oid="9.b1ju4"
+              data-oid="zzyzab6"
             >
               <Card
                 className="glass-card-enhanced border-white/20 overflow-hidden"
-                data-oid="aw5dhx_"
+                data-oid="80hbp4m"
               >
-                <CardContent className="p-0" data-oid="j._4pcf">
+                <CardContent className="p-0" data-oid="ts:ug6_">
                   {/* Section Header */}
                   <motion.button
                     onClick={() => toggleSection(section.id)}
                     className="w-full p-6 md:p-8 text-left hover:bg-white/5 transition-colors duration-300 flex items-center justify-between group"
                     whileHover={{ filter: "brightness(1.02)" }}
-                    data-oid="fjgviyb"
+                    data-oid="az5quf."
                   >
                     <div
                       className="flex items-center space-x-4"
-                      data-oid="kofa-8h"
+                      data-oid="p.6.c80"
                     >
                       <div
                         className="w-12 h-12 bg-gradient-to-r from-blue-500 to-purple-600 rounded-xl flex items-center justify-center group-hover:scale-105 transition-transform duration-300"
-                        data-oid="87xe9nn"
+                        data-oid="3-ylsci"
                       >
                         <section.icon
                           className="w-6 h-6 text-white"
-                          data-oid="bj_kakr"
+                          data-oid="6o25sq3"
                         />
                       </div>
-                      <div data-oid=".5y87vi">
+                      <div data-oid="8im:gyf">
                         <h2
                           className="heading-card text-card-primary mb-2"
-                          data-oid="rka7sng"
+                          data-oid="6gtehva"
                         >
                           {section.title}
                         </h2>
                         <p
                           className="text-body-sm text-card-secondary"
-                          data-oid="syiw.48"
+                          data-oid="q2gv4t_"
                         >
                           {section.summary}
                         </p>
@@ -539,11 +598,11 @@ export default function PrivacyPage({ onNavigate }: PrivacyPageProps) {
                         rotate: expandedSection === section.id ? 180 : 0,
                       }}
                       transition={{ duration: 0.3 }}
-                      data-oid="ln-v15e"
+                      data-oid="c5v04pb"
                     >
                       <ChevronDown
                         className="w-5 h-5 text-gray-400"
-                        data-oid="sd2u-e2"
+                        data-oid="c33fo_0"
                       />
                     </motion.div>
                   </motion.button>
@@ -557,37 +616,38 @@ export default function PrivacyPage({ onNavigate }: PrivacyPageProps) {
                     }}
                     transition={{ duration: 0.4, ease: "easeInOut" }}
                     className="overflow-hidden"
-                    data-oid="u58_1z."
+                    data-oid="1efb1f9"
                   >
                     <div
                       className="px-6 md:px-8 pb-6 md:pb-8 border-t border-white/10"
-                      data-oid="--tmbn:"
+                      data-oid="fhl14a2"
                     >
-                      <div className="space-y-6 mt-6" data-oid="ia5-38b">
+                      <div className="space-y-6 mt-6" data-oid="h_v4-k8">
                         {section.content.map((subsection, idx) => (
-                          <div key={idx} data-oid="yio:8px">
+                          <div key={idx} data-oid=".3.:rap">
                             <h4
                               className="text-lg font-semibold text-white mb-3 flex items-center"
-                              data-oid="izbt._t"
+                              data-oid="4wjmfdr"
                             >
                               <CheckCircle
                                 className="w-5 h-5 text-green-400 mr-2"
-                                data-oid="3e.rrlu"
+                                data-oid="utvsy3q"
                               />
+
                               {subsection.subtitle}
                             </h4>
-                            <ul className="space-y-2" data-oid="x84q98-">
+                            <ul className="space-y-2" data-oid="ubm32ra">
                               {subsection.details.map((detail, detailIdx) => (
                                 <li
                                   key={detailIdx}
                                   className="flex items-start text-card-secondary"
-                                  data-oid=":o2elqt"
+                                  data-oid="6ufwat1"
                                 >
                                   <div
                                     className="w-2 h-2 bg-blue-400 rounded-full mt-2 mr-3 flex-shrink-0"
-                                    data-oid=":g:kj2r"
+                                    data-oid="n8x.d9b"
                                   ></div>
-                                  <span data-oid="v1jnspy">{detail}</span>
+                                  <span data-oid="dxexe5s">{detail}</span>
                                 </li>
                               ))}
                             </ul>
@@ -609,28 +669,28 @@ export default function PrivacyPage({ onNavigate }: PrivacyPageProps) {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          data-oid="9k4ok31"
+          data-oid="-i-q1v0"
         >
           <Card
             className="glass-card-enhanced border-white/20"
-            data-oid="4xio9ae"
+            data-oid="acrpbii"
           >
-            <CardContent className="p-6 md:p-8" data-oid="s0ttt2x">
-              <div className="text-center mb-8" data-oid="70-tys7">
-                <h2 className="heading-section mb-4" data-oid="s4vtm1c">
-                  <span className="text-white" data-oid="r3w2e3i">
+            <CardContent className="p-6 md:p-8" data-oid="3h8lp39">
+              <div className="text-center mb-8" data-oid="u:0crjn">
+                <h2 className="heading-section mb-4" data-oid="w87flk6">
+                  <span className="text-white" data-oid="wd.q40p">
                     Contact Us About
                   </span>
                   <span
                     className="block gradient-text-vibrant"
-                    data-oid="vxnanf."
+                    data-oid=".55:ge3"
                   >
                     Privacy Matters
                   </span>
                 </h2>
                 <p
                   className="text-body-lg text-contrast-medium max-w-3xl mx-auto"
-                  data-oid="8-8lrtx"
+                  data-oid="j7a6ujq"
                 >
                   If you have questions about this privacy policy or want to
                   exercise your rights, please don't hesitate to contact us
@@ -640,26 +700,26 @@ export default function PrivacyPage({ onNavigate }: PrivacyPageProps) {
 
               <div
                 className="grid grid-cols-1 md:grid-cols-3 gap-6"
-                data-oid="be8ulfq"
+                data-oid="chxs3ed"
               >
                 <motion.div
                   className="text-center"
                   whileHover={{ filter: "brightness(1.05)" }}
-                  data-oid="2dvc-1j"
+                  data-oid="2igf8rs"
                 >
                   <div
                     className="w-16 h-16 bg-gradient-to-r from-blue-500 to-purple-600 rounded-2xl flex items-center justify-center mx-auto mb-4"
-                    data-oid="wtqgbih"
+                    data-oid="adn-0f8"
                   >
-                    <Mail className="w-8 h-8 text-white" data-oid="56fv-h2" />
+                    <Mail className="w-8 h-8 text-white" data-oid="es:b3_e" />
                   </div>
                   <h3
                     className="text-lg font-semibold text-white mb-2"
-                    data-oid="vx0lyp9"
+                    data-oid="l_pjx:s"
                   >
                     Email Us
                   </h3>
-                  <p className="text-card-secondary" data-oid="ueloaug">
+                  <p className="text-card-secondary" data-oid="vb7-wt9">
                     privacy@innodot.com
                   </p>
                 </motion.div>
@@ -667,21 +727,21 @@ export default function PrivacyPage({ onNavigate }: PrivacyPageProps) {
                 <motion.div
                   className="text-center"
                   whileHover={{ filter: "brightness(1.05)" }}
-                  data-oid="f0albf1"
+                  data-oid="ibjpzem"
                 >
                   <div
                     className="w-16 h-16 bg-gradient-to-r from-green-500 to-blue-500 rounded-2xl flex items-center justify-center mx-auto mb-4"
-                    data-oid="ctfp6fx"
+                    data-oid="snms.do"
                   >
-                    <Phone className="w-8 h-8 text-white" data-oid="t1:0dtt" />
+                    <Phone className="w-8 h-8 text-white" data-oid="z0.0s79" />
                   </div>
                   <h3
                     className="text-lg font-semibold text-white mb-2"
-                    data-oid="ynb_u2l"
+                    data-oid="n4j3v-t"
                   >
                     Call Us
                   </h3>
-                  <p className="text-card-secondary" data-oid="83_9e8j">
+                  <p className="text-card-secondary" data-oid="4_ju0i9">
                     +1 (555) 123-4567
                   </p>
                 </motion.div>
@@ -689,42 +749,42 @@ export default function PrivacyPage({ onNavigate }: PrivacyPageProps) {
                 <motion.div
                   className="text-center"
                   whileHover={{ filter: "brightness(1.05)" }}
-                  data-oid=".jo-q-7"
+                  data-oid="-jicpog"
                 >
                   <div
                     className="w-16 h-16 bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center mx-auto mb-4"
-                    data-oid="tscbu68"
+                    data-oid="jz64e4r"
                   >
-                    <MapPin className="w-8 h-8 text-white" data-oid="th5sgiv" />
+                    <MapPin className="w-8 h-8 text-white" data-oid="v7.i3z." />
                   </div>
                   <h3
                     className="text-lg font-semibold text-white mb-2"
-                    data-oid="pftzeq9"
+                    data-oid="rkfdp4x"
                   >
                     Visit Us
                   </h3>
-                  <p className="text-card-secondary" data-oid="niaieyz">
-                    123 Innovation Drive
-                    <br data-oid="kzm4otb" />
-                    Digital City, DC 12345
+                  <p className="text-card-secondary" data-oid="kin15hm">
+                    Morgan Hill, California
+                    <br data-oid=":qqqtm:" />
+                    95037
                   </p>
                 </motion.div>
               </div>
 
               <div
                 className="mt-8 pt-8 border-t border-white/10 text-center"
-                data-oid="ghwz:5e"
+                data-oid="4:t7z9m"
               >
                 <motion.div
                   className="button-group-responsive"
-                  data-oid="n3z9:t."
+                  data-oid="8zhg6bm"
                 >
                   <Button
                     className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white btn-premium"
                     onClick={() => onNavigate("home")}
-                    data-oid="m_bdis8"
+                    data-oid="-539mtm"
                   >
-                    <FileText className="mr-2 h-4 w-4" data-oid="1c4y81g" />
+                    <FileText className="mr-2 h-4 w-4" data-oid="55naw73" />
                     Back to Home
                   </Button>
                   <Button
@@ -733,9 +793,9 @@ export default function PrivacyPage({ onNavigate }: PrivacyPageProps) {
                     onClick={() =>
                       window.open("mailto:privacy@innodot.com", "_blank")
                     }
-                    data-oid="jc8f0o."
+                    data-oid="zl-v:9d"
                   >
-                    <Mail className="mr-2 h-4 w-4" data-oid="dpu5kk8" />
+                    <Mail className="mr-2 h-4 w-4" data-oid="lgk-x0_" />
                     Contact Privacy Team
                   </Button>
                 </motion.div>

@@ -129,27 +129,27 @@ export default function OptimizedImage({
           : {}
       }
       aria-hidden="true"
-      data-oid="3locewc"
+      data-oid="6-a9:g3"
     >
       {placeholder === "empty" && (
-        <div className="text-gray-500 text-center p-4" data-oid="o1k866-">
+        <div className="text-gray-500 text-center p-4" data-oid="h84gcad">
           <svg
             className="w-8 h-8 mx-auto mb-2"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
             aria-hidden="true"
-            data-oid="6gud9-7"
+            data-oid="q8yonzw"
           >
             <path
               strokeLinecap="round"
               strokeLinejoin="round"
               strokeWidth={1.5}
               d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"
-              data-oid="j3ne5k7"
+              data-oid="6y5bh7v"
             />
           </svg>
-          <span className="text-xs" data-oid="r7dhcth">
+          <span className="text-xs" data-oid="bddxitk">
             Loading...
           </span>
         </div>
@@ -163,26 +163,26 @@ export default function OptimizedImage({
       className="absolute inset-0 bg-gray-800 flex items-center justify-center text-gray-400 border border-gray-700 rounded"
       role="img"
       aria-label={`Failed to load: ${alt}`}
-      data-oid="t:22opa"
+      data-oid="cp4v:6_"
     >
-      <div className="text-center p-4" data-oid="glj7qmi">
+      <div className="text-center p-4" data-oid="0c2gq7d">
         <svg
           className="w-8 h-8 mx-auto mb-2"
           fill="none"
           stroke="currentColor"
           viewBox="0 0 24 24"
           aria-hidden="true"
-          data-oid="q0wd2ef"
+          data-oid="f0uu-di"
         >
           <path
             strokeLinecap="round"
             strokeLinejoin="round"
             strokeWidth={1.5}
             d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.732 16.5c-.77.833.192 2.5 1.732 2.5z"
-            data-oid="k64aqq."
+            data-oid="j2tq1_j"
           />
         </svg>
-        <span className="text-xs" data-oid="zorhsin">
+        <span className="text-xs" data-oid="br40bv_">
           Image unavailable
         </span>
       </div>
@@ -194,14 +194,14 @@ export default function OptimizedImage({
       ref={imgRef}
       className={`relative overflow-hidden bg-gray-900 ${className}`}
       style={{ width, height }}
-      data-oid="1rp8a5o"
+      data-oid="f1bprfe"
     >
-      {!isInView && <Placeholder data-oid="_l3le1l" />}
+      {!isInView && <Placeholder data-oid="0-hfzos" />}
 
       {isInView && (
         <>
-          {!isLoaded && !hasError && <Placeholder data-oid="vmlyn8f" />}
-          {hasError && <ErrorFallback data-oid="b1av--l" />}
+          {!isLoaded && !hasError && <Placeholder data-oid="gc9-x1m" />}
+          {hasError && <ErrorFallback data-oid="b-yn3d7" />}
 
           <img
             src={optimizedSrc}
@@ -221,7 +221,7 @@ export default function OptimizedImage({
               isLoaded ? "opacity-100" : "opacity-0"
             } ${hasError ? "hidden" : ""} w-full h-full object-cover`}
             {...props}
-            data-oid="xvtppg7"
+            data-oid="oyfzwxd"
           />
         </>
       )}

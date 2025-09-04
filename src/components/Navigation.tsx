@@ -116,20 +116,20 @@ export default function Navigation({
     <>
       <motion.nav
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-          scrolled ? "glass-ultra border-b border-white/10" : "bg-transparent"
+          scrolled ? "glass-ultra border-b border-black/50" : "bg-transparent"
         }`}
         initial={{ y: -100 }}
         animate={{ y: 0 }}
         transition={{ duration: 0.6, ease: "easeOut" }}
-        data-oid="xy85cdi"
+        data-oid="abl7uyu"
       >
         <div
           className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
-          data-oid="5:4dz8:"
+          data-oid="i3zd:59"
         >
           <div
             className="flex items-center justify-between h-16 md:h-20"
-            data-oid="i:9lbkt"
+            data-oid="ykwoa::"
           >
             {/* Enhanced Logo */}
             <motion.div
@@ -137,41 +137,41 @@ export default function Navigation({
               onClick={() => onNavigate("home")}
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
-              data-oid="ww67oyv"
+              data-oid="d7c-9iw"
             >
-              <div className="relative" data-oid="sj_i0.d">
+              <div className="relative" data-oid="yf.x:bx">
                 <motion.div
                   className="w-10 h-10 md:w-12 md:h-12 bg-gradient-to-r from-blue-500 to-purple-600 rounded-xl flex items-center justify-center group-hover:shadow-lg group-hover:shadow-blue-500/25 transition-all duration-300"
                   whileHover={{ rotate: 5 }}
-                  data-oid="0vmnpey"
+                  data-oid="6ca6ony"
                 >
                   <Zap
                     className="w-5 h-5 md:w-6 md:h-6 text-white"
-                    data-oid="z09qhu9"
+                    data-oid="abdcu51"
                   />
                 </motion.div>
                 <motion.div
                   className="absolute -top-1 -right-1 w-3 h-3 md:w-4 md:h-4 bg-gradient-to-r from-cyan-400 to-blue-500 rounded-full flex items-center justify-center"
                   animate={{ scale: [1, 1.2, 1] }}
                   transition={{ duration: 2, repeat: Infinity }}
-                  data-oid="3h:4_27"
+                  data-oid="ohz0jbh"
                 >
                   <Sparkles
                     className="w-1.5 h-1.5 md:w-2 md:h-2 text-white"
-                    data-oid="v4mtwy:"
+                    data-oid="0822ei0"
                   />
                 </motion.div>
               </div>
-              <div className="ml-3 md:ml-4 hidden sm:block" data-oid="ua:pg2-">
+              <div className="ml-3 md:ml-4" data-oid="dhz-b0n">
                 <div
                   className="text-lg md:text-xl font-bold bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent"
-                  data-oid="9iq:pbu"
+                  data-oid="pels5q."
                 >
                   Inno Dot
                 </div>
                 <div
                   className="text-xs md:text-sm text-blue-400 font-medium -mt-1"
-                  data-oid="a_zl8-0"
+                  data-oid="r7yv1l7"
                 >
                   Digital Innovation
                 </div>
@@ -181,17 +181,17 @@ export default function Navigation({
             {/* Desktop Navigation - Responsive Spacing */}
             <div
               className="hidden lg:flex items-center space-x-2 xl:space-x-3"
-              data-oid="q2qm942"
+              data-oid="tcxjk5c"
             >
               <NavItem
                 label="Home"
                 active={currentPage === "home"}
                 onClick={() => onNavigate("home")}
-                data-oid="2v_:xe5"
+                data-oid="z5teyte"
               />
 
               {/* Enhanced Services Dropdown */}
-              <div className="relative" data-oid="9.tcfjx">
+              <div className="relative" data-oid="dgrp61:">
                 <motion.button
                   onClick={() => setIsServicesOpen(!isServicesOpen)}
                   className={`flex items-center space-x-2 px-5 py-3 rounded-xl text-base font-medium transition-all duration-200 ${
@@ -202,33 +202,33 @@ export default function Navigation({
                   }`}
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
-                  data-oid="-7y0brq"
+                  data-oid="r3sw-bv"
                 >
-                  <span data-oid="x4tjpuk">Services</span>
+                  <span data-oid="qp946fd">Services</span>
                   <motion.div
                     animate={{ rotate: isServicesOpen ? 180 : 0 }}
                     transition={{ duration: 0.2 }}
-                    data-oid="0ltvjqt"
+                    data-oid="vh0h20f"
                   >
-                    <ChevronDown className="w-4 h-4" data-oid="tx_kih1" />
+                    <ChevronDown className="w-4 h-4" data-oid="_qn_0e8" />
                   </motion.div>
                 </motion.button>
 
-                <AnimatePresence data-oid="9ae4nit">
+                <AnimatePresence data-oid="05fbsxx">
                   {isServicesOpen && (
                     <motion.div
                       initial={{ opacity: 0, y: -10, scale: 0.95 }}
                       animate={{ opacity: 1, y: 0, scale: 1 }}
                       exit={{ opacity: 0, y: -10, scale: 0.95 }}
                       transition={{ duration: 0.2, ease: "easeOut" }}
-                      className="absolute top-full left-0 mt-2 w-80 xl:w-96 glass-ultra rounded-2xl border border-white/20 overflow-hidden shadow-2xl"
+                      className="absolute top-full left-0 mt-2 w-80 xl:w-96 glass-ultra rounded-2xl border border-black/40 overflow-hidden shadow-2xl"
                       onMouseLeave={() => setIsServicesOpen(false)}
-                      data-oid="9725dd-"
+                      data-oid="dwwba.8"
                     >
-                      <div className="p-3" data-oid="a-q0qs8">
+                      <div className="p-3" data-oid="0mwcf:v">
                         <div
                           className="grid grid-cols-1 gap-1"
-                          data-oid="r7nrm-p"
+                          data-oid="3e44_24"
                         >
                           {services.map((service, index) => (
                             <motion.button
@@ -242,18 +242,19 @@ export default function Navigation({
                                 delay: index * 0.05,
                               }}
                               whileHover={{ x: 4 }}
-                              data-oid="18kn5pi"
+                              data-oid="i1m9w73"
                             >
                               <motion.div
                                 className={`w-10 h-10 bg-gradient-to-r ${service.gradient} rounded-xl flex items-center justify-center relative`}
                                 whileHover={{ scale: 1.1, rotate: 5 }}
                                 transition={{ duration: 0.2 }}
-                                data-oid="g4da1cu"
+                                data-oid="z07ksrv"
                               >
                                 <service.icon
                                   className="w-5 h-5 text-white"
-                                  data-oid="m0u:f75"
+                                  data-oid="ic7bzo7"
                                 />
+
                                 {service.isNew && (
                                   <motion.div
                                     className="absolute -top-1 -right-1 w-3 h-3 bg-gradient-to-r from-cyan-400 to-blue-500 rounded-full"
@@ -262,17 +263,17 @@ export default function Navigation({
                                       duration: 2,
                                       repeat: Infinity,
                                     }}
-                                    data-oid="g2g:vp3"
+                                    data-oid="8rgm3l:"
                                   />
                                 )}
                               </motion.div>
                               <div
                                 className="flex-1 min-w-0"
-                                data-oid="sw_px6:"
+                                data-oid="jwhdh6e"
                               >
                                 <div
                                   className="text-sm font-medium text-white group-hover:text-blue-100 transition-colors flex items-center"
-                                  data-oid="p:1o31z"
+                                  data-oid="rnkrx9t"
                                 >
                                   {service.name}
                                   {service.isNew && (
@@ -283,7 +284,7 @@ export default function Navigation({
                                         duration: 2,
                                         repeat: Infinity,
                                       }}
-                                      data-oid="jm7g:1y"
+                                      data-oid="986jw86"
                                     >
                                       New ✨
                                     </motion.span>
@@ -291,7 +292,7 @@ export default function Navigation({
                                 </div>
                                 <div
                                   className="text-xs text-gray-400 group-hover:text-gray-300 transition-colors"
-                                  data-oid="rga2.1f"
+                                  data-oid="u9kayva"
                                 >
                                   {service.description}
                                 </div>
@@ -302,8 +303,8 @@ export default function Navigation({
                       </div>
 
                       <div
-                        className="border-t border-white/10 p-3 bg-white/5"
-                        data-oid="lyk853v"
+                        className="border-t border-black/30 p-3 bg-white/5"
+                        data-oid=":7ecrwb"
                       >
                         <motion.button
                           onClick={() => {
@@ -312,7 +313,7 @@ export default function Navigation({
                           }}
                           className="w-full text-center text-sm text-blue-400 hover:text-blue-300 transition-colors font-medium py-2 rounded-lg hover:bg-white/5"
                           whileHover={{ scale: 1.02 }}
-                          data-oid="opcqqm6"
+                          data-oid="i8.:i0e"
                         >
                           View All Services →
                         </motion.button>
@@ -326,41 +327,42 @@ export default function Navigation({
                 label="Portfolio"
                 active={currentPage === "portfolio"}
                 onClick={() => onNavigate("portfolio")}
-                data-oid="ugaiqiy"
+                data-oid="l6mvp7f"
               />
 
               <NavItem
                 label="Pricing"
                 active={currentPage === "pricing"}
                 onClick={() => onNavigate("pricing")}
-                data-oid="_7itq6."
+                data-oid="h_kk.wr"
               />
             </div>
 
             {/* Enhanced CTA Button & Mobile Menu */}
             <div
               className="flex items-center space-x-2 md:space-x-4"
-              data-oid="ir4cav1"
+              data-oid="ubp9hx."
             >
               <motion.div
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
                 className="hidden md:block lg:hidden xl:block"
-                data-oid="zvwj27."
+                data-oid="k81ri9-"
               >
                 <Button
                   className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white px-4 md:px-6 xl:px-8 py-2 md:py-3 text-sm md:text-base font-medium rounded-xl btn-premium"
                   onClick={() => onNavigate("pricing")}
-                  data-oid="s3d:s7f"
+                  data-oid="rxvzf4y"
                 >
                   <Sparkles
                     className="w-3 h-3 md:w-4 md:h-4 mr-1 md:mr-2"
-                    data-oid="jo74y1o"
+                    data-oid="km2-xjj"
                   />
-                  <span className="hidden md:inline" data-oid="wg-p:y0">
+
+                  <span className="hidden md:inline" data-oid="bg0gwvo">
                     Get Started
                   </span>
-                  <span className="md:hidden" data-oid="mf5d9ep">
+                  <span className="md:hidden" data-oid="t-e31km">
                     Start
                   </span>
                 </Button>
@@ -374,22 +376,22 @@ export default function Navigation({
                 whileTap={{ scale: 0.95 }}
                 aria-label={isMenuOpen ? "Close menu" : "Open menu"}
                 aria-expanded={isMenuOpen}
-                data-oid="etstndg"
+                data-oid="lb:0-h."
               >
                 <motion.div
                   animate={{ rotate: isMenuOpen ? 90 : 0 }}
                   transition={{ duration: 0.2 }}
-                  data-oid="n_vsgo6"
+                  data-oid="2um9rha"
                 >
                   {isMenuOpen ? (
                     <X
                       className="w-5 h-5 md:w-6 md:h-6 text-white"
-                      data-oid="zp39ain"
+                      data-oid="iea:8em"
                     />
                   ) : (
                     <Menu
                       className="w-5 h-5 md:w-6 md:h-6 text-white"
-                      data-oid="sjysd1s"
+                      data-oid="ajo-892"
                     />
                   )}
                 </motion.div>
@@ -399,17 +401,17 @@ export default function Navigation({
         </div>
 
         {/* Enhanced Mobile Menu */}
-        <AnimatePresence data-oid="i-poxr_">
+        <AnimatePresence data-oid="qwabk_-">
           {isMenuOpen && (
             <motion.div
               initial={{ opacity: 0, height: 0 }}
               animate={{ opacity: 1, height: "auto" }}
               exit={{ opacity: 0, height: 0 }}
               transition={{ duration: 0.3, ease: "easeInOut" }}
-              className="lg:hidden glass-ultra border-t border-white/10 overflow-hidden"
-              data-oid="8v-4kv1"
+              className="lg:hidden glass-ultra border-t border-black/30 overflow-hidden"
+              data-oid="3rc4kqm"
             >
-              <div className="px-4 py-6 space-y-4" data-oid="o_0pa:_">
+              <div className="px-4 py-6 space-y-4" data-oid="n5o5v1m">
                 <MobileNavItem
                   label="Home"
                   active={currentPage === "home"}
@@ -417,17 +419,17 @@ export default function Navigation({
                     onNavigate("home");
                     setIsMenuOpen(false);
                   }}
-                  data-oid="cn.a-xc"
+                  data-oid="_p-23r2"
                 />
 
-                <div className="space-y-3" data-oid="59ian51">
+                <div className="space-y-3" data-oid="zc9fwgr">
                   <div
                     className="text-base font-medium text-gray-400 px-3"
-                    data-oid="tszztyl"
+                    data-oid="0u8fava"
                   >
                     Services
                   </div>
-                  <div className="space-y-1" data-oid="af_t8i5">
+                  <div className="space-y-1" data-oid="g8yey2i">
                     {services.map((service, index) => (
                       <motion.button
                         key={service.name}
@@ -437,34 +439,35 @@ export default function Navigation({
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.3, delay: index * 0.05 }}
                         whileHover={{ x: 4 }}
-                        data-oid="jglyn19"
+                        data-oid="yvxcpfe"
                       >
                         <motion.div
                           className={`w-8 h-8 bg-gradient-to-r ${service.gradient} rounded-lg flex items-center justify-center relative`}
                           whileHover={{ scale: 1.1 }}
-                          data-oid="gek-j-e"
+                          data-oid="muk-74z"
                         >
                           <service.icon
                             className="w-4 h-4 text-white"
-                            data-oid="ulcho91"
+                            data-oid="l8x57pq"
                           />
+
                           {service.isNew && (
                             <div
                               className="absolute -top-1 -right-1 w-2 h-2 bg-gradient-to-r from-cyan-400 to-blue-500 rounded-full animate-pulse"
-                              data-oid="vzm:pyg"
+                              data-oid="s6r-2ys"
                             />
                           )}
                         </motion.div>
-                        <div className="flex-1" data-oid="rxc42lu">
+                        <div className="flex-1" data-oid="gz6jwbj">
                           <div
                             className="text-base text-gray-300 group-hover:text-white transition-colors flex items-center"
-                            data-oid="-rlvczk"
+                            data-oid="cxxq2_g"
                           >
                             {service.name}
                             {service.isNew && (
                               <span
                                 className="ml-2 text-xs bg-gradient-to-r from-violet-500 to-purple-600 text-white px-1.5 py-0.5 rounded"
-                                data-oid="q0n0tvv"
+                                data-oid="iifg.11"
                               >
                                 New
                               </span>
@@ -483,7 +486,7 @@ export default function Navigation({
                     onNavigate("portfolio");
                     setIsMenuOpen(false);
                   }}
-                  data-oid="m4g2sdr"
+                  data-oid="dok89fh"
                 />
 
                 <MobileNavItem
@@ -493,12 +496,12 @@ export default function Navigation({
                     onNavigate("pricing");
                     setIsMenuOpen(false);
                   }}
-                  data-oid="8.rvlqg"
+                  data-oid="ilxzal2"
                 />
 
                 <div
-                  className="pt-4 border-t border-white/10"
-                  data-oid="9241_:9"
+                  className="pt-4 border-t border-black/30"
+                  data-oid="nhix9m:"
                 >
                   <Button
                     className="w-full bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white btn-premium py-3"
@@ -506,9 +509,9 @@ export default function Navigation({
                       onNavigate("pricing");
                       setIsMenuOpen(false);
                     }}
-                    data-oid="vg2as80"
+                    data-oid="m1qd66v"
                   >
-                    <Sparkles className="w-4 h-4 mr-2" data-oid=":vg9.:b" />
+                    <Sparkles className="w-4 h-4 mr-2" data-oid="hoeu9no" />
                     Get Started
                   </Button>
                 </div>
@@ -521,12 +524,12 @@ export default function Navigation({
       {/* Click outside overlay */}
       {(isMenuOpen || isServicesOpen) && (
         <div
-          className="fixed inset-0 z-40 bg-black/20 backdrop-blur-sm"
+          className="fixed inset-0 z-40 bg-black/20"
           onClick={() => {
             setIsMenuOpen(false);
             setIsServicesOpen(false);
           }}
-          data-oid="lb5145x"
+          data-oid="pwfvmnq"
         />
       )}
     </>
@@ -552,7 +555,7 @@ function NavItem({
       }`}
       whileHover={{ scale: 1.02 }}
       whileTap={{ scale: 0.98 }}
-      data-oid="26kglg1"
+      data-oid="_t899zr"
     >
       {label}
       {active && (
@@ -561,7 +564,7 @@ function NavItem({
           className="absolute bottom-0 left-0 right-0 h-0.5 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full"
           initial={false}
           transition={{ duration: 0.2 }}
-          data-oid="iiugrjb"
+          data-oid="7_qrz:6"
         />
       )}
     </motion.button>
@@ -587,7 +590,7 @@ function MobileNavItem({
       }`}
       whileHover={{ x: 4 }}
       whileTap={{ scale: 0.98 }}
-      data-oid="9jxr_-d"
+      data-oid="mqrorbk"
     >
       {label}
     </motion.button>

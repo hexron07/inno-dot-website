@@ -178,7 +178,7 @@ export default function AccessibilityProvider({
   };
 
   return (
-    <AccessibilityContext.Provider value={contextValue} data-oid="b6.vyv5">
+    <AccessibilityContext.Provider value={contextValue} data-oid="3vz5.:l">
       {children}
     </AccessibilityContext.Provider>
   );
@@ -190,7 +190,7 @@ export function SkipLink() {
     <a
       href="#main-content"
       className="skip-link sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2 focus:bg-blue-600 focus:text-white focus:rounded focus:shadow-lg focus:outline-none focus:ring-2 focus:ring-blue-300"
-      data-oid="oec50oo"
+      data-oid="njkvgig"
     >
       Skip to main content
     </a>
@@ -200,7 +200,7 @@ export function SkipLink() {
 // Screen Reader Only utility component
 export function ScreenReaderOnly({ children }: { children: ReactNode }) {
   return (
-    <span className="sr-only" data-oid="qpeuemm">
+    <span className="sr-only" data-oid="gy8flke">
       {children}
     </span>
   );

@@ -8692,7 +8692,7 @@
   .btn-premium {
     -webkit-backdrop-filter: blur(20px);
     backdrop-filter: blur(20px);
-    border: 2px solid #0000;
+    border: none;
     transition: all .3s cubic-bezier(.4, 0, .2, 1);
     position: relative;
     overflow: hidden;
@@ -8733,7 +8733,7 @@
 
   .card-interactive {
     cursor: pointer;
-    border: 2px solid #0000;
+    border: none;
     transition: all .4s cubic-bezier(.4, 0, .2, 1);
     position: relative;
     overflow: hidden;
@@ -8742,13 +8742,11 @@
 
   .card-interactive:focus-within {
     outline-offset: 2px;
-    border-color: #3b82f6;
     outline: 2px solid #3b82f6;
   }
 
   .card-interactive:hover {
     filter: brightness(1.05);
-    border-color: #ffffff4d;
     box-shadow: 0 12px 30px #00000080, 0 0 20px #3b82f626;
   }
 
@@ -9044,7 +9042,7 @@
     user-select: none;
     box-sizing: border-box;
     will-change: filter, box-shadow;
-    border: 2px solid #0000;
+    border: none;
     border-radius: .75rem;
     outline: 0;
     justify-content: center;
@@ -9145,7 +9143,7 @@
 
   .form-input {
     box-sizing: border-box;
-    border: 2px solid #0000;
+    border: none;
     border-radius: .75rem;
     outline: 0;
     width: 100%;
@@ -9160,7 +9158,6 @@
 
   .form-input:focus {
     outline-offset: 0;
-    border-color: #3b82f6;
     outline: 2px solid #3b82f6;
     box-shadow: 0 0 0 3px #3b82f64d;
   }
@@ -9168,7 +9165,7 @@
   .form-textarea {
     resize: vertical;
     box-sizing: border-box;
-    border: 2px solid #0000;
+    border: none;
     border-radius: .75rem;
     outline: 0;
     width: 100%;
@@ -9183,7 +9180,6 @@
 
   .form-textarea:focus {
     outline-offset: 0;
-    border-color: #3b82f6;
     outline: 2px solid #3b82f6;
     box-shadow: 0 0 0 3px #3b82f64d;
   }

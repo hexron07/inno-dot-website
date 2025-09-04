@@ -267,10 +267,10 @@ export default function BrandStrategyServicePage({
   ];
 
   return (
-    <div className="pt-24 pb-20 relative" data-oid="u7__2mc">
+    <div className="pt-24 pb-20 relative" data-oid="_ooha7b">
       <div
         className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
-        data-oid="1vcj:nm"
+        data-oid="ig3.jfh"
       >
         {/* Hero Section */}
         <motion.section
@@ -278,20 +278,20 @@ export default function BrandStrategyServicePage({
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          data-oid="bh:37qz"
+          data-oid="-0xnyt9"
         >
           <motion.div
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.6, delay: 0.2 }}
             className="mb-8"
-            data-oid="fc-g05c"
+            data-oid="h:2sj-4"
           >
             <Badge
               className="mb-6 bg-gradient-to-r from-orange-500 to-red-600 text-white px-6 py-3 text-lg font-semibold"
-              data-oid="wz11hnp"
+              data-oid="braw392"
             >
-              <Palette className="w-5 h-5 mr-2" data-oid="3unoe03" />
+              <Palette className="w-5 h-5 mr-2" data-oid="uwal7b0" />
               Brand Strategy & Design
             </Badge>
           </motion.div>
@@ -301,12 +301,12 @@ export default function BrandStrategyServicePage({
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.3 }}
-            data-oid="pm0hd1p"
+            data-oid="m4ty2lf"
           >
             Build a Memorable Brand with
             <span
               className="block bg-gradient-to-r from-orange-400 via-red-500 to-pink-600 bg-clip-text text-transparent"
-              data-oid="cd6xx5i"
+              data-oid="dg37j4y"
             >
               Strategic Brand Design
             </span>
@@ -317,7 +317,7 @@ export default function BrandStrategyServicePage({
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.5 }}
-            data-oid="yvh6w:x"
+            data-oid="fz:ug7y"
           >
             Create a powerful brand identity that resonates with your audience
             and drives business growth. From strategy to visual design, we build
@@ -330,7 +330,7 @@ export default function BrandStrategyServicePage({
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.7 }}
-            data-oid="t::h3iy"
+            data-oid="xic.ygj"
           >
             {heroStats.map((stat, index) => (
               <motion.div
@@ -340,24 +340,25 @@ export default function BrandStrategyServicePage({
                 transition={{ duration: 0.6, delay: 0.8 + index * 0.1 }}
                 whileHover={{ y: -5 }}
                 className="text-center"
-                data-oid="pqe9agb"
+                data-oid="w_q.vla"
               >
                 <Card
                   className="glass-card border-white/20 hover:border-white/30 transition-all duration-300"
-                  data-oid="gi2u98c"
+                  data-oid="lj1rj4v"
                 >
-                  <CardContent className="p-6" data-oid="m76ke.b">
+                  <CardContent className="p-6" data-oid="gqif0lg">
                     <stat.icon
                       className="w-8 h-8 text-orange-400 mx-auto mb-3"
-                      data-oid="pf3q1q2"
+                      data-oid="gchmzq7"
                     />
+
                     <div
                       className="text-2xl font-bold text-white mb-1"
-                      data-oid="p3w-fe_"
+                      data-oid=".kpe0l0"
                     >
                       {stat.value}
                     </div>
-                    <div className="text-gray-400 text-sm" data-oid="szcgs82">
+                    <div className="text-gray-400 text-sm" data-oid="6nkdw-f">
                       {stat.label}
                     </div>
                   </CardContent>
@@ -368,45 +369,45 @@ export default function BrandStrategyServicePage({
 
           <div
             className="flex flex-col sm:flex-row gap-4 justify-center"
-            data-oid="ui1.bgv"
+            data-oid="i8hcvz1"
           >
             <motion.div
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
-              data-oid="wpowo3."
+              data-oid="v9tx603"
             >
               <Button
                 size="lg"
                 className="bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 text-white px-8 py-4 font-semibold btn-premium group"
                 onClick={() => onNavigate("home")}
-                data-oid="b7osrn_"
+                data-oid="izih1.o"
               >
                 <Calendar
                   className="mr-2 h-5 w-5 group-hover:animate-bounce"
-                  data-oid="_3_i985"
+                  data-oid="j8rkq3x"
                 />
                 Get Free Brand Audit
                 <ArrowRight
                   className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform"
-                  data-oid=".ogmy-m"
+                  data-oid="zve.poy"
                 />
               </Button>
             </motion.div>
             <motion.div
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
-              data-oid="yw2t0pm"
+              data-oid="4rohnih"
             >
               <Button
                 variant="outline"
                 size="lg"
                 className="glass border-white/30 text-white hover:bg-white/10 px-8 py-4 font-semibold group"
                 onClick={() => onNavigate("portfolio")}
-                data-oid="4fb7w43"
+                data-oid="rc6thg3"
               >
                 <Eye
                   className="mr-2 h-5 w-5 group-hover:scale-110 transition-transform"
-                  data-oid="yvpp05f"
+                  data-oid="tqly3vl"
                 />
                 View Brand Portfolio
               </Button>
@@ -421,24 +422,24 @@ export default function BrandStrategyServicePage({
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          data-oid="pfe0y6e"
+          data-oid="7ezixd:"
         >
-          <div className="text-center mb-16" data-oid="3mwbz7c">
+          <div className="text-center mb-16" data-oid="dlkx.jk">
             <h2
               className="text-3xl md:text-5xl font-bold text-white mb-6"
-              data-oid="_n_sm5l"
+              data-oid="5j54iki"
             >
               Complete{" "}
               <span
                 className="bg-gradient-to-r from-orange-400 to-red-500 bg-clip-text text-transparent"
-                data-oid="busbeff"
+                data-oid="tclgq78"
               >
                 Brand Solutions
               </span>
             </h2>
             <p
               className="text-xl text-gray-300 max-w-3xl mx-auto"
-              data-oid="tl136py"
+              data-oid="fwkegvi"
             >
               Our comprehensive approach combines strategic thinking with
               creative design to build brands that resonate and perform.
@@ -447,7 +448,7 @@ export default function BrandStrategyServicePage({
 
           <div
             className="grid grid-cols-1 md:grid-cols-2 gap-8"
-            data-oid="gacly:v"
+            data-oid="kurkgqf"
           >
             {brandFeatures.map((feature, index) => (
               <motion.div
@@ -458,51 +459,52 @@ export default function BrandStrategyServicePage({
                 viewport={{ once: true }}
                 whileHover={{ y: -5, scale: 1.02 }}
                 className="group"
-                data-oid="h.7yb5o"
+                data-oid="jz9.iz9"
               >
                 <Card
                   className="glass-card h-full border-white/15 hover:border-white/25 transition-all duration-300 relative overflow-hidden"
-                  data-oid="h7it3hb"
+                  data-oid="8641wys"
                 >
-                  <CardContent className="p-8" data-oid="c9pr11l">
+                  <CardContent className="p-8" data-oid="g9-wg:_">
                     <motion.div
                       className="w-16 h-16 bg-gradient-to-r from-orange-500 to-red-500 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300"
                       whileHover={{ rotate: 5 }}
-                      data-oid="xsi6z:8"
+                      data-oid="1t33nyb"
                     >
                       <feature.icon
                         className="w-8 h-8 text-white"
-                        data-oid="n0vuaqh"
+                        data-oid="td1_8pc"
                       />
                     </motion.div>
 
                     <h3
                       className="text-2xl font-bold text-white mb-4 group-hover:text-orange-100 transition-colors duration-300"
-                      data-oid="w2vj8yg"
+                      data-oid="v81al3h"
                     >
                       {feature.title}
                     </h3>
                     <p
                       className="text-gray-300 mb-6 group-hover:text-white transition-colors duration-300"
-                      data-oid="o50pr8g"
+                      data-oid="e3s0pok"
                     >
                       {feature.description}
                     </p>
 
-                    <div className="space-y-2" data-oid="2_-pa.v">
+                    <div className="space-y-2" data-oid="8o9cs5y">
                       {feature.benefits.map((benefit, i) => (
                         <div
                           key={i}
                           className="flex items-center text-sm"
-                          data-oid="3eg_qwy"
+                          data-oid="oatpnc8"
                         >
                           <CheckCircle
                             className="w-4 h-4 text-orange-400 mr-3 flex-shrink-0"
-                            data-oid="le55hy0"
+                            data-oid="-1pqz5f"
                           />
+
                           <span
                             className="text-gray-300 group-hover:text-white transition-colors duration-300"
-                            data-oid="asz:.0p"
+                            data-oid="mvps10b"
                           >
                             {benefit}
                           </span>
@@ -512,7 +514,7 @@ export default function BrandStrategyServicePage({
                   </CardContent>
                   <div
                     className="absolute inset-0 bg-gradient-to-br from-orange-500/5 to-red-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-                    data-oid="msomqgd"
+                    data-oid="w14_.ze"
                   ></div>
                 </Card>
               </motion.div>
@@ -527,24 +529,24 @@ export default function BrandStrategyServicePage({
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          data-oid="wkvhfyc"
+          data-oid="2.fmwfn"
         >
-          <div className="text-center mb-16" data-oid=":3:h9wm">
+          <div className="text-center mb-16" data-oid="fflku1f">
             <h2
               className="text-3xl md:text-5xl font-bold text-white mb-6"
-              data-oid="2c1heij"
+              data-oid="s-0o_un"
             >
               Our Proven{" "}
               <span
                 className="bg-gradient-to-r from-orange-400 to-red-500 bg-clip-text text-transparent"
-                data-oid=".ornc9a"
+                data-oid="bcru6_t"
               >
                 Brand Process
               </span>
             </h2>
             <p
               className="text-xl text-gray-300 max-w-3xl mx-auto"
-              data-oid="hzv6y.6"
+              data-oid="oulwi77"
             >
               A systematic approach to brand development that creates authentic,
               memorable brands that connect with audiences.
@@ -553,7 +555,7 @@ export default function BrandStrategyServicePage({
 
           <div
             className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
-            data-oid="1gmckkg"
+            data-oid="330z9zp"
           >
             {brandProcessSteps.map((step, index) => (
               <motion.div
@@ -565,7 +567,7 @@ export default function BrandStrategyServicePage({
                 whileHover={{ y: -5, scale: 1.02 }}
                 className="group cursor-pointer"
                 onClick={() => setActiveProcess(index)}
-                data-oid="qxaz9dk"
+                data-oid="p-6g:33"
               >
                 <Card
                   className={`glass-card h-full border-white/15 hover:border-white/25 transition-all duration-300 relative overflow-hidden ${
@@ -573,23 +575,23 @@ export default function BrandStrategyServicePage({
                       ? "border-orange-400/50 bg-orange-500/5"
                       : ""
                   }`}
-                  data-oid="1zevmac"
+                  data-oid="0xl4hyj"
                 >
-                  <CardContent className="p-6 text-center" data-oid=".9:stc7">
-                    <div className="relative mb-6" data-oid="9qyf9vg">
+                  <CardContent className="p-6 text-center" data-oid="i0_28ku">
+                    <div className="relative mb-6" data-oid="wr4ilfa">
                       <motion.div
                         className="w-16 h-16 bg-gradient-to-r from-orange-500 to-red-500 rounded-2xl flex items-center justify-center mx-auto group-hover:scale-110 transition-transform duration-300"
                         whileHover={{ rotate: 10 }}
-                        data-oid="h9p5tyq"
+                        data-oid="-ejs_6h"
                       >
                         <step.icon
                           className="w-8 h-8 text-white"
-                          data-oid="vfivlwp"
+                          data-oid="_g:rqcx"
                         />
                       </motion.div>
                       <div
                         className="absolute -top-2 -right-2 w-8 h-8 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center text-white font-bold text-sm"
-                        data-oid="b5v_j-a"
+                        data-oid="i2zxphx"
                       >
                         {index + 1}
                       </div>
@@ -597,20 +599,20 @@ export default function BrandStrategyServicePage({
 
                     <Badge
                       className="mb-4 bg-orange-500/20 text-orange-400 px-3 py-1 text-sm"
-                      data-oid="laoarbp"
+                      data-oid="khr:t58"
                     >
                       {step.timeline}
                     </Badge>
 
                     <h3
                       className="text-xl font-bold text-white mb-4 group-hover:text-orange-100 transition-colors duration-300"
-                      data-oid="bzb3-3v"
+                      data-oid="ybjv2ta"
                     >
                       {step.title}
                     </h3>
                     <p
                       className="text-gray-300 group-hover:text-white transition-colors duration-300 text-sm"
-                      data-oid="--2zysu"
+                      data-oid="ncfnk3h"
                     >
                       {step.description}
                     </p>
@@ -622,7 +624,7 @@ export default function BrandStrategyServicePage({
                       initial={{ opacity: 0 }}
                       animate={{ opacity: 1 }}
                       transition={{ duration: 0.3 }}
-                      data-oid="us5aed."
+                      data-oid="a5.ssus"
                     />
                   )}
                 </Card>
@@ -638,24 +640,24 @@ export default function BrandStrategyServicePage({
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          data-oid="87n9z:."
+          data-oid="cbp1f1o"
         >
-          <div className="text-center mb-16" data-oid="hc7ngd4">
+          <div className="text-center mb-16" data-oid="i6gs_wj">
             <h2
               className="text-3xl md:text-5xl font-bold text-white mb-6"
-              data-oid=".0bg.l2"
+              data-oid="pql84.r"
             >
               Brand Strategy{" "}
               <span
                 className="bg-gradient-to-r from-orange-400 to-red-500 bg-clip-text text-transparent"
-                data-oid="26-8e8c"
+                data-oid="7thtdhr"
               >
                 Success Stories
               </span>
             </h2>
             <p
               className="text-xl text-gray-300 max-w-3xl mx-auto"
-              data-oid="94zuy8a"
+              data-oid="_4tplo-"
             >
               Real results from real clients who trusted us with their brand
               transformation and strategic positioning.
@@ -664,7 +666,7 @@ export default function BrandStrategyServicePage({
 
           <div
             className="grid grid-cols-1 md:grid-cols-3 gap-8"
-            data-oid="5qf-qzu"
+            data-oid="5xblros"
           >
             {caseStudies.map((study, index) => (
               <motion.div
@@ -675,51 +677,51 @@ export default function BrandStrategyServicePage({
                 viewport={{ once: true }}
                 whileHover={{ y: -5, scale: 1.02 }}
                 className="group"
-                data-oid="z.4xogf"
+                data-oid="2uo8cep"
               >
                 <Card
                   className="glass-card h-full border-white/15 hover:border-white/25 transition-all duration-300"
-                  data-oid="v6n4cef"
+                  data-oid="8x8y834"
                 >
-                  <CardContent className="p-6" data-oid="b-plu:2">
-                    <div className="mb-4" data-oid="bwo2tf3">
+                  <CardContent className="p-6" data-oid="g5u_wu.">
+                    <div className="mb-4" data-oid="3bv4sz_">
                       <h3
                         className="text-xl font-bold text-white mb-1"
-                        data-oid="6auothf"
+                        data-oid="nl11260"
                       >
                         {study.client}
                       </h3>
                       <Badge
                         className="bg-orange-500/20 text-orange-400 px-2 py-1 text-xs"
-                        data-oid="wxaf6mh"
+                        data-oid="kq_88ls"
                       >
                         {study.industry}
                       </Badge>
                     </div>
 
-                    <div className="mb-4" data-oid="umo10nc">
+                    <div className="mb-4" data-oid="ria.qh1">
                       <h4
                         className="text-sm font-semibold text-gray-300 mb-2"
-                        data-oid="tdb6h_m"
+                        data-oid="wz98yz8"
                       >
                         Challenge:
                       </h4>
                       <p
                         className="text-gray-400 text-sm mb-3"
-                        data-oid="dhzfq46"
+                        data-oid="6:w3tat"
                       >
                         {study.challenge}
                       </p>
 
                       <h4
                         className="text-sm font-semibold text-gray-300 mb-2"
-                        data-oid="x11d.9r"
+                        data-oid="rr4oi27"
                       >
                         Solution:
                       </h4>
                       <p
                         className="text-gray-400 text-sm mb-4"
-                        data-oid="qripx32"
+                        data-oid="a8lzrsw"
                       >
                         {study.solution}
                       </p>
@@ -727,62 +729,62 @@ export default function BrandStrategyServicePage({
 
                     <div
                       className="border-t border-white/10 pt-4"
-                      data-oid="o7q1.7p"
+                      data-oid=":d2ukyk"
                     >
                       <h4
                         className="text-sm font-semibold text-white mb-3"
-                        data-oid="e8_deyx"
+                        data-oid="5igp9wg"
                       >
                         Results in {study.timeframe}:
                       </h4>
-                      <div className="space-y-2" data-oid="ezhq5yh">
+                      <div className="space-y-2" data-oid="2z8y5vu">
                         <div
                           className="flex justify-between"
-                          data-oid="gk-zw-h"
+                          data-oid="69ot_0j"
                         >
                           <span
                             className="text-gray-400 text-sm"
-                            data-oid="77a8e4f"
+                            data-oid="j:0fgkz"
                           >
                             Recognition:
                           </span>
                           <span
                             className="text-orange-400 font-bold text-sm"
-                            data-oid="bsc78i7"
+                            data-oid="i1-f.iy"
                           >
                             {study.results.recognition}
                           </span>
                         </div>
                         <div
                           className="flex justify-between"
-                          data-oid="i05e63n"
+                          data-oid="ij4.0um"
                         >
                           <span
                             className="text-gray-400 text-sm"
-                            data-oid="fz_8idw"
+                            data-oid="j0gm7.4"
                           >
                             Leads:
                           </span>
                           <span
                             className="text-green-400 font-bold text-sm"
-                            data-oid=".c3lrbr"
+                            data-oid="td_q3m2"
                           >
                             {study.results.leads}
                           </span>
                         </div>
                         <div
                           className="flex justify-between"
-                          data-oid="w7mszhn"
+                          data-oid="dji5_yq"
                         >
                           <span
                             className="text-gray-400 text-sm"
-                            data-oid="lf7v5l9"
+                            data-oid="clskl70"
                           >
                             Premium:
                           </span>
                           <span
                             className="text-purple-400 font-bold text-sm"
-                            data-oid="hveuxtq"
+                            data-oid="9bpq1j9"
                           >
                             {study.results.premium}
                           </span>
@@ -803,24 +805,24 @@ export default function BrandStrategyServicePage({
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          data-oid="d-9fmey"
+          data-oid="zih8crn"
         >
-          <div className="text-center mb-16" data-oid="mzs3vn-">
+          <div className="text-center mb-16" data-oid="kxeqwfp">
             <h2
               className="text-3xl md:text-5xl font-bold text-white mb-6"
-              data-oid="j:qwc_1"
+              data-oid="6f5yphz"
             >
               Brand Strategy{" "}
               <span
                 className="bg-gradient-to-r from-orange-400 to-red-500 bg-clip-text text-transparent"
-                data-oid="s1t0py_"
+                data-oid="bafubq2"
               >
                 Pricing Plans
               </span>
             </h2>
             <p
               className="text-xl text-gray-300 max-w-3xl mx-auto"
-              data-oid="ldi6-4z"
+              data-oid="5lh1-mc"
             >
               Choose the brand development package that best fits your business
               stage and branding goals.
@@ -829,7 +831,7 @@ export default function BrandStrategyServicePage({
 
           <div
             className="grid grid-cols-1 md:grid-cols-3 gap-8"
-            data-oid="_h-smgn"
+            data-oid="-nl00q6"
           >
             {pricingTiers.map((tier, index) => (
               <motion.div
@@ -840,18 +842,18 @@ export default function BrandStrategyServicePage({
                 viewport={{ once: true }}
                 whileHover={{ y: -5, scale: 1.02 }}
                 className="relative group"
-                data-oid="qapu7wo"
+                data-oid="cdvmppn"
               >
                 {tier.popular && (
                   <div
                     className="absolute -top-4 left-1/2 transform -translate-x-1/2 z-10"
-                    data-oid="g-lwm._"
+                    data-oid="zzv-71a"
                   >
                     <Badge
                       className="bg-gradient-to-r from-purple-500 to-pink-500 text-white px-4 py-1 shadow-lg"
-                      data-oid="w0p7xdu"
+                      data-oid="5py6syg"
                     >
-                      <Star className="w-3 h-3 mr-1" data-oid="63r7-vh" />
+                      <Star className="w-3 h-3 mr-1" data-oid="tz7py0w" />
                       Most Popular
                     </Badge>
                   </div>
@@ -863,56 +865,57 @@ export default function BrandStrategyServicePage({
                       ? "border-purple-500/50"
                       : "border-white/15 hover:border-white/25"
                   }`}
-                  data-oid="zf2vwdu"
+                  data-oid="xxxg:k5"
                 >
-                  <CardContent className="p-8 text-center" data-oid="r9mt8wv">
+                  <CardContent className="p-8 text-center" data-oid="p3:ttdm">
                     <h3
                       className="text-2xl font-bold text-white mb-2"
-                      data-oid="57zd9zs"
+                      data-oid="wsmhwlt"
                     >
                       {tier.name}
                     </h3>
-                    <p className="text-gray-300 mb-6" data-oid="y_674ob">
+                    <p className="text-gray-300 mb-6" data-oid="4qe-6wb">
                       {tier.description}
                     </p>
 
-                    <div className="mb-6" data-oid="botfayy">
+                    <div className="mb-6" data-oid="ctfse9m">
                       <span
                         className="text-4xl font-bold text-white"
-                        data-oid="qcqaszm"
+                        data-oid="7lkxqo6"
                       >
                         ${tier.price}
                       </span>
                       <span
                         className="text-gray-400 text-sm ml-2"
-                        data-oid="c08cm5f"
+                        data-oid="i59a:_8"
                       >
                         {tier.period}
                       </span>
                     </div>
 
-                    <div className="space-y-3 mb-8" data-oid="cr8_6si">
+                    <div className="space-y-3 mb-8" data-oid="9j880_-">
                       {tier.features.map((feature, i) => (
                         <div
                           key={i}
                           className="flex items-center text-sm"
-                          data-oid="3_lg:xs"
+                          data-oid="hgemcpl"
                         >
                           <CheckCircle
                             className="w-4 h-4 text-orange-400 mr-3 flex-shrink-0"
-                            data-oid="m2713_m"
+                            data-oid="fz4g_1k"
                           />
-                          <span className="text-gray-300" data-oid="xzlawa5">
+
+                          <span className="text-gray-300" data-oid="npp9qo_">
                             {feature}
                           </span>
                         </div>
                       ))}
                     </div>
 
-                    <div className="mb-6" data-oid="3zva8g-">
+                    <div className="mb-6" data-oid="wsm538_">
                       <p
                         className="text-orange-400 text-sm font-medium"
-                        data-oid="djavxw4"
+                        data-oid="xjpmfqw"
                       >
                         Ideal for: {tier.ideal}
                       </p>
@@ -925,14 +928,14 @@ export default function BrandStrategyServicePage({
                           : "glass border-white/20 hover:bg-white/20 text-white"
                       }`}
                       onClick={() => onNavigate("home")}
-                      data-oid="e95jx4g"
+                      data-oid="g6k67tp"
                     >
                       Get Started with {tier.name}
                     </Button>
                   </CardContent>
                   <div
                     className={`absolute inset-0 bg-gradient-to-br ${tier.gradient} opacity-0 group-hover:opacity-5 transition-opacity duration-300`}
-                    data-oid="dgn-c3-"
+                    data-oid="azc9k4-"
                   ></div>
                 </Card>
               </motion.div>
@@ -947,17 +950,17 @@ export default function BrandStrategyServicePage({
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          data-oid="lz6sko9"
+          data-oid="2xjio:u"
         >
-          <div className="text-center mb-16" data-oid="8q5n-f9">
+          <div className="text-center mb-16" data-oid="mz8uy15">
             <h2
               className="text-3xl md:text-5xl font-bold text-white mb-6"
-              data-oid="7fkvgca"
+              data-oid="iq:mxd6"
             >
               What Our{" "}
               <span
                 className="bg-gradient-to-r from-orange-400 to-red-500 bg-clip-text text-transparent"
-                data-oid="o80xbno"
+                data-oid="fs0h:ms"
               >
                 Brand Clients
               </span>{" "}
@@ -967,7 +970,7 @@ export default function BrandStrategyServicePage({
 
           <div
             className="grid grid-cols-1 md:grid-cols-2 gap-8"
-            data-oid="3a5:-pi"
+            data-oid="jz6ha9y"
           >
             {testimonials.map((testimonial, index) => (
               <motion.div
@@ -978,24 +981,24 @@ export default function BrandStrategyServicePage({
                 viewport={{ once: true }}
                 whileHover={{ y: -5, scale: 1.02 }}
                 className="group"
-                data-oid="0v.7_5e"
+                data-oid="tnq84r3"
               >
                 <Card
                   className="glass-card border-white/15 hover:border-white/25 transition-all duration-300"
-                  data-oid="x_v-vgb"
+                  data-oid="pt.zf6o"
                 >
-                  <CardContent className="p-8" data-oid="9of7o_v">
-                    <div className="flex items-center mb-4" data-oid="8g0tp9.">
+                  <CardContent className="p-8" data-oid=":0b3qz2">
+                    <div className="flex items-center mb-4" data-oid="1-lqq8j">
                       {[...Array(testimonial.rating)].map((_, i) => (
                         <Star
                           key={i}
                           className="w-5 h-5 text-yellow-400 fill-current"
-                          data-oid="3vqogup"
+                          data-oid="r2r643_"
                         />
                       ))}
                       <Badge
                         className="ml-auto bg-orange-500/20 text-orange-400 px-2 py-1 text-xs"
-                        data-oid="nmrv5ig"
+                        data-oid="6ykq7z0"
                       >
                         {testimonial.result}
                       </Badge>
@@ -1003,37 +1006,37 @@ export default function BrandStrategyServicePage({
 
                     <blockquote
                       className="text-gray-300 mb-6 italic"
-                      data-oid="dmtqr-9"
+                      data-oid="ww0l6oq"
                     >
                       "{testimonial.text}"
                     </blockquote>
 
-                    <div className="flex items-center" data-oid="787t1y.">
+                    <div className="flex items-center" data-oid="9i17o8e">
                       <div
                         className="w-12 h-12 bg-gradient-to-r from-orange-500 to-red-500 rounded-full flex items-center justify-center text-white font-bold mr-4"
-                        data-oid="zwb-6-n"
+                        data-oid=".:uha7z"
                       >
                         {testimonial.name
                           .split(" ")
                           .map((n) => n[0])
                           .join("")}
                       </div>
-                      <div data-oid="0rrj93c">
+                      <div data-oid="41twoim">
                         <div
                           className="font-bold text-white"
-                          data-oid="u:ax8b."
+                          data-oid="2908h4w"
                         >
                           {testimonial.name}
                         </div>
                         <div
                           className="text-gray-400 text-sm"
-                          data-oid="y8v1jje"
+                          data-oid="i860wcp"
                         >
                           {testimonial.role}
                         </div>
                         <div
                           className="text-gray-400 text-sm"
-                          data-oid="kq-9758"
+                          data-oid="ovyohah"
                         >
                           {testimonial.company}
                         </div>
@@ -1052,33 +1055,33 @@ export default function BrandStrategyServicePage({
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          data-oid="ttpw_kh"
+          data-oid="h82yyuu"
         >
           <Card
             className="glass-card-enhanced rounded-3xl p-12 text-center relative overflow-hidden group"
-            data-oid="ntmnox0"
+            data-oid="r_y9k54"
           >
-            <div className="relative z-10" data-oid="0z.i13v">
+            <div className="relative z-10" data-oid="of_qpme">
               <motion.div
                 animate={{ y: [0, -10, 0] }}
                 transition={{ duration: 3, repeat: Infinity }}
                 className="inline-block mb-8"
-                data-oid="b80n3sc"
+                data-oid="wyltdza"
               >
                 <Palette
                   className="w-20 h-20 text-orange-400 glow-effect"
-                  data-oid="16wqc.f"
+                  data-oid="bb2kxkt"
                 />
               </motion.div>
 
               <h2
                 className="text-3xl md:text-5xl font-bold text-white mb-6"
-                data-oid="_wgv79b"
+                data-oid=":81i-vf"
               >
                 Ready to{" "}
                 <span
                   className="bg-gradient-to-r from-orange-400 to-red-500 bg-clip-text text-transparent"
-                  data-oid="i1wq_8p"
+                  data-oid="go2g3xs"
                 >
                   Transform
                 </span>{" "}
@@ -1087,7 +1090,7 @@ export default function BrandStrategyServicePage({
 
               <p
                 className="text-xl text-gray-300 mb-10 max-w-3xl mx-auto"
-                data-oid="h2o870v"
+                data-oid="xv24zjx"
               >
                 Get a free brand audit and discover how we can help you create a
                 powerful brand identity that resonates with your audience,
@@ -1096,27 +1099,27 @@ export default function BrandStrategyServicePage({
 
               <div
                 className="flex flex-col sm:flex-row gap-6 justify-center"
-                data-oid="bjvr-hj"
+                data-oid="ymzn9hv"
               >
                 <motion.div
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
-                  data-oid="vsu80xq"
+                  data-oid="fun4n__"
                 >
                   <Button
                     size="lg"
-                    className="bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 text-white px-12 py-6 text-lg font-bold shadow-2xl btn-premium group"
+                    className="bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 text-white btn-responsive text-lg font-bold shadow-2xl btn-premium group"
                     onClick={() => onNavigate("home")}
-                    data-oid="o_deiyj"
+                    data-oid="93i081."
                   >
                     <Calendar
                       className="mr-3 h-6 w-6 group-hover:animate-bounce"
-                      data-oid="3c12bcb"
+                      data-oid=":lr5cfs"
                     />
                     Get Free Brand Audit
                     <ArrowRight
                       className="ml-3 h-6 w-6 group-hover:translate-x-1 transition-transform"
-                      data-oid="j0_-buo"
+                      data-oid="n5d4x2l"
                     />
                   </Button>
                 </motion.div>
@@ -1124,18 +1127,18 @@ export default function BrandStrategyServicePage({
                 <motion.div
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
-                  data-oid="orl:kf6"
+                  data-oid=":-7aio-"
                 >
                   <Button
                     variant="outline"
                     size="lg"
-                    className="glass border-white/30 text-white hover:bg-white/15 px-12 py-6 text-lg font-semibold group"
+                    className="glass border-white/30 text-white hover:bg-white/15 btn-responsive text-lg font-semibold group"
                     onClick={() => onNavigate("pricing")}
-                    data-oid="1-04m83"
+                    data-oid="v-a80p4"
                   >
                     <BarChart3
                       className="mr-3 h-6 w-6 group-hover:scale-110 transition-transform"
-                      data-oid="rbatewx"
+                      data-oid="u9pdr3i"
                     />
                     View Brand Pricing
                   </Button>
@@ -1145,7 +1148,7 @@ export default function BrandStrategyServicePage({
 
             <div
               className="absolute inset-0 bg-gradient-to-br from-orange-500/5 to-red-500/5 group-hover:from-orange-500/10 group-hover:to-red-500/10 transition-all duration-500"
-              data-oid="tcp4-c_"
+              data-oid="mle17mb"
             ></div>
           </Card>
         </motion.section>

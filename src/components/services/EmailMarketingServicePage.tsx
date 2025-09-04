@@ -265,10 +265,10 @@ export default function EmailMarketingServicePage({
   ];
 
   return (
-    <div className="pt-24 pb-20 relative" data-oid="9s-4:gm">
+    <div className="pt-24 pb-20 relative" data-oid="ass_m62">
       <div
         className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
-        data-oid="inv52gs"
+        data-oid="1.q3u4m"
       >
         {/* Hero Section */}
         <motion.section
@@ -276,20 +276,20 @@ export default function EmailMarketingServicePage({
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          data-oid="a34vez7"
+          data-oid="ai:0w5s"
         >
           <motion.div
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.6, delay: 0.2 }}
             className="mb-8"
-            data-oid="ynni0qt"
+            data-oid="e.2q6mh"
           >
             <Badge
               className="mb-6 bg-gradient-to-r from-blue-500 to-cyan-600 text-white px-6 py-3 text-lg font-semibold"
-              data-oid="9wndc.w"
+              data-oid="j385x5n"
             >
-              <Mail className="w-5 h-5 mr-2" data-oid="5qf.2-c" />
+              <Mail className="w-5 h-5 mr-2" data-oid=":-swv9v" />
               Email Marketing
             </Badge>
           </motion.div>
@@ -299,12 +299,12 @@ export default function EmailMarketingServicePage({
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.3 }}
-            data-oid=".uvwe8:"
+            data-oid="m-d-8tt"
           >
             Drive Revenue with
             <span
               className="block bg-gradient-to-r from-blue-400 via-cyan-500 to-purple-600 bg-clip-text text-transparent"
-              data-oid="pzn33qu"
+              data-oid="h856aau"
             >
               Strategic Email Marketing
             </span>
@@ -315,7 +315,7 @@ export default function EmailMarketingServicePage({
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.5 }}
-            data-oid="2xm2c12"
+            data-oid="fhnirtk"
           >
             Maximize customer lifetime value with sophisticated email marketing
             strategies. From automation to personalization, we create email
@@ -328,7 +328,7 @@ export default function EmailMarketingServicePage({
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.7 }}
-            data-oid="xzbsui0"
+            data-oid="w4ayfgt"
           >
             {heroStats.map((stat, index) => (
               <motion.div
@@ -338,24 +338,25 @@ export default function EmailMarketingServicePage({
                 transition={{ duration: 0.6, delay: 0.8 + index * 0.1 }}
                 whileHover={{ y: -5 }}
                 className="text-center"
-                data-oid="-z0sw3a"
+                data-oid="xsqfrj7"
               >
                 <Card
                   className="glass-card border-white/20 hover:border-white/30 transition-all duration-300"
-                  data-oid=":mh:2ce"
+                  data-oid="oa8jst8"
                 >
-                  <CardContent className="p-6" data-oid="2nndvka">
+                  <CardContent className="p-6" data-oid="x54t8nl">
                     <stat.icon
                       className="w-8 h-8 text-blue-400 mx-auto mb-3"
-                      data-oid="ox50qs8"
+                      data-oid="tl6tr5v"
                     />
+
                     <div
                       className="text-2xl font-bold text-white mb-1"
-                      data-oid="zpo59yl"
+                      data-oid="nldqg2e"
                     >
                       {stat.value}
                     </div>
-                    <div className="text-gray-400 text-sm" data-oid="b.30im0">
+                    <div className="text-gray-400 text-sm" data-oid="ow.6-v.">
                       {stat.label}
                     </div>
                   </CardContent>
@@ -366,45 +367,45 @@ export default function EmailMarketingServicePage({
 
           <div
             className="flex flex-col sm:flex-row gap-4 justify-center"
-            data-oid="m4zvp95"
+            data-oid="kvb6u1o"
           >
             <motion.div
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
-              data-oid="6x1tbi1"
+              data-oid="xihcewk"
             >
               <Button
                 size="lg"
                 className="bg-gradient-to-r from-blue-500 to-cyan-600 hover:from-blue-600 hover:to-cyan-700 text-white px-8 py-4 font-semibold btn-premium group"
                 onClick={() => onNavigate("home")}
-                data-oid=".e8v6r8"
+                data-oid="e4egk6t"
               >
                 <Calendar
                   className="mr-2 h-5 w-5 group-hover:animate-bounce"
-                  data-oid="_v873kn"
+                  data-oid="m_y2yr8"
                 />
                 Get Free Email Audit
                 <ArrowRight
                   className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform"
-                  data-oid="13_7m_i"
+                  data-oid="ikahdmp"
                 />
               </Button>
             </motion.div>
             <motion.div
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
-              data-oid="2h0emg9"
+              data-oid="xws6rpw"
             >
               <Button
                 variant="outline"
                 size="lg"
                 className="glass border-white/30 text-white hover:bg-white/10 px-8 py-4 font-semibold group"
                 onClick={() => onNavigate("portfolio")}
-                data-oid="v.axuep"
+                data-oid="-_e.zqh"
               >
                 <Eye
                   className="mr-2 h-5 w-5 group-hover:scale-110 transition-transform"
-                  data-oid="dhamhtx"
+                  data-oid="5t2sen0"
                 />
                 View Email Case Studies
               </Button>
@@ -419,24 +420,24 @@ export default function EmailMarketingServicePage({
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          data-oid="41:097u"
+          data-oid=":z:_b27"
         >
-          <div className="text-center mb-16" data-oid="-y4sz:n">
+          <div className="text-center mb-16" data-oid="y6.tspd">
             <h2
               className="text-3xl md:text-5xl font-bold text-white mb-6"
-              data-oid="gmksqit"
+              data-oid="c0u6m:0"
             >
               Advanced{" "}
               <span
                 className="bg-gradient-to-r from-blue-400 to-cyan-500 bg-clip-text text-transparent"
-                data-oid="r7-0sij"
+                data-oid="l7ess:2"
               >
                 Email Solutions
               </span>
             </h2>
             <p
               className="text-xl text-gray-300 max-w-3xl mx-auto"
-              data-oid="waczaam"
+              data-oid="xzr5w97"
             >
               Our comprehensive approach leverages the latest email marketing
               technologies to maximize engagement and drive revenue.
@@ -445,7 +446,7 @@ export default function EmailMarketingServicePage({
 
           <div
             className="grid grid-cols-1 md:grid-cols-2 gap-8"
-            data-oid="l5tl9jv"
+            data-oid="ram6-su"
           >
             {emailFeatures.map((feature, index) => (
               <motion.div
@@ -456,51 +457,52 @@ export default function EmailMarketingServicePage({
                 viewport={{ once: true }}
                 whileHover={{ y: -5, scale: 1.02 }}
                 className="group"
-                data-oid="f.5327y"
+                data-oid="hzhxc7u"
               >
                 <Card
                   className="glass-card h-full border-white/15 hover:border-white/25 transition-all duration-300 relative overflow-hidden"
-                  data-oid="zpsvq28"
+                  data-oid="-ves061"
                 >
-                  <CardContent className="p-8" data-oid="aozndn0">
+                  <CardContent className="p-8" data-oid="0yos07h">
                     <motion.div
                       className="w-16 h-16 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300"
                       whileHover={{ rotate: 5 }}
-                      data-oid="5i2sd1c"
+                      data-oid="5-maj:1"
                     >
                       <feature.icon
                         className="w-8 h-8 text-white"
-                        data-oid="889:drl"
+                        data-oid="eihcg65"
                       />
                     </motion.div>
 
                     <h3
                       className="text-2xl font-bold text-white mb-4 group-hover:text-blue-100 transition-colors duration-300"
-                      data-oid="tksx_ul"
+                      data-oid="rz:urg7"
                     >
                       {feature.title}
                     </h3>
                     <p
                       className="text-gray-300 mb-6 group-hover:text-white transition-colors duration-300"
-                      data-oid="gmx:h9g"
+                      data-oid="4cc3343"
                     >
                       {feature.description}
                     </p>
 
-                    <div className="space-y-2" data-oid="c_lzl9m">
+                    <div className="space-y-2" data-oid="d8jf.0s">
                       {feature.benefits.map((benefit, i) => (
                         <div
                           key={i}
                           className="flex items-center text-sm"
-                          data-oid="f4nd76v"
+                          data-oid=".2_qtrz"
                         >
                           <CheckCircle
                             className="w-4 h-4 text-blue-400 mr-3 flex-shrink-0"
-                            data-oid="5fc.znq"
+                            data-oid="9zbszdy"
                           />
+
                           <span
                             className="text-gray-300 group-hover:text-white transition-colors duration-300"
-                            data-oid="612_ngn"
+                            data-oid="8-893ns"
                           >
                             {benefit}
                           </span>
@@ -510,7 +512,7 @@ export default function EmailMarketingServicePage({
                   </CardContent>
                   <div
                     className="absolute inset-0 bg-gradient-to-br from-blue-500/5 to-cyan-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-                    data-oid="_zpe.:r"
+                    data-oid="ztlyu30"
                   ></div>
                 </Card>
               </motion.div>
@@ -525,24 +527,24 @@ export default function EmailMarketingServicePage({
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          data-oid="x0.iq_t"
+          data-oid="vnc13gc"
         >
-          <div className="text-center mb-16" data-oid="vvhlx4o">
+          <div className="text-center mb-16" data-oid="jym8cxe">
             <h2
               className="text-3xl md:text-5xl font-bold text-white mb-6"
-              data-oid="5k5c1z."
+              data-oid="l4d4wrj"
             >
               Our Proven{" "}
               <span
                 className="bg-gradient-to-r from-blue-400 to-cyan-500 bg-clip-text text-transparent"
-                data-oid="0:i9e6v"
+                data-oid="8ytkqmj"
               >
                 Email Process
               </span>
             </h2>
             <p
               className="text-xl text-gray-300 max-w-3xl mx-auto"
-              data-oid="a3z3bk3"
+              data-oid="crv14hm"
             >
               A systematic approach to email marketing that builds
               relationships, nurtures leads, and drives consistent revenue
@@ -552,7 +554,7 @@ export default function EmailMarketingServicePage({
 
           <div
             className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
-            data-oid="n:unmge"
+            data-oid=".tk.0jj"
           >
             {emailProcessSteps.map((step, index) => (
               <motion.div
@@ -564,7 +566,7 @@ export default function EmailMarketingServicePage({
                 whileHover={{ y: -5, scale: 1.02 }}
                 className="group cursor-pointer"
                 onClick={() => setActiveProcess(index)}
-                data-oid="11ryigb"
+                data-oid="lewj_ej"
               >
                 <Card
                   className={`glass-card h-full border-white/15 hover:border-white/25 transition-all duration-300 relative overflow-hidden ${
@@ -572,23 +574,23 @@ export default function EmailMarketingServicePage({
                       ? "border-blue-400/50 bg-blue-500/5"
                       : ""
                   }`}
-                  data-oid="9_ip7za"
+                  data-oid="uk-31ai"
                 >
-                  <CardContent className="p-6 text-center" data-oid="g1c.23.">
-                    <div className="relative mb-6" data-oid="qcpg5oa">
+                  <CardContent className="p-6 text-center" data-oid="ufh6u:f">
+                    <div className="relative mb-6" data-oid="zyrp4lk">
                       <motion.div
                         className="w-16 h-16 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-2xl flex items-center justify-center mx-auto group-hover:scale-110 transition-transform duration-300"
                         whileHover={{ rotate: 10 }}
-                        data-oid="tp8tb55"
+                        data-oid="i9l-d0d"
                       >
                         <step.icon
                           className="w-8 h-8 text-white"
-                          data-oid="30saoia"
+                          data-oid="xyjwxg2"
                         />
                       </motion.div>
                       <div
                         className="absolute -top-2 -right-2 w-8 h-8 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center text-white font-bold text-sm"
-                        data-oid="cstufha"
+                        data-oid="60dl7uw"
                       >
                         {index + 1}
                       </div>
@@ -596,20 +598,20 @@ export default function EmailMarketingServicePage({
 
                     <Badge
                       className="mb-4 bg-blue-500/20 text-blue-400 px-3 py-1 text-sm"
-                      data-oid="9:-ej8m"
+                      data-oid="bldqqub"
                     >
                       {step.timeline}
                     </Badge>
 
                     <h3
                       className="text-xl font-bold text-white mb-4 group-hover:text-blue-100 transition-colors duration-300"
-                      data-oid="v2xav3."
+                      data-oid="jld80gp"
                     >
                       {step.title}
                     </h3>
                     <p
                       className="text-gray-300 group-hover:text-white transition-colors duration-300 text-sm"
-                      data-oid="_krlc_h"
+                      data-oid="6-wy4ky"
                     >
                       {step.description}
                     </p>
@@ -621,7 +623,7 @@ export default function EmailMarketingServicePage({
                       initial={{ opacity: 0 }}
                       animate={{ opacity: 1 }}
                       transition={{ duration: 0.3 }}
-                      data-oid="eqqxj0a"
+                      data-oid="3-pkqw:"
                     />
                   )}
                 </Card>
@@ -637,24 +639,24 @@ export default function EmailMarketingServicePage({
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          data-oid="jwaedtk"
+          data-oid="-:o52jq"
         >
-          <div className="text-center mb-16" data-oid="fs577xz">
+          <div className="text-center mb-16" data-oid="j..i5z4">
             <h2
               className="text-3xl md:text-5xl font-bold text-white mb-6"
-              data-oid="drz-ta6"
+              data-oid="uvfbgiq"
             >
               Email Marketing{" "}
               <span
                 className="bg-gradient-to-r from-blue-400 to-cyan-500 bg-clip-text text-transparent"
-                data-oid="6xw:j59"
+                data-oid="vpye8kl"
               >
                 Success Stories
               </span>
             </h2>
             <p
               className="text-xl text-gray-300 max-w-3xl mx-auto"
-              data-oid="j3kvukv"
+              data-oid="2xqiqzl"
             >
               Real results from real clients who trusted us with their email
               marketing strategy and automation.
@@ -663,7 +665,7 @@ export default function EmailMarketingServicePage({
 
           <div
             className="grid grid-cols-1 md:grid-cols-3 gap-8"
-            data-oid="9uq:ouy"
+            data-oid="ehyvb.7"
           >
             {caseStudies.map((study, index) => (
               <motion.div
@@ -674,51 +676,51 @@ export default function EmailMarketingServicePage({
                 viewport={{ once: true }}
                 whileHover={{ y: -5, scale: 1.02 }}
                 className="group"
-                data-oid="jarz3-s"
+                data-oid="8u5pyd:"
               >
                 <Card
                   className="glass-card h-full border-white/15 hover:border-white/25 transition-all duration-300"
-                  data-oid="qxralzg"
+                  data-oid="va4_uut"
                 >
-                  <CardContent className="p-6" data-oid="y:pqg0b">
-                    <div className="mb-4" data-oid="m-0lh6.">
+                  <CardContent className="p-6" data-oid="6xc2cjy">
+                    <div className="mb-4" data-oid="n75job.">
                       <h3
                         className="text-xl font-bold text-white mb-1"
-                        data-oid="0a2kktd"
+                        data-oid="1vmm:28"
                       >
                         {study.client}
                       </h3>
                       <Badge
                         className="bg-blue-500/20 text-blue-400 px-2 py-1 text-xs"
-                        data-oid="zxrcg.1"
+                        data-oid="6jvnktf"
                       >
                         {study.industry}
                       </Badge>
                     </div>
 
-                    <div className="mb-4" data-oid="-vas802">
+                    <div className="mb-4" data-oid="xqchncj">
                       <h4
                         className="text-sm font-semibold text-gray-300 mb-2"
-                        data-oid="55gclfl"
+                        data-oid="np0_h24"
                       >
                         Challenge:
                       </h4>
                       <p
                         className="text-gray-400 text-sm mb-3"
-                        data-oid="lm6p-gh"
+                        data-oid="1h_zydd"
                       >
                         {study.challenge}
                       </p>
 
                       <h4
                         className="text-sm font-semibold text-gray-300 mb-2"
-                        data-oid="bhm0r-w"
+                        data-oid="0m0cf:g"
                       >
                         Solution:
                       </h4>
                       <p
                         className="text-gray-400 text-sm mb-4"
-                        data-oid="oxcl9dk"
+                        data-oid="8kipfh."
                       >
                         {study.solution}
                       </p>
@@ -726,62 +728,62 @@ export default function EmailMarketingServicePage({
 
                     <div
                       className="border-t border-white/10 pt-4"
-                      data-oid="4s6h8m7"
+                      data-oid="i6agi5f"
                     >
                       <h4
                         className="text-sm font-semibold text-white mb-3"
-                        data-oid=".m20_n5"
+                        data-oid="tn1suo3"
                       >
                         Results in {study.timeframe}:
                       </h4>
-                      <div className="space-y-2" data-oid="_a5k.xj">
+                      <div className="space-y-2" data-oid="a7sti9w">
                         <div
                           className="flex justify-between"
-                          data-oid="sp50kw."
+                          data-oid="s7:i50h"
                         >
                           <span
                             className="text-gray-400 text-sm"
-                            data-oid="gqzx.a8"
+                            data-oid="b7e1oa6"
                           >
                             Open Rate:
                           </span>
                           <span
                             className="text-blue-400 font-bold text-sm"
-                            data-oid="x-syk:9"
+                            data-oid="p-8jog4"
                           >
                             {study.results.openRate}
                           </span>
                         </div>
                         <div
                           className="flex justify-between"
-                          data-oid="re5upmv"
+                          data-oid="wd-edxb"
                         >
                           <span
                             className="text-gray-400 text-sm"
-                            data-oid="5m6tzk-"
+                            data-oid="p:u7q:9"
                           >
                             Click Rate:
                           </span>
                           <span
                             className="text-green-400 font-bold text-sm"
-                            data-oid="9lcbma."
+                            data-oid="e6-:590"
                           >
                             {study.results.clickRate}
                           </span>
                         </div>
                         <div
                           className="flex justify-between"
-                          data-oid="-.pu4ex"
+                          data-oid="7c:4.nb"
                         >
                           <span
                             className="text-gray-400 text-sm"
-                            data-oid="8ldfw03"
+                            data-oid="-1am_m5"
                           >
                             Revenue:
                           </span>
                           <span
                             className="text-purple-400 font-bold text-sm"
-                            data-oid="jyjfyum"
+                            data-oid="jfpoevt"
                           >
                             {study.results.revenue}
                           </span>
@@ -802,24 +804,24 @@ export default function EmailMarketingServicePage({
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          data-oid="llqxqzt"
+          data-oid="k5ps_d8"
         >
-          <div className="text-center mb-16" data-oid="ohif0oc">
+          <div className="text-center mb-16" data-oid="o28nf48">
             <h2
               className="text-3xl md:text-5xl font-bold text-white mb-6"
-              data-oid="bufgv49"
+              data-oid="yhbmwco"
             >
               Email Marketing{" "}
               <span
                 className="bg-gradient-to-r from-blue-400 to-cyan-500 bg-clip-text text-transparent"
-                data-oid="5d4m75g"
+                data-oid="tqjbj3."
               >
                 Pricing Plans
               </span>
             </h2>
             <p
               className="text-xl text-gray-300 max-w-3xl mx-auto"
-              data-oid="horel9x"
+              data-oid="nlharqk"
             >
               Choose the email marketing package that best fits your audience
               size and business goals.
@@ -828,7 +830,7 @@ export default function EmailMarketingServicePage({
 
           <div
             className="grid grid-cols-1 md:grid-cols-3 gap-8"
-            data-oid="t_r9sce"
+            data-oid="8itdsl7"
           >
             {pricingTiers.map((tier, index) => (
               <motion.div
@@ -839,18 +841,18 @@ export default function EmailMarketingServicePage({
                 viewport={{ once: true }}
                 whileHover={{ y: -5, scale: 1.02 }}
                 className="relative group"
-                data-oid="dwu1vom"
+                data-oid="3ijuamz"
               >
                 {tier.popular && (
                   <div
                     className="absolute -top-4 left-1/2 transform -translate-x-1/2 z-10"
-                    data-oid="b-ke-1."
+                    data-oid="jg5vrde"
                   >
                     <Badge
                       className="bg-gradient-to-r from-purple-500 to-pink-500 text-white px-4 py-1 shadow-lg"
-                      data-oid="0uz18x7"
+                      data-oid="_jatg4a"
                     >
-                      <Star className="w-3 h-3 mr-1" data-oid="cfcxdfx" />
+                      <Star className="w-3 h-3 mr-1" data-oid="6wphjwl" />
                       Most Popular
                     </Badge>
                   </div>
@@ -862,53 +864,54 @@ export default function EmailMarketingServicePage({
                       ? "border-purple-500/50"
                       : "border-white/15 hover:border-white/25"
                   }`}
-                  data-oid="y.57fwz"
+                  data-oid="_q848u:"
                 >
-                  <CardContent className="p-8 text-center" data-oid="0qtli4e">
+                  <CardContent className="p-8 text-center" data-oid="qkwdyzj">
                     <h3
                       className="text-2xl font-bold text-white mb-2"
-                      data-oid="ez4dq7c"
+                      data-oid="6:vfhfa"
                     >
                       {tier.name}
                     </h3>
-                    <p className="text-gray-300 mb-6" data-oid="ajuwvr.">
+                    <p className="text-gray-300 mb-6" data-oid="79wamg.">
                       {tier.description}
                     </p>
 
-                    <div className="mb-6" data-oid="6obaocx">
+                    <div className="mb-6" data-oid="j4p0xjb">
                       <span
                         className="text-4xl font-bold text-white"
-                        data-oid="bf1.m1_"
+                        data-oid="c21xr0o"
                       >
                         ${tier.price}
                       </span>
-                      <span className="text-gray-400" data-oid="j_png4z">
+                      <span className="text-gray-400" data-oid="pn7:p6j">
                         {tier.period}
                       </span>
                     </div>
 
-                    <div className="space-y-3 mb-8" data-oid=":tu3foc">
+                    <div className="space-y-3 mb-8" data-oid="fei3tu.">
                       {tier.features.map((feature, i) => (
                         <div
                           key={i}
                           className="flex items-center text-sm"
-                          data-oid="hp:ykuw"
+                          data-oid="cj.t.4v"
                         >
                           <CheckCircle
                             className="w-4 h-4 text-blue-400 mr-3 flex-shrink-0"
-                            data-oid="jcfz3hy"
+                            data-oid="r2s2r46"
                           />
-                          <span className="text-gray-300" data-oid="i8-b-21">
+
+                          <span className="text-gray-300" data-oid="tkko-dn">
                             {feature}
                           </span>
                         </div>
                       ))}
                     </div>
 
-                    <div className="mb-6" data-oid="9n4j1x1">
+                    <div className="mb-6" data-oid="_ja-psg">
                       <p
                         className="text-blue-400 text-sm font-medium"
-                        data-oid="9xbs9ot"
+                        data-oid="cv4_0cv"
                       >
                         Ideal for: {tier.ideal}
                       </p>
@@ -921,14 +924,14 @@ export default function EmailMarketingServicePage({
                           : "glass border-white/20 hover:bg-white/20 text-white"
                       }`}
                       onClick={() => onNavigate("home")}
-                      data-oid="1_vgqpd"
+                      data-oid="cshhku3"
                     >
                       Get Started with {tier.name}
                     </Button>
                   </CardContent>
                   <div
                     className={`absolute inset-0 bg-gradient-to-br ${tier.gradient} opacity-0 group-hover:opacity-5 transition-opacity duration-300`}
-                    data-oid="s4hgzvu"
+                    data-oid="x:swna:"
                   ></div>
                 </Card>
               </motion.div>
@@ -943,17 +946,17 @@ export default function EmailMarketingServicePage({
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          data-oid="2u2mobj"
+          data-oid="sovcwey"
         >
-          <div className="text-center mb-16" data-oid="c385yih">
+          <div className="text-center mb-16" data-oid="v_kluro">
             <h2
               className="text-3xl md:text-5xl font-bold text-white mb-6"
-              data-oid="zgb98q0"
+              data-oid="_evfudh"
             >
               What Our{" "}
               <span
                 className="bg-gradient-to-r from-blue-400 to-cyan-500 bg-clip-text text-transparent"
-                data-oid="ssnux4r"
+                data-oid="0.vav1z"
               >
                 Email Clients
               </span>{" "}
@@ -963,7 +966,7 @@ export default function EmailMarketingServicePage({
 
           <div
             className="grid grid-cols-1 md:grid-cols-2 gap-8"
-            data-oid=":cooepm"
+            data-oid="6g4nquf"
           >
             {testimonials.map((testimonial, index) => (
               <motion.div
@@ -974,24 +977,24 @@ export default function EmailMarketingServicePage({
                 viewport={{ once: true }}
                 whileHover={{ y: -5, scale: 1.02 }}
                 className="group"
-                data-oid="d_8xdnk"
+                data-oid="ljsi-s8"
               >
                 <Card
                   className="glass-card border-white/15 hover:border-white/25 transition-all duration-300"
-                  data-oid="x_jrlm8"
+                  data-oid="drhe93r"
                 >
-                  <CardContent className="p-8" data-oid="2c4jt.h">
-                    <div className="flex items-center mb-4" data-oid="c8bief2">
+                  <CardContent className="p-8" data-oid="pl4zp16">
+                    <div className="flex items-center mb-4" data-oid="fh8odte">
                       {[...Array(testimonial.rating)].map((_, i) => (
                         <Star
                           key={i}
                           className="w-5 h-5 text-yellow-400 fill-current"
-                          data-oid="0dxzr8a"
+                          data-oid="u2gdmo_"
                         />
                       ))}
                       <Badge
                         className="ml-auto bg-blue-500/20 text-blue-400 px-2 py-1 text-xs"
-                        data-oid="8x:53ka"
+                        data-oid="1x0aj6t"
                       >
                         {testimonial.result}
                       </Badge>
@@ -999,37 +1002,37 @@ export default function EmailMarketingServicePage({
 
                     <blockquote
                       className="text-gray-300 mb-6 italic"
-                      data-oid="4xo6r:4"
+                      data-oid="54qo:fc"
                     >
                       "{testimonial.text}"
                     </blockquote>
 
-                    <div className="flex items-center" data-oid="47ho31q">
+                    <div className="flex items-center" data-oid="5ao91xi">
                       <div
                         className="w-12 h-12 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-full flex items-center justify-center text-white font-bold mr-4"
-                        data-oid="1peprmr"
+                        data-oid="6zwp1qo"
                       >
                         {testimonial.name
                           .split(" ")
                           .map((n) => n[0])
                           .join("")}
                       </div>
-                      <div data-oid="oiaf9xf">
+                      <div data-oid="0elfkc8">
                         <div
                           className="font-bold text-white"
-                          data-oid="r-g61kz"
+                          data-oid="yne.dbd"
                         >
                           {testimonial.name}
                         </div>
                         <div
                           className="text-gray-400 text-sm"
-                          data-oid="c5fw_hh"
+                          data-oid="ibtzb26"
                         >
                           {testimonial.role}
                         </div>
                         <div
                           className="text-gray-400 text-sm"
-                          data-oid="1_e96cd"
+                          data-oid="61yeivs"
                         >
                           {testimonial.company}
                         </div>
@@ -1048,33 +1051,33 @@ export default function EmailMarketingServicePage({
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          data-oid="cal6pdz"
+          data-oid="zm.8w77"
         >
           <Card
             className="glass-card-enhanced rounded-3xl p-12 text-center relative overflow-hidden group"
-            data-oid="olpv0j."
+            data-oid="gtddlfz"
           >
-            <div className="relative z-10" data-oid="l8njj.9">
+            <div className="relative z-10" data-oid="skgelzl">
               <motion.div
                 animate={{ y: [0, -10, 0] }}
                 transition={{ duration: 3, repeat: Infinity }}
                 className="inline-block mb-8"
-                data-oid="u1fc99m"
+                data-oid="3jmfv-6"
               >
                 <Mail
                   className="w-20 h-20 text-blue-400 glow-effect"
-                  data-oid="1-d0laf"
+                  data-oid="y-ome2g"
                 />
               </motion.div>
 
               <h2
                 className="text-3xl md:text-5xl font-bold text-white mb-6"
-                data-oid="x2eu2hj"
+                data-oid="bnyveft"
               >
                 Ready to{" "}
                 <span
                   className="bg-gradient-to-r from-blue-400 to-cyan-500 bg-clip-text text-transparent"
-                  data-oid="k.o5p-w"
+                  data-oid="8hv6pxo"
                 >
                   Maximize
                 </span>{" "}
@@ -1083,7 +1086,7 @@ export default function EmailMarketingServicePage({
 
               <p
                 className="text-xl text-gray-300 mb-10 max-w-3xl mx-auto"
-                data-oid="03nt16t"
+                data-oid="yozzl26"
               >
                 Get a free email marketing audit and discover how we can help
                 you build stronger customer relationships, increase engagement,
@@ -1092,27 +1095,27 @@ export default function EmailMarketingServicePage({
 
               <div
                 className="flex flex-col sm:flex-row gap-6 justify-center"
-                data-oid="g-bk1i5"
+                data-oid="2qmkqys"
               >
                 <motion.div
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
-                  data-oid="f53q1l9"
+                  data-oid="tsr9u1h"
                 >
                   <Button
                     size="lg"
-                    className="bg-gradient-to-r from-blue-500 to-cyan-600 hover:from-blue-600 hover:to-cyan-700 text-white px-12 py-6 text-lg font-bold shadow-2xl btn-premium group"
+                    className="bg-gradient-to-r from-blue-500 to-cyan-600 hover:from-blue-600 hover:to-cyan-700 text-white btn-responsive text-lg font-bold shadow-2xl btn-premium group"
                     onClick={() => onNavigate("home")}
-                    data-oid="i.9iqq:"
+                    data-oid="jnnz_e4"
                   >
                     <Calendar
                       className="mr-3 h-6 w-6 group-hover:animate-bounce"
-                      data-oid="-m9ftp1"
+                      data-oid="9l.y2co"
                     />
                     Get Free Email Audit
                     <ArrowRight
                       className="ml-3 h-6 w-6 group-hover:translate-x-1 transition-transform"
-                      data-oid="ycqwlpn"
+                      data-oid="vntyoxq"
                     />
                   </Button>
                 </motion.div>
@@ -1120,18 +1123,18 @@ export default function EmailMarketingServicePage({
                 <motion.div
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
-                  data-oid="qnthx-0"
+                  data-oid="1bzpfal"
                 >
                   <Button
                     variant="outline"
                     size="lg"
-                    className="glass border-white/30 text-white hover:bg-white/15 px-12 py-6 text-lg font-semibold group"
+                    className="glass border-white/30 text-white hover:bg-white/15 btn-responsive text-lg font-semibold group"
                     onClick={() => onNavigate("pricing")}
-                    data-oid="l51ccer"
+                    data-oid="d106ywy"
                   >
                     <BarChart3
                       className="mr-3 h-6 w-6 group-hover:scale-110 transition-transform"
-                      data-oid="lr5k4du"
+                      data-oid="3:_7z7g"
                     />
                     View Email Pricing
                   </Button>
@@ -1141,7 +1144,7 @@ export default function EmailMarketingServicePage({
 
             <div
               className="absolute inset-0 bg-gradient-to-br from-blue-500/5 to-cyan-500/5 group-hover:from-blue-500/10 group-hover:to-cyan-500/10 transition-all duration-500"
-              data-oid="ldyt16o"
+              data-oid="hh59r9b"
             ></div>
           </Card>
         </motion.section>

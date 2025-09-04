@@ -181,10 +181,10 @@ export const seoData = {
       },
       address: {
         "@type": "PostalAddress",
-        streetAddress: "123 Innovation Street",
-        addressLocality: "Tech City",
+        streetAddress: "Morgan Hill",
+        addressLocality: "Morgan Hill",
         addressRegion: "CA",
-        postalCode: "90210",
+        postalCode: "95037",
         addressCountry: "US",
       },
       sameAs: [

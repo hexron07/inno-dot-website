@@ -202,26 +202,26 @@ export default function AIAutomationServicePage({
   ];
 
   return (
-    <div className="pt-24 pb-20 relative" data-oid="3.e_e-:">
+    <div className="pt-24 pb-20 relative" data-oid="1eous-6">
       {/* Background Elements */}
-      <div className="fixed inset-0 z-0" data-oid="5zotvgg">
+      <div className="fixed inset-0 z-0" data-oid="usivouq">
         <div
           className="absolute top-20 right-20 w-72 h-72 bg-violet-600/20 rounded-full filter blur-3xl animate-float"
-          data-oid="1hv1f.h"
+          data-oid="h.ezrib"
         ></div>
         <div
           className="absolute bottom-20 left-20 w-72 h-72 bg-purple-600/20 rounded-full filter blur-3xl animate-float-delayed"
-          data-oid="qjq_mj_"
+          data-oid="0_twrnq"
         ></div>
         <div
           className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-gradient-to-r from-violet-500/5 to-purple-500/5 rounded-full filter blur-3xl"
-          data-oid="i3hlo9t"
+          data-oid=".n1hgec"
         ></div>
       </div>
 
       <div
         className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
-        data-oid="xp:5cvy"
+        data-oid="-.mr5jn"
       >
         {/* Header */}
         <motion.div
@@ -229,13 +229,13 @@ export default function AIAutomationServicePage({
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          data-oid="vhr3oi7"
+          data-oid="7x4ppe1"
         >
           <Badge
             className="mb-8 bg-gradient-to-r from-violet-500 to-purple-600 text-white px-6 py-3 hover:scale-105 transition-transform duration-300"
-            data-oid="h3e0-8g"
+            data-oid="osh9rzg"
           >
-            <Bot className="w-5 h-5 mr-2" data-oid="n2j_ppk" />
+            <Bot className="w-5 h-5 mr-2" data-oid="oi9r-n8" />
             AI Automation
           </Badge>
 
@@ -244,12 +244,12 @@ export default function AIAutomationServicePage({
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            data-oid="u-jzd4h"
+            data-oid="wllnsof"
           >
-            <span className="block text-contrast-high" data-oid="_.b932d">
+            <span className="block text-contrast-high" data-oid="hj-4qk5">
               Transform Your Business with
             </span>
-            <span className="block gradient-text-vibrant" data-oid="vth_.f4">
+            <span className="block gradient-text-vibrant" data-oid="gezugpc">
               AI-Powered Automation
             </span>
           </motion.h1>
@@ -259,7 +259,7 @@ export default function AIAutomationServicePage({
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            data-oid="obsyl:2"
+            data-oid="9l03gvo"
           >
             Revolutionize your operations with cutting-edge AI automation
             solutions. Reduce costs, increase efficiency, and scale your
@@ -269,34 +269,34 @@ export default function AIAutomationServicePage({
           {/* Enhanced Hero Cards */}
           <div
             className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12 max-w-5xl mx-auto"
-            data-oid="ix4gfu_"
+            data-oid="1z5dgk:"
           >
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.3 }}
               className="relative group cursor-pointer card-interactive"
-              data-oid="301a3jc"
+              data-oid="2cxhp.w"
             >
               <div
                 className="glass-card-enhanced p-6 rounded-xl text-center"
-                data-oid="o:d-qv1"
+                data-oid="b50u769"
               >
                 <div
                   className="w-16 h-16 mx-auto mb-4 bg-gradient-to-r from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center"
-                  data-oid="wj7_in_"
+                  data-oid="lyt:2lf"
                 >
                   <BrainCircuit
                     className="w-8 h-8 text-white"
-                    data-oid="tpg8jyz"
+                    data-oid="2hqw77q"
                   />
                 </div>
-                <h3 className="heading-card mb-2" data-oid="um6l10s">
+                <h3 className="heading-card mb-2" data-oid="h_slxbc">
                   Smart Automation
                 </h3>
                 <p
                   className="text-body-sm text-contrast-medium"
-                  data-oid="4t_a97z"
+                  data-oid="havs6wi"
                 >
                   Intelligent workflows that adapt and learn
                 </p>
@@ -308,27 +308,27 @@ export default function AIAutomationServicePage({
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.5 }}
               className="relative group cursor-pointer card-interactive"
-              data-oid="3dauo4o"
+              data-oid="f62_acx"
             >
               <div
                 className="glass-card-enhanced p-6 rounded-xl text-center"
-                data-oid="owv7noz"
+                data-oid="-khpdpo"
               >
                 <div
                   className="w-16 h-16 mx-auto mb-4 bg-gradient-to-r from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center"
-                  data-oid="p24p09r"
+                  data-oid="t9kkz3i"
                 >
                   <MessageSquare
                     className="w-8 h-8 text-white"
-                    data-oid="476bzdu"
+                    data-oid=":qot2db"
                   />
                 </div>
-                <h3 className="heading-card mb-2" data-oid=".1sk3qd">
+                <h3 className="heading-card mb-2" data-oid="q9v_o3q">
                   AI Chatbots
                 </h3>
                 <p
                   className="text-body-sm text-contrast-medium"
-                  data-oid="7-p4055"
+                  data-oid=".ovnr50"
                 >
                   24/7 customer support automation
                 </p>
@@ -340,27 +340,27 @@ export default function AIAutomationServicePage({
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.7 }}
               className="relative group cursor-pointer card-interactive"
-              data-oid="-91sl3x"
+              data-oid="l4bznx0"
             >
               <div
                 className="glass-card-enhanced p-6 rounded-xl text-center"
-                data-oid="-p9b_rt"
+                data-oid="1d3095w"
               >
                 <div
                   className="w-16 h-16 mx-auto mb-4 bg-gradient-to-r from-cyan-500 to-cyan-600 rounded-2xl flex items-center justify-center"
-                  data-oid=".yl5aw5"
+                  data-oid="rnfb2:1"
                 >
                   <BarChart3
                     className="w-8 h-8 text-white"
-                    data-oid="hl3dt5s"
+                    data-oid="qf0_bge"
                   />
                 </div>
-                <h3 className="heading-card mb-2" data-oid="wegso4p">
+                <h3 className="heading-card mb-2" data-oid="j-zo4_8">
                   Predictive Analytics
                 </h3>
                 <p
                   className="text-body-sm text-contrast-medium"
-                  data-oid="8_lty_q"
+                  data-oid="bke8:xe"
                 >
                   Data-driven insights and forecasting
                 </p>
@@ -370,45 +370,45 @@ export default function AIAutomationServicePage({
 
           <div
             className="flex flex-col sm:flex-row gap-6 justify-center items-center"
-            data-oid="2zpr3g:"
+            data-oid="s.dxet:"
           >
             <motion.div
               whileHover={{ y: -1 }}
               whileTap={{ scale: 0.98 }}
-              data-oid="-aq-o.f"
+              data-oid="8stjmyc"
             >
               <Button
                 size="lg"
                 className="btn-premium bg-gradient-to-r from-violet-500 to-purple-600 text-contrast-high px-10 py-6 font-bold tracking-wide shadow-2xl relative overflow-hidden group"
                 onClick={() => onNavigate("pricing")}
-                data-oid="a7y-u4c"
+                data-oid="5ziid4z"
               >
                 <Calendar
                   className="mr-3 h-6 w-6 transition-transform group-hover:scale-110"
-                  data-oid="fz6-dpq"
+                  data-oid="h0-hj48"
                 />
                 Start AI Consultation
                 <ArrowRight
                   className="ml-3 h-6 w-6 transition-transform group-hover:translate-x-1"
-                  data-oid="3qz58dn"
+                  data-oid="9reg2cm"
                 />
               </Button>
             </motion.div>
             <motion.div
               whileHover={{ y: -1 }}
               whileTap={{ scale: 0.98 }}
-              data-oid="v92lmhk"
+              data-oid=".af-pn7"
             >
               <Button
                 variant="outline"
                 size="lg"
                 className="glass-strong border-white/30 text-contrast-high hover:bg-white/20 px-10 py-6 font-semibold tracking-wide group"
                 onClick={() => onNavigate("portfolio")}
-                data-oid="6mi2n91"
+                data-oid="n08-b:h"
               >
                 <Eye
                   className="mr-3 h-6 w-6 transition-transform group-hover:scale-110"
-                  data-oid="ag52ple"
+                  data-oid="qhdlvoe"
                 />
                 View AI Solutions
               </Button>
@@ -423,11 +423,11 @@ export default function AIAutomationServicePage({
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          data-oid="9d1wd3:"
+          data-oid="qdlk5kk"
         >
           <div
             className="grid grid-cols-2 md:grid-cols-4 gap-8"
-            data-oid="w81cvsf"
+            data-oid="vxb51sd"
           >
             {stats.map((stat, index) => (
               <motion.div
@@ -438,34 +438,34 @@ export default function AIAutomationServicePage({
                 viewport={{ once: true }}
                 whileHover={{ y: -2 }}
                 className="group"
-                data-oid="d98y_j-"
+                data-oid="k9g:kjd"
               >
                 <Card
-                  className="glass-stat-card hover:bg-white/10 transition-all duration-300 card-stat cursor-pointer"
-                  data-oid="ju:xleo"
+                  className="glass-stat-card hover:bg-white/10 transition-all duration-300 card-stat cursor-pointer bg-black/40 border-white/15"
+                  data-oid="mscelp8"
                 >
                   <CardContent
                     className="p-6 text-center relative z-10"
-                    data-oid="u0r.8nx"
+                    data-oid=":1q03s_"
                   >
                     <div
                       className="w-14 h-14 mx-auto mb-4 glass-ultra rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300"
-                      data-oid="ahx7zm8"
+                      data-oid="py3:_k2"
                     >
                       <stat.icon
-                        className="w-7 h-7 icon-primary icon-stat"
-                        data-oid="sfj.izm"
+                        className="w-7 h-7 text-blue-400"
+                        data-oid="615_zpv"
                       />
                     </div>
                     <div
                       className="infographic-stat mb-2 animate-stat-counter text-card-primary"
-                      data-oid="04b5k-9"
+                      data-oid="l4k.lcz"
                     >
                       {stat.value}
                     </div>
                     <div
                       className="heading-card text-card-secondary"
-                      data-oid="h14i1mi"
+                      data-oid="vnopyvg"
                     >
                       {stat.label}
                     </div>
@@ -483,27 +483,27 @@ export default function AIAutomationServicePage({
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          data-oid="hgbyh5u"
+          data-oid="h413tln"
         >
-          <div className="text-center mb-16" data-oid="qrlqdi.">
+          <div className="text-center mb-16" data-oid="e-0xo1h">
             <motion.h2
               className="heading-section mb-6"
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
               viewport={{ once: true }}
-              data-oid="9q94qun"
+              data-oid=".cz49bg"
             >
-              <span className="block text-contrast-high" data-oid="d5hl3_q">
+              <span className="block text-contrast-high" data-oid="6.m02pl">
                 AI Automation
               </span>
-              <span className="block gradient-text-vibrant" data-oid="nsq90lz">
+              <span className="block gradient-text-vibrant" data-oid="9m_9bc4">
                 Solutions & Features
               </span>
             </motion.h2>
             <p
               className="text-body-xl max-w-3xl mx-auto text-contrast-medium"
-              data-oid="7q-n4tj"
+              data-oid="esgngn_"
             >
               Comprehensive AI-powered automation tools to transform your
               business operations
@@ -512,7 +512,7 @@ export default function AIAutomationServicePage({
 
           <div
             className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
-            data-oid="xfyk.1:"
+            data-oid=".g2ftfu"
           >
             {features.map((feature, index) => (
               <motion.div
@@ -523,32 +523,32 @@ export default function AIAutomationServicePage({
                 viewport={{ once: true }}
                 whileHover={{ y: -3 }}
                 className="group cursor-pointer"
-                data-oid="q86zt8z"
+                data-oid="dtp9dmr"
               >
                 <Card
-                  className="glass-feature-card h-full border-white/15 hover:border-white/25 transition-all duration-300 card-feature relative overflow-hidden"
-                  data-oid="wbb.y8c"
+                  className="glass-feature-card h-full border-white/15 hover:border-white/25 transition-all duration-300 card-feature relative overflow-hidden bg-black/40"
+                  data-oid=":x-o:us"
                 >
-                  <CardContent className="p-8 relative z-10" data-oid="816ivto">
+                  <CardContent className="p-8 relative z-10" data-oid="ris2wb4">
                     <div
                       className="w-16 h-16 bg-gradient-to-r from-violet-500 to-purple-600 rounded-2xl flex items-center justify-center mb-6 glow-effect group-hover:scale-110 group-hover:rotate-3 transition-all duration-300"
-                      data-oid="f67-coy"
+                      data-oid="pwrz_91"
                     >
                       <feature.icon
-                        className="w-8 h-8 text-contrast-high icon-feature"
-                        data-oid="ndskg67"
+                        className="w-8 h-8 text-white"
+                        data-oid="0y.xpej"
                       />
                     </div>
 
                     <h3
                       className="heading-card text-card-primary mb-4 group-hover:text-purple-100 transition-colors duration-300"
-                      data-oid="eyb18.q"
+                      data-oid="oczj_pr"
                     >
                       {feature.title}
                     </h3>
                     <p
                       className="text-body text-card-secondary group-hover:text-contrast-medium transition-colors duration-300"
-                      data-oid="vcsws_r"
+                      data-oid="n-75efj"
                     >
                       {feature.description}
                     </p>
@@ -566,27 +566,27 @@ export default function AIAutomationServicePage({
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          data-oid="ac9-:b3"
+          data-oid="dwacgn7"
         >
-          <div className="text-center mb-16" data-oid=":rprt26">
+          <div className="text-center mb-16" data-oid="38v8_5e">
             <motion.h2
               className="heading-section mb-6"
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
               viewport={{ once: true }}
-              data-oid="dxy3nhb"
+              data-oid="8et25or"
             >
-              <span className="block text-contrast-high" data-oid="s8:.:mh">
+              <span className="block text-contrast-high" data-oid="1lm09-q">
                 Our AI Automation
               </span>
-              <span className="block gradient-text-vibrant" data-oid="yku0ixo">
+              <span className="block gradient-text-vibrant" data-oid="6unocfl">
                 Implementation Process
               </span>
             </motion.h2>
             <p
               className="text-body-xl max-w-3xl mx-auto text-contrast-medium"
-              data-oid="um6bg0u"
+              data-oid="9pvfh95"
             >
               Systematic approach to implementing AI automation in your business
             </p>
@@ -594,7 +594,7 @@ export default function AIAutomationServicePage({
 
           <div
             className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
-            data-oid="y2otpeu"
+            data-oid="kn0-05f"
           >
             {process.map((step, index) => (
               <motion.div
@@ -605,26 +605,26 @@ export default function AIAutomationServicePage({
                 viewport={{ once: true }}
                 whileHover={{ y: -5 }}
                 className="relative group cursor-pointer"
-                data-oid="f53-cw0"
+                data-oid="h0.03t2"
               >
                 <Card
-                  className="glass-feature-card h-full text-center border-white/15 hover:border-white/25 transition-all duration-300 card-interactive relative overflow-hidden"
-                  data-oid=".xx6wwf"
+                  className="glass-feature-card h-full text-center border-white/15 hover:border-white/25 transition-all duration-300 card-interactive relative overflow-hidden bg-black/40"
+                  data-oid="2owq267"
                 >
-                  <CardContent className="p-8 relative z-10" data-oid="i9w4h0f">
-                    <div className="relative mb-6" data-oid="mn.jsja">
+                  <CardContent className="p-8 relative z-10" data-oid="9bzl7xe">
+                    <div className="relative mb-6" data-oid="xw6m9yy">
                       <div
                         className="w-20 h-20 mx-auto glass-ultra rounded-full flex items-center justify-center group-hover:scale-110 group-hover:rotate-6 transition-all duration-300"
-                        data-oid="p6my15:"
+                        data-oid="sm.8h76"
                       >
                         <step.icon
-                          className="w-10 h-10 icon-accent icon-feature transition-all group-hover:scale-110"
-                          data-oid="8agqseo"
+                          className="w-10 h-10 text-violet-400"
+                          data-oid="kudk4gm"
                         />
                       </div>
                       <div
                         className="absolute -top-2 -right-2 w-8 h-8 bg-gradient-to-r from-violet-500 to-purple-600 rounded-full flex items-center justify-center text-contrast-high text-caption glow-effect group-hover:scale-110 transition-transform duration-300"
-                        data-oid="2x4o1so"
+                        data-oid="n45mmjh"
                       >
                         {step.step}
                       </div>
@@ -632,24 +632,25 @@ export default function AIAutomationServicePage({
 
                     <h3
                       className="heading-card text-card-primary mb-4 group-hover:text-purple-100 transition-colors duration-300"
-                      data-oid="d5iw2fe"
+                      data-oid="h-n5k9:"
                     >
                       {step.title}
                     </h3>
                     <p
                       className="text-body-sm text-card-secondary mb-4 group-hover:text-contrast-medium transition-colors duration-300"
-                      data-oid="m1o65g_"
+                      data-oid="3w1of1u"
                     >
                       {step.description}
                     </p>
                     <div
                       className="text-caption text-card-muted group-hover:text-purple-200 transition-colors duration-300"
-                      data-oid="4cb_cc5"
+                      data-oid="bot6vlw"
                     >
                       <Clock
                         className="w-3 h-3 inline mr-1"
-                        data-oid="nc.:p23"
+                        data-oid="-i70bmr"
                       />
+
                       {step.duration}
                     </div>
                   </CardContent>
@@ -666,34 +667,34 @@ export default function AIAutomationServicePage({
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          data-oid="8iq_3vg"
+          data-oid="a172rl3"
         >
           <div
             className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center"
-            data-oid="go62vxa"
+            data-oid="nawdan6"
           >
-            <div data-oid="jldeobf">
+            <div data-oid="hpknvbx">
               <motion.h2
                 className="heading-section mb-6"
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.2 }}
                 viewport={{ once: true }}
-                data-oid="ys6jamt"
+                data-oid="omj.kok"
               >
-                <span className="block text-contrast-high" data-oid="rriug_g">
+                <span className="block text-contrast-high" data-oid=":es_z1i">
                   Why Choose Our
                 </span>
                 <span
                   className="block gradient-text-vibrant"
-                  data-oid="v7ur-rh"
+                  data-oid="mdts1jb"
                 >
                   AI Automation Services?
                 </span>
               </motion.h2>
               <p
                 className="text-body-xl text-contrast-medium mb-8"
-                data-oid="w31o7j3"
+                data-oid="sdq.m8j"
               >
                 Our AI automation solutions help businesses achieve exceptional
                 efficiency gains and cost reductions while improving customer
@@ -702,7 +703,7 @@ export default function AIAutomationServicePage({
 
               <div
                 className="grid grid-cols-1 md:grid-cols-2 gap-4"
-                data-oid="k7voj--"
+                data-oid="tzcpgtl"
               >
                 {benefits.map((benefit, index) => (
                   <motion.div
@@ -713,15 +714,16 @@ export default function AIAutomationServicePage({
                     viewport={{ once: true }}
                     whileHover={{ x: 5 }}
                     className="flex items-center space-x-3 group cursor-pointer"
-                    data-oid="mtgs:2_"
+                    data-oid="3ua8jaw"
                   >
                     <CheckCircle
-                      className="w-5 h-5 text-success flex-shrink-0 group-hover:scale-110 transition-transform duration-300"
-                      data-oid="b.9m_9-"
+                      className="w-5 h-5 text-green-400 flex-shrink-0 group-hover:scale-110 transition-transform duration-300"
+                      data-oid="z6bu9.y"
                     />
+
                     <span
                       className="text-body text-card-secondary group-hover:text-contrast-medium transition-colors duration-300"
-                      data-oid="moj8k1_"
+                      data-oid="w0.e99."
                     >
                       {benefit}
                     </span>
@@ -730,33 +732,33 @@ export default function AIAutomationServicePage({
               </div>
             </div>
 
-            <div className="relative" data-oid="osh7e4q">
+            <div className="relative" data-oid="fsuveix">
               <motion.div
                 whileHover={{ scale: 1.02 }}
                 transition={{ duration: 0.3 }}
-                data-oid="gazolra"
+                data-oid="qylsuj3"
               >
                 <Card
-                  className="glass-card-enhanced p-8 border-white/15 hover:border-white/25 transition-all duration-300 card-hover-effect cursor-pointer relative overflow-hidden"
-                  data-oid="f7i6num"
+                  className="glass-card-enhanced p-8 border-white/15 hover:border-white/25 transition-all duration-300 card-hover-effect cursor-pointer relative overflow-hidden bg-black/40"
+                  data-oid="6145.h6"
                 >
-                  <div className="text-center relative z-10" data-oid="c5o0nch">
+                  <div className="text-center relative z-10" data-oid="r3a96-g">
                     <div
                       className="w-24 h-24 mx-auto mb-6 bg-gradient-to-r from-violet-500 to-purple-600 rounded-3xl flex items-center justify-center glow-effect group-hover:scale-110 transition-transform duration-300"
-                      data-oid="zn.ux-o"
+                      data-oid="tg17a_-"
                     >
                       <Bot
-                        className="w-12 h-12 text-contrast-high"
-                        data-oid="m95vbol"
+                        className="w-12 h-12 text-white"
+                        data-oid="e3wrob:"
                       />
                     </div>
                     <h3
                       className="heading-card text-card-primary mb-4"
-                      data-oid="5smafai"
+                      data-oid="7z1v0-5"
                     >
                       Average AI Results
                     </h3>
-                    <div className="space-y-4" data-oid="_bl53st">
+                    <div className="space-y-4" data-oid="i0h4i3z">
                       {resultsData.map((result, index) => (
                         <motion.div
                           key={index}
@@ -764,17 +766,17 @@ export default function AIAutomationServicePage({
                           whileInView={{ opacity: 1, y: 0 }}
                           transition={{ duration: 0.4, delay: index * 0.1 }}
                           viewport={{ once: true }}
-                          data-oid="q8prqhp"
+                          data-oid="t3va5c4"
                         >
                           <div
                             className="infographic-stat animate-stat-counter"
-                            data-oid="0v5oldw"
+                            data-oid="b0wt10h"
                           >
                             {result.value}
                           </div>
                           <p
                             className="text-body text-card-secondary"
-                            data-oid="r2y7xup"
+                            data-oid="h2pyab_"
                           >
                             {result.label}
                           </p>
@@ -795,27 +797,27 @@ export default function AIAutomationServicePage({
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          data-oid="si:y17i"
+          data-oid="oo4tin0"
         >
-          <div className="text-center mb-16" data-oid="f4548ab">
+          <div className="text-center mb-16" data-oid="cwv7acd">
             <motion.h2
               className="heading-section mb-6"
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
               viewport={{ once: true }}
-              data-oid="d2nqg6b"
+              data-oid="-t12dp."
             >
-              <span className="block text-contrast-high" data-oid="lxba36e">
+              <span className="block text-contrast-high" data-oid="iwt9te-">
                 AI Automation
               </span>
-              <span className="block gradient-text-vibrant" data-oid="gg02y8e">
+              <span className="block gradient-text-vibrant" data-oid="1z44owk">
                 Packages
               </span>
             </motion.h2>
             <p
               className="text-body-xl max-w-3xl mx-auto text-contrast-medium"
-              data-oid="flstogf"
+              data-oid="itk6w7a"
             >
               Choose the perfect AI automation package for your business
               transformation
@@ -824,7 +826,7 @@ export default function AIAutomationServicePage({
 
           <div
             className="grid grid-cols-1 md:grid-cols-3 gap-8"
-            data-oid="38nk-:y"
+            data-oid="l:h8f3g"
           >
             {packages.map((pkg, index) => (
               <motion.div
@@ -835,62 +837,62 @@ export default function AIAutomationServicePage({
                 viewport={{ once: true }}
                 whileHover={{ y: -5 }}
                 className="relative group cursor-pointer"
-                data-oid="-np7-wl"
+                data-oid="lpfdr.j"
               >
                 {pkg.popular && (
                   <div
                     className="absolute -top-4 left-1/2 transform -translate-x-1/2 z-10"
-                    data-oid="oku45ma"
+                    data-oid="sf6z765"
                   >
                     <Badge
                       className="bg-gradient-to-r from-violet-500 to-purple-600 text-contrast-high px-4 py-2 shadow-lg animate-pulse"
-                      data-oid="1m38dl3"
+                      data-oid="-m56blv"
                     >
-                      <Award className="w-3 h-3 mr-1" data-oid=":-gusiq" />
+                      <Award className="w-3 h-3 mr-1" data-oid=":a:jmp9" />
                       Most Popular
                     </Badge>
                   </div>
                 )}
 
                 <Card
-                  className={`glass-card-enhanced h-full transition-all duration-300 card-interactive relative overflow-hidden ${
+                  className={`glass-card-enhanced h-full transition-all duration-300 card-interactive relative overflow-hidden bg-black/40 ${
                     pkg.popular ? "border-violet-500/50" : "border-white/15"
                   } hover:border-white/25`}
-                  data-oid="0l2.y7-"
+                  data-oid="_6qemye"
                 >
-                  <CardContent className="p-8 relative z-10" data-oid="xnho::y">
+                  <CardContent className="p-8 relative z-10" data-oid="1yghj0w">
                     <div
                       className="flex items-center justify-between mb-4"
-                      data-oid="wk04wqo"
+                      data-oid="714cl3n"
                     >
                       <h3
                         className="heading-card text-card-primary group-hover:text-purple-100 transition-colors duration-300"
-                        data-oid="ehv.82r"
+                        data-oid="5wxvabh"
                       >
                         {pkg.name}
                       </h3>
                     </div>
                     <p
                       className="text-body text-card-secondary mb-6 group-hover:text-contrast-medium transition-colors duration-300"
-                      data-oid="7fqm3vw"
+                      data-oid="89_b-yw"
                     >
                       {pkg.description}
                     </p>
 
-                    <div className="mb-8" data-oid="xvl4gjo">
+                    <div className="mb-8" data-oid="czoxsxi">
                       <span
                         className="text-4xl text-card-primary font-bold group-hover:scale-105 transition-transform duration-300 inline-block"
-                        data-oid="61j738a"
+                        data-oid="7ii.awe"
                       >
                         {pkg.price}
                       </span>
-                      <span className="text-card-muted" data-oid="xlf-ehg">
+                      <span className="text-card-muted" data-oid="_dspk5j">
                         {" "}
                         {pkg.period}
                       </span>
                     </div>
 
-                    <ul className="space-y-3 mb-8" data-oid=":iryh0w">
+                    <ul className="space-y-3 mb-8" data-oid="d-nldu9">
                       {pkg.features.map((feature, featureIndex) => (
                         <motion.li
                           key={featureIndex}
@@ -902,12 +904,13 @@ export default function AIAutomationServicePage({
                             delay: featureIndex * 0.1,
                           }}
                           viewport={{ once: true }}
-                          data-oid="b-m-v8d"
+                          data-oid=":0.a7fo"
                         >
                           <CheckCircle
-                            className="w-5 h-5 text-success mr-3 flex-shrink-0"
-                            data-oid="t_xotpj"
+                            className="w-5 h-5 text-green-400 mr-3 flex-shrink-0"
+                            data-oid="7nqowup"
                           />
+
                           {feature}
                         </motion.li>
                       ))}
@@ -916,7 +919,7 @@ export default function AIAutomationServicePage({
                     <motion.div
                       whileHover={{ y: -1 }}
                       whileTap={{ scale: 0.98 }}
-                      data-oid="dm6h-ea"
+                      data-oid="3i6ewjy"
                     >
                       <Button
                         className={`w-full transition-all duration-300 font-semibold relative overflow-hidden group ${
@@ -925,12 +928,12 @@ export default function AIAutomationServicePage({
                             : "glass-strong border-white/20 hover:bg-white/20 text-card-primary"
                         }`}
                         onClick={() => onNavigate("pricing")}
-                        data-oid="-ghbsez"
+                        data-oid="axeh2s4"
                       >
                         Choose Plan
                         <ArrowUpRight
                           className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1 group-hover:-translate-y-1"
-                          data-oid="c0i_vt9"
+                          data-oid="mdf75v3"
                         />
                       </Button>
                     </motion.div>
@@ -949,27 +952,28 @@ export default function AIAutomationServicePage({
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
           whileHover={{ scale: 1.01 }}
-          data-oid="ae2bldy"
+          data-oid="ifuzat:"
         >
-          <div className="relative z-10" data-oid="q93p9g:">
+          <div className="relative z-10" data-oid="b70b:88">
             <motion.div
               animate={{ y: [0, -10, 0] }}
               transition={{ duration: 2, repeat: Infinity }}
               className="inline-block mb-8"
-              data-oid="c:ovowp"
+              data-oid="m_nznpn"
             >
-              <div className="relative" data-oid="w-xo-gw">
+              <div className="relative" data-oid="v.zi_nj">
                 <Bot
-                  className="w-20 h-20 icon-accent glow-effect transition-all group-hover:scale-110 group-hover:rotate-6 duration-300"
-                  data-oid="zg3c4ez"
+                  className="w-20 h-20 text-violet-400 glow-effect transition-all group-hover:scale-110 group-hover:rotate-6 duration-300"
+                  data-oid="oy7.q-:"
                 />
+
                 <div
                   className="absolute -top-2 -right-2 w-6 h-6 bg-success rounded-full flex items-center justify-center animate-pulse"
-                  data-oid="kbx2j7m"
+                  data-oid="ia1q3z7"
                 >
                   <Zap
-                    className="w-3 h-3 text-contrast-high"
-                    data-oid="7kvg.ec"
+                    className="w-3 h-3 text-white"
+                    data-oid="yey:jg6"
                   />
                 </div>
               </div>
@@ -981,18 +985,18 @@ export default function AIAutomationServicePage({
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
               viewport={{ once: true }}
-              data-oid="pkgqs2b"
+              data-oid="g013rh6"
             >
-              <span className="block text-contrast-high" data-oid="g:tx8bt">
+              <span className="block text-contrast-high" data-oid="0ys8wq0">
                 Ready to Automate
               </span>
-              <span className="block gradient-text-vibrant" data-oid="5gfz4xu">
+              <span className="block gradient-text-vibrant" data-oid="4fthlb1">
                 Your Business with AI?
               </span>
             </motion.h2>
             <p
               className="text-body-xl text-contrast-medium mb-10 max-w-3xl mx-auto group-hover:text-contrast-high transition-colors duration-300"
-              data-oid="m44g46a"
+              data-oid="hzn2-iu"
             >
               Let's create AI automation solutions that transform your
               operations and drive exceptional growth. Get your free AI
@@ -1001,45 +1005,45 @@ export default function AIAutomationServicePage({
 
             <div
               className="flex flex-col sm:flex-row gap-6 justify-center"
-              data-oid="ulz.nse"
+              data-oid="n.oksh."
             >
               <motion.div
                 whileHover={{ y: -1 }}
                 whileTap={{ scale: 0.98 }}
-                data-oid="c9.o:t4"
+                data-oid="a7yx2zc"
               >
                 <Button
                   size="lg"
-                  className="btn-premium bg-gradient-to-r from-violet-500 to-purple-600 text-contrast-high px-12 py-6 font-bold tracking-wide shadow-2xl relative overflow-hidden group"
+                  className="btn-premium bg-gradient-to-r from-violet-500 to-purple-600 text-contrast-high btn-responsive font-bold tracking-wide shadow-2xl relative overflow-hidden group"
                   onClick={() => onNavigate("pricing")}
-                  data-oid="ij_2gzs"
+                  data-oid="al0osx4"
                 >
                   <Calendar
                     className="mr-3 h-6 w-6 transition-transform group-hover:scale-110"
-                    data-oid="lzncl.f"
+                    data-oid="rbv558s"
                   />
                   Start AI Consultation
                   <ArrowRight
                     className="ml-3 h-6 w-6 transition-transform group-hover:translate-x-1"
-                    data-oid="dzbg80s"
+                    data-oid="1h:uzzu"
                   />
                 </Button>
               </motion.div>
               <motion.div
                 whileHover={{ y: -1 }}
                 whileTap={{ scale: 0.98 }}
-                data-oid="u7x7dlv"
+                data-oid="tszy3h0"
               >
                 <Button
                   variant="outline"
                   size="lg"
-                  className="glass-strong border-white/30 text-contrast-high hover:bg-white/20 px-12 py-6 font-semibold tracking-wide group"
+                  className="glass-strong border-white/30 text-contrast-high hover:bg-white/20 btn-responsive font-semibold tracking-wide group"
                   onClick={() => onNavigate("portfolio")}
-                  data-oid="tkvc3iz"
+                  data-oid="7bgo1ni"
                 >
                   <BarChart3
                     className="mr-3 h-6 w-6 transition-transform group-hover:scale-110"
-                    data-oid="plyav3n"
+                    data-oid="c9kjm7n"
                   />
                   View AI Solutions
                 </Button>
@@ -1048,22 +1052,22 @@ export default function AIAutomationServicePage({
           </div>
 
           {/* Animated Background Particles */}
-          <div className="absolute inset-0 opacity-30" data-oid="l0h5t0b">
+          <div className="absolute inset-0 opacity-30" data-oid=".m8w2:8">
             <div
               className="absolute top-10 left-10 w-2 h-2 bg-accent-blue rounded-full animate-ping"
-              data-oid="awm2bi."
+              data-oid="6:g-:.1"
             ></div>
             <div
               className="absolute top-20 right-20 w-1 h-1 bg-accent-purple rounded-full animate-pulse"
-              data-oid="6nc_n81"
+              data-oid="wgz2r--"
             ></div>
             <div
               className="absolute bottom-10 left-20 w-1.5 h-1.5 bg-accent-cyan rounded-full animate-bounce"
-              data-oid="-glrb4g"
+              data-oid="m3yhiuw"
             ></div>
             <div
               className="absolute bottom-20 right-10 w-1 h-1 bg-accent-rose rounded-full animate-ping"
-              data-oid="s5il354"
+              data-oid="kjuy5wv"
             ></div>
           </div>
         </motion.div>

@@ -129,6 +129,29 @@
     @apply border-border outline-ring/50;
   }
 
+  /* Remove all borders from buttons and badges */
+  button,
+  [data-slot="button"],
+  .btn-premium,
+  .btn-system,
+  .btn-sm,
+  .btn-md,
+  .btn-lg,
+  .btn-xl {
+    border: none !important;
+    border-width: 0 !important;
+  }
+
+  span[data-slot="badge"],
+  .badge,
+  .badge-system,
+  .badge-sm,
+  .badge-md,
+  .badge-lg {
+    border: none !important;
+    border-width: 0 !important;
+  }
+
   body {
     @apply bg-background text-foreground;
     font-family: var(--font-family);
@@ -924,7 +947,7 @@
     overflow: hidden;
     backdrop-filter: blur(20px);
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    border: 2px solid transparent;
+    border: none;
     /* Pre-allocate space to prevent layout shift */
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   }
@@ -968,7 +991,7 @@
     cursor: pointer;
     transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     overflow: hidden;
-    border: 2px solid transparent;
+    border: none;
     /* Pre-allocate space to prevent layout shift */
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
   }
@@ -976,12 +999,10 @@
   .card-interactive:focus-within {
     outline: 2px solid #3b82f6;
     outline-offset: 2px;
-    border-color: #3b82f6;
   }
 
   .card-interactive:hover {
     /* Use box-shadow and filter instead of transform to prevent layout shift */
-    border-color: rgba(255, 255, 255, 0.3);
     box-shadow: 
       0 12px 30px rgba(0, 0, 0, 0.5),
       0 0 20px rgba(59, 130, 246, 0.15);
@@ -1263,7 +1284,7 @@
     cursor: pointer;
     user-select: none;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    border: 2px solid transparent;
+    border: none !important;
     outline: 0;
     box-sizing: border-box;
     margin: 0; /* Remove default margins */
@@ -2118,6 +2139,23 @@
 
   .safe-area-inset-right {
     padding-right: env(safe-area-inset-right);
+  }
+
+  /* Icon Color Classes for Enhanced Visibility */
+  .icon-primary {
+    color: #60a5fa; /* Blue */
+  }
+
+  .icon-stat {
+    color: #60a5fa; /* Blue */
+  }
+
+  .icon-accent {
+    color: #a78bfa; /* Violet */
+  }
+
+  .icon-feature {
+    color: #ffffff; /* White */
   }
 }
 
